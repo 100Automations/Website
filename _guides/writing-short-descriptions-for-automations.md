@@ -5,17 +5,17 @@ status: active
 display: true
 ---
 # Write a Short Narrative Description about Your Automation
-You will need to write a short description about your automation so that people will understand what it is about and why its valuable. 
+You will need to write a short description about your automation so that people will understand what it is about and why it's valuable. 
 
 ### Uses:
 
 - project card on 100Automations.org website
 - read.me on your repository
-- announcements (linked, etc.)
+- announcements (linkedIn, etc.)
 
 
 ### Elements:
-The description should have the following elements
+The description should have the following elements:
 - A Problem Statement
 - Description of Solution
 - A practical example where you can see this (recommended)
@@ -28,7 +28,7 @@ Here are two examples:
 
 > GitHub’s Contributor’s endpoint only shows the people who put in pull requests.  On cross functional teams that use GitHub to manage projects, contributions from non code contributors (Designers, Product/Project Managers, Business Analysts, Q/A testers, etc.) are represented by comments on issues.
 > 
-> True GithHub Contributors delivers a consolidated list of who contributed and how many times.  This code can be seen on Hack for LA’s project pages, where are contributors are represented by their GitHub Avatar in the Contributors section.
+> True GithHub Contributors delivers a consolidated list of who contributed and how many times.  This code can be seen on Hack for LA’s project pages, where the contributors are represented by their GitHub Avatar in the Contributors section.
 
 **Includes:**
 - A Problem Statement
