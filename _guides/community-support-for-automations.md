@@ -80,7 +80,7 @@ The support.md files lets people know how to get help implementing your automati
 a read.me file is usually the first place that developers will start.  It should be fairly comprehensive and should have links to the other health files.
 
 #### Guide:
-- 100 Automations Guide: [Creating a Good Read.me for Your Automation]()
+- 100 Automations Guide: [Creating a Good Read.me for Your Automation](https://github.com/100Automations/Website/blob/master/_guides/creating-good-readmes-for-automations.md)
 
 #### Template:
 - [Default README.md](https://github.com/100Automations/.github-automations/blob/master/README.md) file from our template repository
