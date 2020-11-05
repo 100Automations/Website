@@ -55,7 +55,6 @@ This is some text that helps people who cannot see the image understand what the
 
 <a name="status"></a>
 ### Current Status of Automation
-
 -  in use and ready to deploy
 -  in use and being refactored
 -  ready to deploy
@@ -75,15 +74,15 @@ _If status in use, what codebase can it be seen in?_
 <a name="help wanted"></a>
 ### Help wanted (you can list all that apply)
 - needs maintenance
--  needs support for users
--  needs refactoring
--  needs documentation
--  needs peer review
--  needs to be built
--  needs to be researched
--  needs advice
--  Advice Needed: (write a short description of what you need)
--  needs takeover
+- needs support for users
+- needs refactoring
+- needs documentation
+- needs peer review
+- needs to be built
+- needs to be researched
+- needs advice
+  - If advice is needed, write a short description of what you need
+- needs takeover
 
 ---
 
