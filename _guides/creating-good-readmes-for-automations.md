@@ -66,3 +66,6 @@ What's the expected result?
 ### Usage
 ### Endpoint documentation
 ```
+---
+---
+To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/creating-good-readmes-for-automations.md) the markdown file for this guide
