@@ -125,6 +125,8 @@ Importing your automation from your own repository
 
 #### Additional resources:
 - See GitHub [Adding a code of conduct to your project](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)
+
 ---
+#### END
 ---
 To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/community-support-for-automations.md) the markdown file for this guide 
