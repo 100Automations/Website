@@ -2,13 +2,13 @@
 name: Write Bio - Site Builder
 about: Template for creating site builder bios
 title: 'Write Bio - Site Builder: [INSERT NAME]'
-labels: 'role: marketing, role: content writing'
+labels: 'role: content writing, role: marketing'
 assignees: ''
 
 ---
 
 ### Overview
-We need some info to put on our site about you, so that we can market your automation.
+We need some info to put on our site about you, so that we highlight your contributions.
 
 ### Action item
 - [ ] Provide 
