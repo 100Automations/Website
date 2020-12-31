@@ -1,0 +1,13 @@
+lsi: false
+safe: true
+
+source: .
+
+title: 100 Automations
+email: hello@hackforla.org
+description: Can you design, write, or code? Are you an activist with an idea? You can help Los Angeles live up to its potential at Hack for LA. Everyone is welcome!
+
+baseurl: ""
+url: https://www.100automations.com
+repository: 100Automations/Website
+
