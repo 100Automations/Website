@@ -1,25 +1,20 @@
 ---
 # 'identification' is the 9 digit ID for your repo in the GitHub API.
 identification: '286574974'
-
 title: Jekyll Gather Data Types
 description: When using Github and Jekyll it is easy to end up with files that are missing data types, with no built in way to enforce uniformity. The Jekyll-Gather-Data-Types automation creates reports that identify what data types are being used across all files in a collection and what might be missing from individual files in order to target code for remediation. Future functionality could include providing the option of using GitHub actions to prevent incomplete files from being committed (PRs).
-
 # card image should be 372px wide x 150px high
 image: /assets/images/projects/[project repo name + .jpg or .png]
 alt: 'Jekyll logo with test tube and words Gather Data Types all in green'
-
 # hero image should be 1500px wide x 700px high
 # image-hero: /assets/images/projects/[project repo name + -hero + .jpg or .png]
 # alt-hero: 'description of the hero image'
-
 Authors:
 - name: First Last
     links:
       slack: 'https://app.slack.com/team/U018DD0AJPJ'
       github: 'https://github.com/rblaz001'
     picture: 'https://avatars.githubusercontent.com/rblaz001'
-
 links: 
   - name: Github
     url: 'https://github.com/100Automations/jekyll-gather-data-types'
@@ -35,7 +30,6 @@ links:
   # - name: Showcase deck
   #   url: ''
   #   alt: ''
-
 looking:
   - category: Development
      skill: Refactoring
@@ -43,7 +37,6 @@ looking:
      skill: Testing
   - category: Development
      skill: Documentation
-
 needs: 
 #  - maintenance
 #  - support for users
@@ -54,7 +47,6 @@ needs:
 #  - to be researched
 #  - takeover
   - advice
-
 status:
 #  - in use and ready to deploy
 #  -  in use and being refactored
@@ -64,10 +56,8 @@ status:
 #  -  ready for development
 #  - in ideation
 #  - abandoned
-
 seen-in:
  - lock-icon
-
 # If the card should not be included on the site, change visible to "false"
 visible: true
 # If the project should not have a project homepage for any given reason, add the following line (uncommented):
