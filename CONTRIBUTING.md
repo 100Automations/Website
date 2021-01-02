@@ -1,6 +1,6 @@
 # Website
 
-> Hack for LA's website: https://www.hackforla.org
+> Hack for LA's website: https://www.100automations.org
 
 This is a standard [Jekyll](https://jekyllrb.com/) site hosted right here on [GitHub pages](https://pages.github.com/).
 
@@ -18,7 +18,7 @@ To develop the site, you'll need to first clone the repository on to your comput
 
 **Before you start working on an issue**
 
-5. [Read Hack for LA's Site Architecture to get acquainted with how the website is structured](https://github.com/hackforla/website/wiki/Hack-for-LA's-Site-Architecture)
+5. [Read Hack for LA's Site Architecture to get acquainted with how the website is structured](https://github.com/100Automations/Website/wiki)
 
 6. [Switch to new issue branch before you start making changes](#step-6-change-to-a-new-branch)
 
@@ -70,7 +70,7 @@ This section discusses some tips and best practices for working with Git.
 
 #### Step 2: Fork the repository
 
-In https://github.com/hackforla/website, look for the fork icon in the top right. Click it and create a fork of the repository.
+In https://github.com/100Automations/Website, look for the fork icon in the top right. Click it and create a fork of the repository.
 
 For git beginners, a fork is a copy of the repository that will be placed on your GitHub account url.
 
@@ -163,7 +163,7 @@ docker-compose up
 ```
 <br>
 
-#### Step 5: Read [Hack for LA's Site Architecture](https://github.com/hackforla/website/wiki/Hack-for-LA's-Site-Architecture) to get acquainted with how the website is structured
+#### Step 5: Read [Hack for LA's Site Architecture](https://github.com/100Automations/Website/wiki/Hack-for-LA's-Site-Architecture) to get acquainted with how the website is structured
 
 #### Step 6: Work on an issue using git
 
@@ -338,7 +338,7 @@ git push --set-upstream origin fix-logo-width-311
 
 Now create a new pull request to ask for your updates to be
 incorporated into the live web site. Go to
-https://github.com/hackforla/website/pulls and click on "New pull
+https://github.com/100Automations/Website/pulls and click on "New pull
 request". Please rename your pull request something descriptive i.e. "building a project card for civic opportunity project".
 Also, since your changes are not in the hackforla/website
 repostory, you need to click the "compare across forks" link in the
