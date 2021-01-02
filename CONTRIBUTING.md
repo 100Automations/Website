@@ -340,7 +340,7 @@ Now create a new pull request to ask for your updates to be
 incorporated into the live web site. Go to
 https://github.com/100Automations/Website/pulls and click on "New pull
 request". Please rename your pull request something descriptive i.e. "building a project card for civic opportunity project".
-Also, since your changes are not in the hackforla/website
+Also, since your changes are not in the 100Automations/Website
 repostory, you need to click the "compare across forks" link in the
 first paragraph to make you repository and your new branch
 available. Review the changes that will be included in the pull
