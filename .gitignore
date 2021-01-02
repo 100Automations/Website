@@ -1,0 +1,24 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+.jekyll-metadata
+_site
+Gemfile
+Gemfile.lock
+
+# Ignore OS and IDE tracking files
+.DS_store
+.vscode
+.idea
+
+#ignore models.json file added by IDE intellesense
+models.json
