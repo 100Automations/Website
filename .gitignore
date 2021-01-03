@@ -4,12 +4,8 @@ node_modules
 # logs
 npm-debug.log
 
-# Nuxt build
-.nuxt
 
-# Nuxt generate
-dist
-
+# jekyll
 .jekyll-metadata
 _site
 Gemfile
@@ -20,5 +16,4 @@ Gemfile.lock
 .vscode
 .idea
 
-#ignore models.json file added by IDE intellesense
-models.json
+
