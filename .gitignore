@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+
+# jekyll
+.jekyll-metadata
+_site
+Gemfile
+Gemfile.lock
+
+# Ignore OS and IDE tracking files
+.DS_store
+.vscode
+.idea
+
+
