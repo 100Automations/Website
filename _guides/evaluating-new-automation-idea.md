@@ -1,4 +1,4 @@
---
+---
 title: Self-Evaluating A New Automation Idea
 description: Research and questions for helping you move forward with your automation
 status: coming soon
