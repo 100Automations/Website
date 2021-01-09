@@ -65,7 +65,7 @@ Provide an attention-grabbing image. Some possible variants:
 <a name="structure"></a>
 ## Structure
 Structure your article like a story - it should have a beginning, middle, and end. 
-In this guide, we'v divided the article under 3 main sections (headings): Introduction, Body, and Conclusion. 
+In this guide, we've divided the article under 3 main sections (headings): Introduction, Body, and Conclusion. 
 You can reword these steps in different ways, or use your own structure - The simpler, the better.
 Remember to add your own subheadings for in-between steps.
 
