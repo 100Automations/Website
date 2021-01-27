@@ -3,11 +3,11 @@
     {% include head.html %}
     <body>
         <div id="app">
-           
-            <main>
-                {{content}}
+           {% include header.html %}
+           <main class="mdl-layout__content">
+            {{content}}
             </main>
-            
+        {% include footer.html %}  
     </div>
     </body>
 </html>

@@ -11,10 +11,10 @@ alt: 'Jekyll logo with test tube and words Gather Data Types all in green'
 # alt-hero: 'description of the hero image'
 Authors:
 - name: First Last
-    links:
-      slack: 'https://app.slack.com/team/U018DD0AJPJ'
-      github: 'https://github.com/rblaz001'
-    picture: 'https://avatars.githubusercontent.com/rblaz001'
+  links:
+    slack: 'https://app.slack.com/team/U018DD0AJPJ'
+    github: 'https://github.com/rblaz001'
+  picture: 'https://avatars.githubusercontent.com/rblaz001'
 links: 
   - name: Github
     url: 'https://github.com/100Automations/jekyll-gather-data-types'
@@ -31,12 +31,15 @@ links:
   #   url: ''
   #   alt: ''
 looking:
-  - category: Development
-     skill: Refactoring
-  - category: QA
-     skill: Testing
-  - category: Development
-     skill: Documentation
+  category: 
+   - Development
+   - skill: Refactoring
+  category: 
+    - QA
+    - skill: Testing
+  category: 
+    - Development
+    - skill: Documentation
 needs: 
 #  - maintenance
 #  - support for users

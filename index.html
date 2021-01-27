@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% include action.html %}
+<div class="automations">
+  <div class="mdl-grid">
+{% for automation in site.automations %}
+<div class="mdl-cell mdl-cell--4-col">
+  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title mdl-card--expand">
+        <h2 class="mdl-card__title-text">{{ automation.title }}</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+       {{ automation.description }}
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+          View Updates
+        </a>
+      </div>
+    </div>
+</div>
+  {% endfor %}
+</div>
+</div>
+{% include action.html %}
+<!-- Square card -->
+<div class="guides">
+    <div class="mdl-grid">
+      {% for guide in site.guides %}
+      <div class="mdl-cell mdl-cell--4-col">
+        <div class="demo-card-square mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title mdl-card--expand">
+              <h2 class="mdl-card__title-text">{{ guide.title }}</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+             {{ guide.description }}
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                View Updates
+              </a>
+            </div>
+          </div>
+      </div>
+        {% endfor %}
+    </div>
+</div>
+
+   
+
+ 

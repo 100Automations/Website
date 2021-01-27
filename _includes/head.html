@@ -7,12 +7,12 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} by {% endif %}{{ site.title | escape}}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 400 }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% endif %}" />
-
   <title>{% if page.title %}{{ page.title | escape }} - {% endif %}{{ site.title | escape}}</title>
   <meta name="description"
   content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 400 }}{% else %}{{ site.description }}{% endif %}" />
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
-  
-
- 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" type="text/css" href="https://code.getmdl.io/1.3.0/material.indigo-deep_orange.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
 </head>
