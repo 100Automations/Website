@@ -1,67 +1,93 @@
 ---
 title: Writing an Article for Your Automation
-description: If you want to write an article about your automation, consider these tips on content and structure.
+description: If you want to write an article about your automation, consider these tips.
 status: in progress
 display: true
 ---
 
 # Writing an Article for Your Automation
-If you're thinking about writing an article about your automation, start here!
-A great article increases your visibility as a developer, and opens room for peer review. 
-It also gives users detailed examples on ways to use your code.
+A great article is self-PR; it publicizes your automation and increases your visibility as a developer.
+Your article isn't just a tutorial on how to set up your code; a Read.Me takes care of that. 
+Tell your story of how you tackled a problem, how you approached your trials and errors.
 
+Here are some tips on writing an article for your code on Medium and other publishers.
+- [General Tips](#general)
+- [Header](#header)
+- [Structure](#structure)
+
+<a name="general"></a>
 ## General Tips
-- Provide links to references or background knowledge if possible.
-- Explain jargons when you use them so that beginners can understand your process.
 
-## Keywords
-- SEO tips that could help articles show up on top of search engines (needs more research)
-
-## Language & Readability
-- It's always a good idea to double-check for spelling and grammar before publishing. 
+### Spelling and Grammar
+- Double-check for spelling and grammar before you publish your article.
 - Use spelling and grammar checkers, such as [Grammarly](https://www.grammarly.com/grammar-check).
-- Break down long sentences and paragraphs. [Hemmingway](http://hemingwayapp.com/) is a great readability tool that flags complicated sentences.
+
+### Readability
+- Most people will be skimming through your article. Make your article easy to digest by breaking down long sentences and long paragraphs. 
+- Break down large chunks of information under headings.
+- For lists with 2+ items, break them down into bullet points.
+
+### Language
+- Use plain English and explain your concepts in a way that beginners can understand them. 
+- When using jargons, explain their meaning.
+- Provide links to references or background knowledge if possible. 
 - Spell out acronyms the first time you use them. 
-1. Example: HfLA (Hack for LA)
-- Before publishing, ask for an extra pair of eyes to read over your article.
+Example:  
+HfLA (Hack for LA)
 
-## Title
-- The title is short (less than 25 words) and gives a solution to a problem. 
-- The title should grab the reader's attention.
+### Keywords & SEO (Search-Engine Optimization)
+- Tag your article with relevant keywords - the program you're using, type of automation, who your code helps, etc. 
+- Include relevant keywords in your title and first paragraph so that your article shows up on the front page of search results.
+- If you can, sprinkle variants of your keyword naturally throughout your article.
+- Provide links to your other articles when relevant.
+- When linking to outside sources, make sure the websites are trustworthy - this contributes to ranking higher on search results.
 
-- Good Examples ([Writing technical articles: tips for programmers - Dev](https://dev.to/iriskatastic/writing-technical-articles-tips-for-programmers-29gp)): 
-1. Ensuring healthy Node.js program using watchdog timer 
-2. Adaptive Components & Parent-Driven Behavior in Angular
-3. How to Make HTTP Requests In React
+<a name="header"></a>
+## Header
+### Title & Subtitle
+- The title is short (less than 25 words) and grabs the reader's attention (provocative). It's usually a problem statement (offers a solution to a problem) and frames your project so readers know what to anticipate as they read further.
+- The subtitle invites your audience to read further. It expands on details you couldn't put in your title. If your title is somewhat bland, you can put a little twist in your subtitle to draw your readers in.
+- There are times when you can omit your subtitle; a super long title,  or one that tells everything about the article by itself.
+- You can also make your title eye-catching by using emojis (especially if your program has an associated emoji).  
+Examples:  
+**How I Eat For Free in NYC Using Python, Automation, Artificial Intelligence, and Instagram** ([Christ Buetti](https://medium.com/@chrisbuetti/how-i-eat-for-free-in-nyc-using-python-automation-artificial-intelligence-and-instagram-a5ed8a1e2a10))  
+**How I automated my job with Node.js** ([Shaun Michael Stone](https://medium.com/dailyjs/how-i-automated-my-job-with-node-js-94bf4e423017))  
+**The Cure for Homelessness. -- How Tech can Bridge the Income Gap.** ([Eric Elliot](https://medium.com/@_ericelliott/the-cure-for-homelessness-83ef0d621c71))  
+**We rendered a million web pages to find out what makes the web slow** ([Lars Eidnes](https://itnext.io/we-rendered-a-million-web-pages-to-find-out-what-makes-the-web-slow-72bbba9ade96))  
+ **Continuous Deployment with Docker🐳 and Github Actions🐣** ([Ben Swerdlow](https://swerdlowben.medium.com/continuous-deployment-with-docker-and-github-actions-fe997dc92d23))  
 
-- Bad Examples:
-1. Roundup #58: Orleans 3.0, Snitch, What’s Your Problem? Next 5 years of ASP.NET Core
-2. The One Code to Rule Them All
-3. Suffering From Technical Debt?
+### Header Image
+Provide an attention-grabbing image. Some possible variants: 
+1. Colorful (logos of the programs you're using)
+2. Emotional (especially if your code solves a real-world problem)
+3. A visualization of your automation. (This saves time for readers looking for specific solutions.)
 
-## Subtitle
-- The title grabs your reader's attention, and the subtitle invites them to read further.
-- The subtitle expands on details you couldn't put in your title.
-- Examples of Titles and Subtitles:
-1. 
-2.
-3.
+<a name="structure"></a>
+## Structure
+Structure your article like a story - it should have a beginning, middle, and end. 
+In this guide, we've divided the article under 3 main sections (headings): Introduction, Body, and Conclusion. 
+You can reword these steps in different ways, or use your own structure - The simpler, the better.
+Remember to add your own subheadings for in-between steps.
 
-## Header Image
-- Provide an image of the final outcome of your code. This will help save time for readers who are scrolling looking for specific solutions.
+Examples of headings:  
+**What I did; How I did it; The Results**  
+**What; Why; How; Conclusion**  
 
-## Introduction
-- Briefly explain in what your automation does, why it's useful, what problem(s) it solves.
-- Introduce how you came to create your automation or how you decided to address a particular problem. 
-- If your article is longer than a page, consider creating a table of contents ater your Introduction.
+### Introduction
+- **Briefly** explain what your automation does. (i.e. what problem(s) it solves.)
+- Include a link to your GitHub repository or where you published your code.
 
-## Body
-- Briefly explain how to set up your automation.
+### Body
+- Why did you start creating your automation? (e.g. Was it out of annoyance or necessity?)
+- What prerequisites do you need to use your code? (What programs)
+- **Briefly** explain how to set up your automation.
 - Give examples of how your automation can be used in different programs.
-- You know the saying: a picture is worth a thousand words. Give visualizations (screenshots, end results, illustrations, workflow charts, etc.) to back up your explanations and break up large blocks of text. The more relevant pictures you have in your article, the better you'll be able to get your points across.
-- Separate large blocks of text under headings.
+- Give visualizations (screenshots, end results, illustrations, workflow charts, etc.) to back up your explanations and break up large blocks of text. The more relevant pictures you have in your article, the better you'll be able to get your points across.
+- What were your results?
 
-## Conclusion
-- As you close the article, briefly summarize your article.
-- Key takeaways from this project: 
+### Conclusion
+- As you close the article, briefly summarize the content and explain what you learned from this project. Once again, link your readers to the GitHub repository or platform where you published your code.
+- Suggest readers to check out your other articles if they are relevant to topics mentioned in this one.
 - Open room for discussion or suggestions for potential improvements that could be made to your automation.
+
+If you have any other suggestions for this guide, please contact us at [100Automations@hackforla.org.](mailto:100Automations@hackforla.org)
