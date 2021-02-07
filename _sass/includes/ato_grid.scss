@@ -1,0 +1,27 @@
+.automations {
+    .ato_grid.mdl-grid {
+        .ato_cell.mdl-cell {
+            .ato_card.mdl-card {
+                border-radius: 26px;
+                .ato_needs.mdl-card__menu {
+                  position: static;
+                  border-radius: 26px;
+                  
+
+                    .mdl-button {
+                        background: rgba(0, 55, 80, 1);
+                        color: white;
+                    }
+
+                    ;
+                }
+
+                ;
+
+                .ato_card-media>img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

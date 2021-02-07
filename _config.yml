@@ -11,3 +11,18 @@ baseurl: ""
 url: https://www.100automations.com
 repository: 100Automations/Website
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  automations:
+  guides:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guides"
