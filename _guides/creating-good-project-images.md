@@ -1,0 +1,78 @@
+---
+title: Creating a Good Project Image
+description: tips and info if you want to make your own project image
+status: 
+display: true
+---
+
+# Creating a Good Project Image
+
+- [General Design Tips](#design-tips)
+- [Use Clear Images](#clear-image)
+- [Image Rights and Credits](#image-rights)
+- [Resources](#resources)
+
+<a name="design-tips"></a>
+### General Design Tips
+
+Your project image works like an advertisement. It needs to be a distinct visual identifier that suggests what the project does. 
+
+- Try to convey a sense of your project at a glance. 
+- A few distinct colors and an icon may be all you need.
+- You might not need any text. If you do use it, keep it short and large. 
+
+
+<a name="clear-image"></a>
+### Use Clear Images
+
+**Bold, simple images usually work best**
+- The project image isn’t very large, and may be seen on small screens.
+- Consider using icons and “flat” art.
+- If using photo, keep it simple. Consider cropping complex images down to a clear compelling detail.
+
+
+<a name="image-rights"></a>
+### Image Rights and Credits
+**Only use art and images that you have the rights to re-use**
+- Do not use an image that you found in search without identifying the source and use rights. 
+- The safest images to use are public domain or CC0. You can do whatever you want with these, without attribution. 
+- You can use images licensed to require attribution (eg: CC-BY) as long as you [give credit to the artist](https://creativecommons.org/use-remix/attribution/)  in your project
+- Don’t use any company or software logos without checking their usage guidelines. (eg:  [GitHub's logo guidelines](https://github.com/logos) ask that you not use their logo in your project images)
+
+**How to credit images:**
+ - It's best practice to credit image sources when possible, even if not required.
+ - Your project ReadMe file is the best place to credit your sources.
+ - The image credit should contain the following information:
+>  - Title
+>  - Creator
+>  - Linked source
+>  - License
+
+
+<a name="resources"></a>
+### Resources
+
+#### Color scheme ideas:
+ - [Colormind](http://colormind.io)
+ - [Coolors](https://coolors.co)
+ - [Adobe Color](https://color.adobe.com/create/color-wheel)
+
+#### Where to find images
+
+**Photgraphs:** 
+ - [Pixabay](https://pixabay.com)
+ - [Unsplash](https://unsplash.com)
+ - [Pexels](https://www.pexels.com)
+ - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images)
+
+**Icons:**
+ - [The Noun Project](https://thenounproject.com) - attribution required for free use
+ - [flaticon](https://www.flaticon.com) - attribution required
+
+**Image Attribution Guidelines:**
+ - [Noun Project: How do I give creators credit in my work?](https://thenounproject.zendesk.com/hc/en-us/articles/200509928-How-do-I-give-creators-credit-in-my-work-)
+ - [Creative Commons: How to give attribution](https://creativecommons.org/use-remix/attribution/)
+ - [CC: Best practices for attribution](https://wiki.creativecommons.org/wiki/best_practices_for_attribution)
+ - [Wikimedia Commons: Simple media reuse guide](https://commons.wikimedia.org/wiki/Commons:Simple_media_reuse_guide)
+
+
