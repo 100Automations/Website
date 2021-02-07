@@ -18,7 +18,7 @@ To develop the site, you'll need to first clone the repository on to your comput
 
 **Before you start working on an issue**
 
-5. [Read Hack for LA's Site Architecture to get acquainted with how the website is structured](https://github.com/100Automations/Website/wiki)
+5. [~Read Hack for LA's Site Architecture to get acquainted with how the website is structured~](https://github.com/100Automations/Website/wiki)
 
 6. [Switch to new issue branch before you start making changes](#step-6-change-to-a-new-branch)
 
