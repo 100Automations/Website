@@ -1,7 +1,30 @@
-.footer.mdl-mega-footer {
+// MDL footer class customizations
+.mdl-mini-footer {
+    padding: 12px;
     color: black;
     background-color: #ffffff;
-    .mdl-mega-footer__heading{
-        color: black;
+    flex-flow: column wrap ;
+    justify-content: space-evenly !important;
+    align-items: center;
+    text-align: center;
+  // Custom class for inner div with two child elements logo and paragraph
+  .footer-slogan {
+    display: flex;
+    flex-flow: row wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    img {
+      width: 50px;
     }
+    p {
+      margin: 0;
+      font-size: 0.85rem;
+    }
+  }
+  // MDL social links customizations
+  .mdl-mini-footer__link-list {
+    img {
+      width: 24px;
+    }
+  }
 }
