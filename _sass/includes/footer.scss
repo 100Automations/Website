@@ -3,18 +3,18 @@
     padding: 12px;
     color: black;
     background-color: #ffffff;
-    flex-flow: column wrap ;
-    justify-content: space-evenly !important;
+    flex-flow: row nowrap;
+    justify-content: center !important;
     align-items: center;
     text-align: center;
   // Custom class for inner div with two child elements logo and paragraph
   .footer-slogan {
     display: flex;
-    flex-flow: row wrap !important;
+    flex-flow: column wrap !important;
     justify-content: center !important;
     align-items: center !important;
     img {
-      width: 50px;
+      width: 90px;
     }
     p {
       margin: 0;
