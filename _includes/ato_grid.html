@@ -13,9 +13,9 @@
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
             Needs Help
           </button>
-         </div>
-         <!-- This is our image that we access through our own API -->
-         <!-- The image folder is located in our assets -->
+        </div>
+        <!-- This is our image that we access through our own API -->
+        <!-- The image folder is located in our assets -->
         <div class="ato_card-media mdl-card__media">
           <img src="{{ automation.image }}" alt="{{ automation.title }}">
         </div>
@@ -31,9 +31,10 @@
           <!-- Automation Readme url is located in links index 1 -->
           <!-- We will need to design a README.md button -->
           <a href="{{ automation.links[1].url }}"
-            class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-            Read Me
+            class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="font-family: Poppins">
+            ReadMe <i class="fa fa-github" style="color:white"></i>
           </a>
+
         </div>
       </div>
     </div>
