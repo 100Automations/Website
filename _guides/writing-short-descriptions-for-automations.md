@@ -7,24 +7,23 @@ display: true
 # Write a Short Narrative Description about Your Automation
 You will need to write a short description about your automation so that people will understand what it is about and why it's valuable. 
 
-### Uses:
-
+## Uses:
 - project card on 100Automations.org website
 - read.me on your repository
 - announcements (linkedIn, etc.)
 
 
-### Elements:
+## Elements:
 The description should have the following elements:
 - A Problem Statement
 - Description of Solution
 - A practical example where you can see this (recommended)
 - Future development (optional)
 
-### Examples:
+## Examples:
 Here are two examples:
 
-#### Example 1:
+### Example 1:
 
 > GitHub’s Contributor’s endpoint only shows the people who put in pull requests.  On cross functional teams that use GitHub to manage projects, contributions from non code contributors (Designers, Product/Project Managers, Business Analysts, Q/A testers, etc.) are represented by comments on issues.
 > 
@@ -39,7 +38,7 @@ Here are two examples:
 - Future development (optional)
 
 
-#### Example 2:
+### Example 2:
 
 > When using Github and Jekyll it is easy to end up with files that are missing data types, with no built in way to enforce uniformity. 
 > 
@@ -57,6 +56,7 @@ Here are two examples:
 Reason: because the use of the automation does not produce artifacts that can been seen through a browser.
 
 ---
-#### END
+END
 ---
+
 To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/writing-short-descriptions-for-automations.md) the markdown file for this guide
