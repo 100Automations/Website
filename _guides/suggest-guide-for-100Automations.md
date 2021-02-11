@@ -5,14 +5,21 @@ status: active
 display: true
 ---
 
-### General Notes: Keep it DRY
-How to find guides that are already written or have been suggested, so that you don't duplicate work:  view this link
+# How to suggest a guide for 100 Automations
+
+## General Notes
+
+### Keep it DRY
+So that you don't duplicate work, check for guides that are already written or have been suggested at this link:
 https://github.com/100Automations/Website/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature%3A+guides%22
 
 ### Get in touch if you need to
 You can join the [Hack for LA slack](http://hackforla.org/slack) and message us in our team channel #100automations
 
-### Help us update an existing guide
+
+## Help with Existing Guides and Guide Suggestions
+
+### Update an existing guide
 Have you found a typo or do you want to suggest an improvement to an existing guide?  If so, go to the bottom of the guide page and click on the link for editing.  This will give you an editor and allow you to open a pull request with your suggested changes.  Note, you will need to be able to edit in [markdown](https://www.markdownguide.org/cheat-sheet/).
 
 ### Help us prioritize our backlog
@@ -33,10 +40,11 @@ If you have questions before you put in a PR, please put any questions or commen
 **Icebox:**
 If the issue is in the icebox that means it's not a fully fleshed out proposal, if you want to help us fix that, rewrite the issue in a comment.  And @ message our PM "@NivenPrasad please review and if approved, add this issue to the prioritized backlog"
 
-### Suggest a new guide idea
-If there is no guide for the topic you want, use this [form](https://github.com/100Automations/Website/issues/new?assignees=&labels=documentation%2C+feature%3A+guides&template=suggest-a-guide.md&title=Suggest+a+guide%3A+%5Bname+of+guide+here%5D) to suggest it
 
-### How would you like to be credited*?
+## Suggest a new guide idea
+If there is no guide for the topic you want, use this: [form](https://github.com/100Automations/Website/issues/new?assignees=&labels=documentation%2C+feature%3A+guides&template=suggest-a-guide.md&title=Suggest+a+guide%3A+%5Bname+of+guide+here%5D) to suggest it
+
+### How would you like to be credited?
 
 - Name?
 - Github Handle?
