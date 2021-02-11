@@ -1,6 +1,6 @@
 // MDL footer class customizations
 .mdl-mini-footer {
-    padding: 12px;
+    padding: 24px;
     color: black;
     background-color: #ffffff;
     flex-flow: row nowrap;
@@ -14,17 +14,19 @@
     justify-content: center !important;
     align-items: center !important;
     img {
-      width: 90px;
+      width: 80px;
     }
     p {
       margin: 0;
       font-size: 0.85rem;
+      line-height: 120%;
+      margin: 20px 16px 20px 0;
     }
   }
   // MDL social links customizations
   .mdl-mini-footer__link-list {
     img {
-      width: 24px;
+      width: 20px;
     }
   }
 }
