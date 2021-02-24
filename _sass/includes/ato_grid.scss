@@ -1,22 +1,33 @@
 .automations {
+    .ato_needs.mdl-card__menu {
+        background: rgba(0, 55, 80, 1);
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 26px;
+
+        .mdl-button {
+            width: 100%;
+            background: rgba(0, 55, 80, 1);
+            color: white;
+        }
+
+        .needs_list {
+            padding-right: 20px;
+        }
+        .d-none {
+            display: none !important;
+        }
+        ;
+    }
+
+    ;
     .ato_grid.mdl-grid {
         .ato_cell.mdl-cell {
             .ato_card.mdl-card {
                 border-radius: 26px;
-                .ato_needs.mdl-card__menu {
-                  position: static;
-                  border-radius: 26px;
-                  
 
-                    .mdl-button {
-                        background: rgba(0, 55, 80, 1);
-                        color: white;
-                    }
-
-                    ;
-                }
-
-                ;
 
                 .ato_card-media>img {
                     width: 100%;

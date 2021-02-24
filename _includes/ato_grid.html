@@ -5,14 +5,19 @@
     {% for automation in site.automations %}
     <div class="ato_cell mdl-cell mdl-cell--4-col">
       <!-- Each card that is created will have a unique id accessed though the forloop.index-->
-      <div id="card_{{forloop.index}}.{{item}}" class="ato_card mdl-card mdl-shadow--2dp">
+      <div id="card_{{forloop.index}}" class="ato_card mdl-card mdl-shadow--2dp">
         <!-- This is a UX component that needs to be developed -->
         <!-- A list of needs that will display when the user clicks on it -->
         <!-- Note, we will be able to access the automation.needs and loop through them for display-->
         <div class="ato_needs mdl-card__menu">
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+          <button id="button_{{ forloop.index }}" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-needs">
             Needs Help
           </button>
+          <ul id="needs_{{ forloop.index }}" class="needs_list d-none">
+            {% for item in automation.needs %}
+              <li>{{ item | capitalize }}</li>
+            {% endfor %}
+          </ul>
         </div>
         <!-- This is our image that we access through our own API -->
         <!-- The image folder is located in our assets -->
@@ -40,3 +45,13 @@
     {% endfor %}
   </div>
 </div>
+
+<script>
+  const toggleList = () => {
+    needs_id = event.currentTarget.id.replace("button_", "needs_");
+    document.getElementById(needs_id).classList.toggle('d-none');
+  }
+  Array.from(document.querySelectorAll('.button-needs')).forEach((button) => {
+    button.addEventListener('click', toggleList);
+  })
+</script>
