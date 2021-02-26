@@ -14,7 +14,6 @@ See an example of a good 100 Automations Read.me: [True GitHub Contributors](htt
 A good 100 Automations Read.me should have the following content:
 
 
-```
 # Title
 
 ## Overview
@@ -65,7 +64,7 @@ What's the expected result?
 ### Configuration
 ### Usage
 ### Endpoint documentation
-```
+
 ---
 #### END
 ---

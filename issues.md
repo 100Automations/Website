@@ -1,10 +1,10 @@
 # Issues
 
-## Stella Liao
+## Stella Liao stellaliao01
 
 Please look through Jekyll docs and create a button for the automation card. The Card should look the same or somewhat similar to the figma design.
 
-## Matthew Spach
+## Matthew Spach mcspach
 
 Repostion footer text and links to the center. If you can find icons and insert them into the MDL social media links components.
 

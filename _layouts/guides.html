@@ -3,9 +3,22 @@ layout: default
 ---
 <!-- This will be our layout for each guide in our collection -->
 <div class="guide_layout">
-    <div class="guide_layout-grid mdl-grid">
-        <div class="guide_layout-cell mdl-cell mdl-cell--6-col">
-            {{ content }}
+    <div class="guide_action mdl-card">
+        <div class="mdl-card__title">
+            <h1>
+                {{ page.title }}
+            </h1>
         </div>
     </div>
+    <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--8-col">
+            {{ content }}
+        </div>
+        <div class="mdl-cell mdl-cell--2-col"></div>
+        <div class="mdl-cell mdl-cell--2-col">
+            <h5>In This Guide</h5>
+            <p>{{page.description}}</p>
+        </div>
+    </div>
+
 </div>

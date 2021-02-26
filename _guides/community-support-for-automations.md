@@ -4,7 +4,6 @@ description: In order to save time and provide a consistent experience for creat
 status: active
 display: true
 ---
-# Supporting Your Automation with Community
 
 At 100 Automations, we’re committed a building a strong community who shared value is reduction of repetitive work -- whether that is from not having to write code more than once or answer the same question more than once for a lack of documentation.
 

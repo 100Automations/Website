@@ -1,5 +1,13 @@
 .guide_layout {
-    .guid_layout-grid.mdl-grid {
-        .guide_layout-cell.mdl-cell {}
+    .guide_action.mdl-card{
+            width: 100vw;
+            height: 256px;
+            background-color: rgba(0, 55, 80, 1);
+            .mdl-card__title {
+                color: #fff;
+                align-items: flex-start;
+          
+                ;
+              }
+        }
     }
-}
