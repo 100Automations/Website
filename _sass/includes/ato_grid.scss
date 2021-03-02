@@ -1,17 +1,25 @@
 .automations {
+    .full-ato-card {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .mdl-button {
+        width: 150px;
+        background: rgba(0, 55, 80, 1);
+        color: white;
+        border-radius: 8px 8px 0px 0px;
+        margin: 0;
+        margin-right: 8px;
+        align-self: flex-end;
+    }
     .ato_needs.mdl-card__menu {
+        width: 150px;
         background: rgba(0, 55, 80, 1);
         color: white;
         position: absolute;
         right: 0;
         top: 0;
-        border-radius: 26px;
-
-        .mdl-button {
-            width: 100%;
-            background: rgba(0, 55, 80, 1);
-            color: white;
-        }
+        border-radius: 0px 0 8px 8px;
 
         .needs_list {
             padding-right: 20px;
@@ -25,9 +33,10 @@
     ;
     .ato_grid.mdl-grid {
         .ato_cell.mdl-cell {
+            margin-top: 0;
             .ato_card.mdl-card {
-                border-radius: 26px;
-
+                border-radius: 26px 0 26px 26px;
+                margin-top: 0;
 
                 .ato_card-media>img {
                     width: 100%;
