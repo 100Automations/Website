@@ -3,7 +3,7 @@ services:
   website:
     image: jekyll/jekyll:pages
     container_name: website
-    command: jekyll serve --force_polling --livereload --config _config.yml,_config.docker.yml
+    command: jekyll serve --force_polling --livereload --config _config.yml,_config.docker.yml --incremental
     environment:
       - JEKYLL_ENV=docker
     ports:
