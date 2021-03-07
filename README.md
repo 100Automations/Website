@@ -21,8 +21,8 @@ For more information on the project development, refer to: [100 Automations Proj
   - Content Writer (nice to have)
 - To join the team, join the Hack for LA slack: [invite yourself here](https://hackforla.org/slack) and
 reach out to our Product Manager, Niven Prasad, on [our Slack](https://hackforla.slack.com/team/U015R4RTDJA)
-- Review our Project Management Board (not yet fully defined but stay tuned)
-- Weekly team meetings are at 2pm PT on Saturdays via Zoom
+- Review our [Project Management Board](https://github.com/100Automations/Website/projects/1)
+- Weekly team meetings are at Wednesday at 4:30 pm PST and Saturdays at 2pm PST on via Zoom
 
 ### Start automating 
 - Find an automation that you want to build from our list of ideas: some are [half baked](https://github.com/100Automations/futureautomations/projects/1#column-9876971) and need more research, others are well documented
