@@ -32,14 +32,13 @@
               {{ automation.description }}
             </div>
           </div>
-          <div class="ato_card-actions mdl-card__actions mdl-card--border">
-            <!-- Automation Readme url is located in links index 1 -->
-            <!-- We will need to design a README.md button -->
-            <a href="{{ automation.links[1].url }}"
-              class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="font-family: Poppins">
-              ReadMe <i class="fa fa-github" style="color:white"></i>
-            </a>
-          </div>
+        <div class="ato_card-actions mdl-card__actions mdl-card--border">
+          <!-- Automation Readme url is located in links index 1 -->
+          <!-- We will need to design a README.md button -->
+          <a href="{{ automation.links[1].url }}"
+            class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            ReadMe <i class="fa fa-github"></i>
+          </a>
         </div>
       </div>
       {% endfor %}

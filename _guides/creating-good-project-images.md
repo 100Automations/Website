@@ -12,10 +12,11 @@ display: true
 - [Image Rights and Credits](#image-rights)
 - [Resources](#resources)
 
+
 <a name="design-tips"></a>
 ### General Design Tips
 
-Your project image works like an advertisement. It needs to be a distinct visual identifier that suggests what the project does. 
+The project image is 744 x 300 pixels, but displays at half that size, so it needs to be a clear, simple identifier of your automation.
 
 - Try to convey a sense of your project at a glance. 
 - A few distinct colors and an icon may be all you need.

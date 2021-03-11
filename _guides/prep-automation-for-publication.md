@@ -20,13 +20,8 @@ This is what we’ll need from you to prepare your automation for publication on
 
 <a name="image"></a>
 ### Image
-A 600 x 400 image that illustrates the automation.  
+A 744 x 300 image that illustrates the automation. Note that for sharper display on high-resolution screens, image will be appear at half size (372 x 150)
 
-#### Example 1:
-<img src="https://user-images.githubusercontent.com/37763229/92680204-258f5280-f2df-11ea-9946-27d222bddf15.png" width=200px>
-
-#### Example 2:
-<img src="https://user-images.githubusercontent.com/37763229/91668001-92277780-eabd-11ea-893a-a7061a7cb520.png" width=200px>
 
 ---
 
