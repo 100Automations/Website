@@ -1,22 +1,53 @@
 .automations {
+    button {
+        text-transform: none;
+    }
+    .full-ato-card {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .mdl-button {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        width: 140px;
+        background: rgba(0, 55, 80, 1);
+        color: white;
+        border-radius: 10px 10px 0px 0px;
+        margin: 0;
+        margin-right: 8px;
+        align-self: flex-end;
+    }
+    .ato_needs.mdl-card__menu {
+        font-family: "Open Sans", sans-serif;
+        width: 140px;
+        max-height: 182px;
+        background: rgba(0, 55, 80, 1);
+        color: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border-radius: 0px 0 10px 10px;
+
+        .needs_list {
+            font-family: "Open Sans", sans-serif;
+            padding: 0 12px 12px 30px;
+            margin: 0;
+            line-height: 18.9px;
+        }
+        .d-none {
+            display: none !important;
+        }
+        ;
+    }
+
+    ;
     .ato_grid.mdl-grid {
         .ato_cell.mdl-cell {
+            margin-top: 0;
             .ato_card.mdl-card {
-                border-radius: 26px;
-                .ato_needs.mdl-card__menu {
-                  position: static;
-                  border-radius: 26px;
-                  
-
-                    .mdl-button {
-                        background: rgba(0, 55, 80, 1);
-                        color: white;
-                    }
-
-                    ;
-                }
-
-                ;
+                font-family: "Open Sans", sans-serif;
+                border-radius: 26px 0 26px 26px;
+                margin-top: 0;
 
                 .ato_card-media>img {
                     width: 100%;
