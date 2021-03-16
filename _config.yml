@@ -9,7 +9,6 @@ description: The 100 Automations project showcases Hack for LA automations and m
 
 baseurl: ""
 url: https://www.100automations.org
-repository: 100Automations/Website
 
 sass:
   sass_dir: _sass
