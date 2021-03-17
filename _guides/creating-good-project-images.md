@@ -53,10 +53,19 @@ The project image is 744 x 300 pixels, but displays at half that size, so it nee
 <a name="resources"></a>
 ### Resources
 
-#### Color scheme ideas:
+
+#### Tools
+
+**Image Editors**
+ - [iPiccy](https://ipiccy.com)
+ - [Canva](https://www.canva.com)
+ - [GIMP](https://www.gimp.org)
+
+**Color Schemes**
  - [Colormind](http://colormind.io)
  - [Coolors](https://coolors.co)
  - [Adobe Color](https://color.adobe.com/create/color-wheel)
+
 
 #### Where to find images
 
@@ -77,3 +86,5 @@ The project image is 744 x 300 pixels, but displays at half that size, so it nee
  - [Wikimedia Commons: Simple media reuse guide](https://commons.wikimedia.org/wiki/Commons:Simple_media_reuse_guide)
 
 
+---
+**End**
