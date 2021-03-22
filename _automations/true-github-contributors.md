@@ -10,11 +10,11 @@ alt: 'Some GitHub profile Images of people who have contributed to the hackforla
 # image-hero: /assets/images/projects/[project repo name + -hero + .jpg or .png]
 # alt-hero: 'description of the hero image'
 Authors:
-- name: First Last
+- name: Kian Badie
   links:
-    slack: 'https://app.slack.com/team/U018DD0AJPJ'
-    github: 'https://github.com/rblaz001'
-  picture: 'https://avatars.githubusercontent.com/rblaz001'
+    # slack: '#'
+    github: 'https://github.com/KianBadie'
+  picture: 'https://avatars.githubusercontent.com/u/18221058?s=460&u=d442eba72a29e66f5488b7451e4d4b3df9401938&v=4'
 links: 
   - name: Github
     url: 'https://github.com/100Automations/true-github-contributors'
