@@ -1,0 +1,16 @@
+.flexbox-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexbox-column {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

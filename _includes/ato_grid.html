@@ -1,24 +1,23 @@
 <!-- This will be where automations are displayed on the home page -->
 <div class="automations">
-  <div class="ato_grid">
+  <div class="flexbox-row ato_grid">
     <!-- Jekyll loops through our automation collection -->
     {% for automation in site.automations %}
     <div class="full-ato-card">
-      <button id="button_{{ forloop.index }}" class=" button-needs">
+      <button id="button_{{ forloop.index }}" class="button-needs">
         Needs Help
       </button>
-      <div class="ato_cell">
         <!-- Each card that is created will have a unique id accessed though the forloop.index-->
         <div id="card_{{forloop.index}}" class="ato_card ">
           <!-- A list of needs that will display when the user clicks on it -->
           <!-- Note, we will be able to access the automation.needs and loop through them for display-->
-          <div class="ato_needs">
-            <ul id="needs_{{ forloop.index }}" class="needs_list d-none">
+          
+            <ul id="needs_{{ forloop.index }}" class="needs-list d-none">
               {% for item in automation.needs %}
                 <li>{{ item | capitalize }}</li>
               {% endfor %}
             </ul>
-          </div>
+          
           <!-- This is our image that we access through our own API -->
           <!-- The image folder is located in our assets -->
           <div class="ato_card-media">
@@ -41,8 +40,8 @@
           </a>
         </div>
       </div>
-      {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </div>
 
@@ -50,6 +49,7 @@
   const toggleList = () => {
     needs_id = event.currentTarget.id.replace("button_", "needs_");
     document.getElementById(needs_id).classList.toggle('d-none');
+    console.log(needs_id);
   }
   Array.from(document.querySelectorAll('.button-needs')).forEach((button) => {
     button.addEventListener('click', toggleList);
