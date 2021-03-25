@@ -1,18 +1,18 @@
 <!-- This will be where automations are displayed on the home page -->
 <div class="automations">
-  <div class="ato_grid mdl-grid">
+  <div class="ato_grid">
     <!-- Jekyll loops through our automation collection -->
     {% for automation in site.automations %}
     <div class="full-ato-card">
-      <button id="button_{{ forloop.index }}" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect button-needs">
+      <button id="button_{{ forloop.index }}" class=" button-needs">
         Needs Help
       </button>
-      <div class="ato_cell mdl-cell mdl-cell--4-col">
+      <div class="ato_cell">
         <!-- Each card that is created will have a unique id accessed though the forloop.index-->
-        <div id="card_{{forloop.index}}" class="ato_card mdl-card mdl-shadow--2dp">
+        <div id="card_{{forloop.index}}" class="ato_card ">
           <!-- A list of needs that will display when the user clicks on it -->
           <!-- Note, we will be able to access the automation.needs and loop through them for display-->
-          <div class="ato_needs mdl-card__menu">
+          <div class="ato_needs">
             <ul id="needs_{{ forloop.index }}" class="needs_list d-none">
               {% for item in automation.needs %}
                 <li>{{ item | capitalize }}</li>
@@ -21,22 +21,22 @@
           </div>
           <!-- This is our image that we access through our own API -->
           <!-- The image folder is located in our assets -->
-          <div class="ato_card-media mdl-card__media">
+          <div class="ato_card-media">
             <img src="{{ automation.image | absolute_url }}" alt="{{ automation.title }}">
           </div>
-          <div class="ato_card-title mdl-card__title mdl-card--expand">
-            <h2 class="mdl-card__title-text">{{ automation.title }}</h2>
+          <div class="ato_card-title">
+            <h2 class="">{{ automation.title }}</h2>
           </div>
-          <div class="ato_card-text mdl-card__supporting-text">
+          <div class="ato_card-text">
             <div>
               {{ automation.description }}
             </div>
           </div>
-        <div class="ato_card-actions mdl-card__actions mdl-card--border">
+        <div class="ato_card-actions">
           <!-- Automation Readme url is located in links index 1 -->
           <!-- We will need to design a README.md button -->
           <a href="{{ automation.links[1].url }}"
-            class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            class="read-me_button">
             ReadMe <i class="fa fa-github"></i>
           </a>
         </div>

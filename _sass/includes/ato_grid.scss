@@ -41,10 +41,10 @@
     }
 
     ;
-    .ato_grid.mdl-grid {
-        .ato_cell.mdl-cell {
+    .ato_grid {
+        .ato_cell{
             margin-top: 0;
-            .ato_card.mdl-card {
+            .ato_card {
                 font-family: "Open Sans", sans-serif;
                 border-radius: 26px 0 26px 26px;
                 margin-top: 0;
@@ -54,7 +54,7 @@
                 }
                 .ato_card-actions {
                     text-align: center;
-                    .mdl-button {
+                    .read-me_button {
                         font-family: Poppins;
                         text-align: center;
                         vertical-align: middle;

@@ -5,12 +5,12 @@
 <body>
     <div id="app">
         <!-- This div is necessary for mdl components to work -->
-        <div class="container-layout mdl-layout mdl-js-layout">
+        <div class="container-layout">
             {% include header.html %}
-            <main class="mdl-layout__content">
+            <main class="main-content">
                 {{content}}
-                {% include footer.html %}
             </main>
+            {% include footer.html %}
         </div>
     </div>
 </body>
