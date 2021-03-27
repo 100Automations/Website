@@ -1,16 +1,16 @@
-.flexbox-row {
+.flexbox_row {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }
 
-.flexbox-column {
+.flexbox_column {
     width: 100%;
     height: fit-content;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
 }

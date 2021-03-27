@@ -1,10 +1,10 @@
 <!-- This will be where automations are displayed on the home page -->
 <div class="automations">
-  <div class="flexbox-row ato_grid">
+  <div class="flexbox_row ato_grid">
     <!-- Jekyll loops through our automation collection -->
     {% for automation in site.automations %}
-    <div class="full-ato-card">
-      <button id="button_{{ forloop.index }}" class="button-needs">
+    <div class="full_ato_card">
+      <button id="button_{{ forloop.index }}" class="button_needs">
         Needs Help
       </button>
         <!-- Each card that is created will have a unique id accessed though the forloop.index-->
@@ -12,7 +12,7 @@
           <!-- A list of needs that will display when the user clicks on it -->
           <!-- Note, we will be able to access the automation.needs and loop through them for display-->
           
-            <ul id="needs_{{ forloop.index }}" class="needs-list d-none">
+            <ul id="needs_{{ forloop.index }}" class="needs_list d_none">
               {% for item in automation.needs %}
                 <li>{{ item | capitalize }}</li>
               {% endfor %}
@@ -20,22 +20,22 @@
           
           <!-- This is our image that we access through our own API -->
           <!-- The image folder is located in our assets -->
-          <div class="ato_card-media">
+          <div class="ato_card_media">
             <img src="{{ automation.image | absolute_url }}" alt="{{ automation.title }}">
           </div>
-          <div class="ato_card-title">
-            <h2 class="">{{ automation.title }}</h2>
+          <div class="ato_card_title">
+            <h6>{{ automation.title }}</h6>
           </div>
-          <div class="ato_card-text">
-            <div>
-              {{ automation.description }}
-            </div>
+          <div class="ato_card_text">
+            <p>
+              <hr>{{ automation.description }}<hr>
+            </p>
           </div>
-        <div class="ato_card-actions">
+        <div class="ato_card_actions">
           <!-- Automation Readme url is located in links index 1 -->
           <!-- We will need to design a README.md button -->
           <a href="{{ automation.links[1].url }}"
-            class="read-me_button">
+            class="read_me_button">
             ReadMe <i class="fa fa-github"></i>
           </a>
         </div>
@@ -48,10 +48,10 @@
 <script>
   const toggleList = () => {
     needs_id = event.currentTarget.id.replace("button_", "needs_");
-    document.getElementById(needs_id).classList.toggle('d-none');
+    document.getElementById(needs_id).classList.toggle('d_none');
     console.log(needs_id);
   }
-  Array.from(document.querySelectorAll('.button-needs')).forEach((button) => {
+  Array.from(document.querySelectorAll('.button_needs')).forEach((button) => {
     button.addEventListener('click', toggleList);
   })
 </script>
