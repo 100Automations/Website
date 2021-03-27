@@ -3,15 +3,15 @@
     color: black;
     background-color: #ffffff;
     flex-flow: row nowrap;
-    justify-content: center !important;
+    justify-content: space-between ;
     align-items: center;
     text-align: center;
   
   .footer-slogan {
     display: flex;
-    flex-flow: column wrap !important;
-    justify-content: center !important;
-    align-items: center !important;
+    flex-flow: row wrap ;
+    justify-content: center;
+    align-items: center ;
     img {
       width: 80px;
     }
@@ -20,17 +20,18 @@
       font-size: 0.85rem;
       line-height: 120%;
       margin: 20px 16px 20px 0;
-    }
+    };
   }
   
   .footer-links {
-    ul {
+    padding: 0px;
+    li {
       display: inline;
       font-size:10px;
       height:15px;
-      left:10px;
+      // left:10px;
       list-style-type:none;
-      margin:.5em .5em 0em -3.4em;
+      margin:auto;
       position:relative;
       text-align:left;
     }
