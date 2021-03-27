@@ -1,18 +1,16 @@
 <!-- This will be the grid for guides on the home page -->
 <div class="guides">
-  <div class="guide_grid">
+  <div class="guide_grid flexbox_row">
     <!-- Jekyll loops through our guides collection -->
     {% for guide in site.guides %}
-    <div class="guide_cell">
-      <div class="guide_card">
-        <div class="guide_card-title ">
-          <!-- This link will use our guide layout for this guide -->
-          <a href="{{ guide.url | absolute_url }}"><h2 class="">{{ guide.title }}</h2></a> 
-        </div>
-        <div class="guide_card-text">
+    <div class="guide_card">
+        <!-- This link will use our guide layout for this guide -->
+        <a href="{{ guide.url | absolute_url }}">
+          <h6 class="guide_card_title">{{ guide.title }}</h6>
+        </a> 
+        <p class="guide_card_text body2">
           {{ guide.description}}
-        </div>
-      </div>
+        </p>
     </div>
     {% endfor %}
   </div>

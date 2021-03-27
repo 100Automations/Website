@@ -1,14 +1,33 @@
 .guides {
-    .guide_grid.mdl-grid {
-        .guide_cell.mdl-cell {
-            .guide_card.mdl-card {
-                background: linear-gradient(130.94deg, #1449B0 0.77%, #011C61 100.78%);
-                border-radius: 16px;
-           .guide_card-title,.guide_card-text{
-            color: #ffffff;
-           }
-               
-    };
+    .guide_grid {
+        .guide_card {
+            background: linear-gradient(130.94deg, #1449B0 0.77%, #011C61 100.78%);
+            border-radius: 16px;
+            width: 270px;
+            height: 230px;
+            margin: 12px;
+            padding: 12px;
+
+            .guide_card_title {
+                color: #ffffff;
+            } 
+            .guide_card_text {
+                color:  #ffffff;
+            }
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .guide_grid {
+        .guide_cell {
+            .guide_card {
+                width: 148px;
+                height: 126px;
+
+                .guide_card_title{} 
+                .guide_card_text{}
+            }
         }
     }
 }
