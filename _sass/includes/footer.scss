@@ -1,18 +1,17 @@
-// MDL footer class customizations
-.mdl-mini-footer {
+.full-footer {
     padding: 24px;
     color: black;
     background-color: #ffffff;
     flex-flow: row nowrap;
-    justify-content: center !important;
+    justify-content: space-between ;
     align-items: center;
     text-align: center;
-  // Custom class for inner div with two child elements logo and paragraph
+  
   .footer-slogan {
     display: flex;
-    flex-flow: column wrap !important;
-    justify-content: center !important;
-    align-items: center !important;
+    flex-flow: row wrap ;
+    justify-content: center;
+    align-items: center ;
     img {
       width: 80px;
     }
@@ -21,10 +20,21 @@
       font-size: 0.85rem;
       line-height: 120%;
       margin: 20px 16px 20px 0;
-    }
+    };
   }
-  // MDL social links customizations
-  .mdl-mini-footer__link-list {
+  
+  .footer-links {
+    padding: 0px;
+    li {
+      display: inline;
+      font-size:10px;
+      height:15px;
+      // left:10px;
+      list-style-type:none;
+      margin:auto;
+      position:relative;
+      text-align:left;
+    }
     img {
       width: 20px;
     }

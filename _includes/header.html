@@ -1,26 +1,24 @@
   <!-- Uses a transparent header that draws on top of the layout's background -->
-  <header class="header mdl-layout__header mdl-layout__header--transparent">
-    <div class="header-row mdl-layout__header-row">
+  <header class="header">
+    <div class="header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">100 Automations</span>
+      <span class="header-title">100 Automations</span>
       <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
+      <div class="spacer"></div>
       <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a disabled="true" class="mdl-navigation__link" href="#">Automations</a>
-        <a disabled="true" class="mdl-navigation__link" href="#">Guides</a>
-        <a disabled="true" class="mdl-navigation__link" href="#">About</a>
-        <a disabled="true" class="mdl-navigation__link" href="#">Press</a>
+      <nav class="header-nav-list">
+        <a disabled="true" class="nav_item" href="#">Automations</a>
+        <a disabled="true" class="nav_item" href="#">Guides</a>
+        <a disabled="true" class="nav_item" href="#">About</a>
+        <a disabled="true" class="nav_item" href="#">Press</a>
       </nav>
+      <a class="hamburger">☰</a>
     </div>
   </header>
-  <!-- This is a navigation draw that is used when screen size reaches certain limit -->
-  <div class="header-drawer mdl-layout__drawer">
-    <span class="mdl-layout-title">100-Automations</span>
-    <nav class="mdl-navigation">
-      <a disabled="true" class="mdl-navigation__link" href="#">Automations</a>
-      <a disabled="true" class="mdl-navigation__link" href="#">Guides</a>
-      <a disabled="true" class="mdl-navigation__link" href="#">About</a>
-      <a disabled="true" class="mdl-navigation__link" href="#">Press</a>
-    </nav>
-  </div>
+
+  <script>
+
+    document.querySelector(".hamburger").addEventListener("click", function (){
+      
+    })
+  </script>

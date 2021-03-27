@@ -1,0 +1,66 @@
+// global typography settings ffor opur design system.
+
+h1 {
+    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: $bodygrey;
+}
+
+h2 {
+    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: $bodygrey;
+}
+
+h3 {
+    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: $bodygrey;
+}
+
+h4 {
+    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: $bodygrey;
+}
+
+h5 {
+    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: $bodygrey;
+    line-height: 130%;
+}
+
+h6 {
+    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: $bodygrey;
+    line-height: 130%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 130%;
+    font-weight: 400;
+}
+
+p.body2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 140%;
+    font-weight: 400;
+}
+
+p.body3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 135%;
+    font-weight: 400; 
+}

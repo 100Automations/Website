@@ -1,78 +1,77 @@
 .automations {
-    button {
-        text-transform: none;
-    }
-    .full-ato-card {
+    .full_ato_card {
         display: flex;
         flex-flow: column nowrap;
+        margin: 24px;
+        width: 380px;
+        height: 640px;
+
+        .button_needs {
+            font-weight: 700;
+            width: 140px;
+            background: $primary;
+            color: $white;
+            border: none;
+            border-radius: 10px 10px 0px 0px;
+            margin: 0;
+            padding: 12px;
+            align-self: flex-end;
+        }
     }
-    .mdl-button {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 700;
-        width: 140px;
-        background: rgba(0, 55, 80, 1);
-        color: white;
-        border-radius: 10px 10px 0px 0px;
-        margin: 0;
-        margin-right: 8px;
-        align-self: flex-end;
-    }
-    .ato_needs.mdl-card__menu {
-        font-family: "Open Sans", sans-serif;
-        width: 140px;
-        max-height: 182px;
-        background: rgba(0, 55, 80, 1);
-        color: white;
-        position: absolute;
-        right: 0;
-        top: 0;
-        border-radius: 0px 0 10px 10px;
+
+    .ato_card {
+        border-radius: 26px 0 26px 26px;
+        margin-top: 0;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        position: relative;
+
+        .ato_card_title {
+            padding: 0 12px;
+        }
+        .ato_card_text {
+            padding: 0 12px;
+        }
 
         .needs_list {
-            font-family: "Open Sans", sans-serif;
             padding: 0 12px 12px 30px;
             margin: 0;
-            line-height: 18.9px;
+            width: 140px;
+            max-height: 182px;
+            background: $primary;
+            color: $white;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-radius: 0px 0 10px 10px;
+            }
+        .d_none {
+            display: none;
         }
-        .d-none {
-            display: none !important;
+
+        img {
+            width: 100%;
         }
-        ;
-    }
 
-    ;
-    .ato_grid.mdl-grid {
-        .ato_cell.mdl-cell {
-            margin-top: 0;
-            .ato_card.mdl-card {
-                font-family: "Open Sans", sans-serif;
-                border-radius: 26px 0 26px 26px;
-                margin-top: 0;
-
-                .ato_card-media>img {
-                    width: 100%;
-                }
-                .ato_card-actions {
-                    text-align: center;
-                    .mdl-button {
-                        font-family: Poppins;
-                        text-align: center;
-                        vertical-align: middle;
-                        text-transform: none;
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 19.3017px;
-                        width: 272.96px;
-                        line-height: 42px;
-                        height: 40.53px;     
-                        background: #03a3d8;
-                        color: #ffffff;
-                        border-radius: 28.95px;
-                        box-shadow: 0px 3.86033px 9.65083px rgba(0, 0, 0, 0.25), inset 0px 3.86033px 3.86033px rgba(255, 255, 255, 0.25);
-                    }
-                    ;
-                }
-
+        .ato_card_actions {
+            width: 100%;
+            text-align: center;
+            padding: 12px 0px;
+            
+            .read_me_button {
+                font-family: Poppins;
+                text-align: center;
+                vertical-align: middle;
+                text-transform: none;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 19px;
+                line-height: 42px;
+                height: 40px; 
+                padding: 4px 120px;    
+                background: $secondary;
+                color: $white;
+                border-radius: 28px;
+                box-shadow: 0px 3.86033px 9.65083px rgba(0, 0, 0, 0.25), inset 0px 3.86033px 3.86033px rgba(255, 255, 255, 0.25);
             }
         }
     }
