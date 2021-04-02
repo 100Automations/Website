@@ -1,26 +1,7 @@
 .border{
-  .border_card.mdl-card {
-  width: 100%;
-  background: rgba(0, 55, 80, 1);
-  .mdl-card__title {
-    color: #fff;
-    height: 176px;
-    
-  };
-  .mdl-card__supporting-text{
-    color: #fff;
-  }
-  .mdl-card__actions{
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-    color: #fff;
-    .mdl-button{
-      color:#fff;
-    }
-  }
-
-}
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 }
 
 

@@ -1,4 +1,7 @@
 .automations {
+    .flexbox_row{
+        margin-bottom: 100px;
+    }
     .full_ato_card {
         display: flex;
         flex-flow: column nowrap;
@@ -24,6 +27,7 @@
         margin-top: 0;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
         position: relative;
+        
 
         .ato_card_title {
             padding: 0 12px;
