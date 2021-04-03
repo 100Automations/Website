@@ -27,9 +27,14 @@ header.header{
                 margin: 0 16px;
                 text-align: center;
                 order: 3;
+                text-decoration: none;
+                color: $tabgrey;
             }
     
             ;
+            .nav_item:hover{
+                font-weight: bold;
+            }
         }
     
         ;
@@ -37,10 +42,11 @@ header.header{
     }
     
     ;
-    a.hamburger{
+    button.hamburger{
         display: none;
     }
     ;
+    
 
     // Mobile styles
 
@@ -48,12 +54,36 @@ header.header{
         nav.header-nav-list{
             visibility: hidden;
         };
-        a.hamburger {
+       button.hamburger {
             float: right;
             display: block;
             position: relative;
          };
-
+       
     }
 }
 ;
+.header-drawer{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 55, 80, 1);
+    overflow-x: hidden;
+    padding-top: 15px;
+    transition: 0.5s;
+    a{
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    };
+    a:hover {
+        color: #f1f1f1;
+      }
+
+};
