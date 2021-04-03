@@ -1,12 +1,19 @@
 .action {
-  .action_card {
     width: 100%;
     height: 256px;
-    background-color: rgba(0, 55, 80, 1);
+    background-color: $primary;
+    .action_card{
+      .action_card-actions>.contribute{
+        text-decoration: none;
+        color: $primary;
+        background-color: $iconsgrey;
+        border-radius: 28px;
+      }
+      p{
+        color: $white;
+      }
+    };
 
-  }
-
-  ;
 }
 
 ;

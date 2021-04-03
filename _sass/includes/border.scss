@@ -2,6 +2,18 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: $primary;
+        p{
+        color:$white;
+        };
+        .border_card-actions{
+                a{
+                        text-decoration: none;
+        color: $primary;
+        background-color: $iconsgrey;
+        border-radius: 28px;
+                }
+        }
 }
 
 

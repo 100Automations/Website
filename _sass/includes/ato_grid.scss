@@ -1,14 +1,12 @@
 .automations {
     .flexbox_row{
-        margin-bottom: 100px;
+        height: max-content;
     }
     .full_ato_card {
         display: flex;
         flex-flow: column nowrap;
         margin: 24px;
         width: 380px;
-        height: 640px;
-
         .button_needs {
             font-weight: 700;
             width: 140px;

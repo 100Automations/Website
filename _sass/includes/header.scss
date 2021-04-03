@@ -27,9 +27,14 @@ header.header{
                 margin: 0 16px;
                 text-align: center;
                 order: 3;
+                text-decoration: none;
+                color: $tabgrey;
             }
     
             ;
+            .nav_item:hover{
+                font-weight: bold;
+            }
         }
     
         ;
