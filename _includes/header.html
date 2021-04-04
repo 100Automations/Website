@@ -1,5 +1,6 @@
   <!-- Uses a transparent header that draws on top of the layout's background -->
   <header class="header">
+    <button class="hamburger" onclick="openMenu()">☰</button>
     <div class="header-row">
       <!-- Title -->
       <span class="header-title">100 Automations</span>
@@ -12,13 +13,20 @@
         <a disabled="true" class="nav_item" href="#">About</a>
         <a disabled="true" class="nav_item" href="#">Press</a>
       </nav>
-      <a class="hamburger">☰</a>
     </div>
   </header>
-
+<div class="header-drawer">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+      <a disabled="true" class="nav_item" href="#">Automations</a>
+        <a disabled="true" class="nav_item" href="#">Guides</a>
+        <a disabled="true" class="nav_item" href="#">About</a>
+        <a disabled="true" class="nav_item" href="#">Press</a>
+    </div>
   <script>
-
-    document.querySelector(".hamburger").addEventListener("click", function (){
-      
-    })
+    function openMenu(){
+      document.querySelector(".header-drawer").style.width="250px"
+    };
+    function closeMenu(){
+      document.querySelector(".header-drawer").style.width="0px"
+    }
   </script>
