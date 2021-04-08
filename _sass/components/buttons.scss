@@ -1,0 +1,9 @@
+.button_primary {
+    padding: 14px;
+    border-radius: 28px;
+    background-color: $primary;
+}
+
+.button_primary:hover {
+    background-color: $primaryhover;
+}
