@@ -47,20 +47,26 @@ h6 {
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    font-weight: 130%;
+    line-height: 130%;
     font-weight: 400;
 }
 
 p.body2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 140%;
+    line-height: 140%;
     font-weight: 400;
 }
 
 p.body3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: 135%;
+    line-height: 135%;
     font-weight: 400; 
+}
+
+a {
+   font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+   font-size: 22px;
+   font-weight: 600; 
 }

@@ -1,17 +1,40 @@
-.border{
+.border {
+        width: 100%;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
         background-color: $primary;
-        p{
+        padding: 4rem 0;
         color:$white;
-        };
-        .border_card-actions{
-                a{
-                        text-decoration: none;
-        color: $primary;
-        background-color: $iconsgrey;
-        border-radius: 28px;
+
+        .border_card_title {
+        padding-left: 4rem;
+        }
+
+        .border_card_text {
+        padding-left: 4rem;
+        }
+
+
+        .border_card_actions {
+                width: 100%;
+                align-items: center;
+                justify-content: space-evenly;
+                margin: 4rem 0;
+
+                .border_card_section {
+                width: 300px;
+                height: 400px;
+                margin: 1rem 1rem 6rem 1rem;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                }
+
+                a {
+                text-decoration: none;
+                color: $primary;
+                background: linear-gradient(180deg, #FFFFFF 0%, #D9E1E5 100%);
                 }
         }
 }
