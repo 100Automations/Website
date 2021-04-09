@@ -1,5 +1,5 @@
 header.header{
-    .header-row {
+    .header_row {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -10,13 +10,13 @@ header.header{
     
         ;
     
-        .header-nav-list {
+        .header_nav_list {
             list-style: none;
             display: flex;
             flex-flow: nowrap;
             align-items: center;
             justify-content: center;
-            .nav_item {
+            a.nav_item {
                 padding: 15px 0;
                 cursor: pointer;
                 position: relative;
@@ -32,7 +32,7 @@ header.header{
             }
     
             ;
-            .nav_item:hover{
+            a.nav_item:hover{
                 font-weight: bold;
             }
         }
@@ -51,7 +51,7 @@ header.header{
     // Mobile styles
 
     @media screen and (max-width: 767px) {
-        nav.header-nav-list{
+        nav.header_nav_list{
             visibility: hidden;
         };
        button.hamburger {
@@ -63,7 +63,7 @@ header.header{
     }
 }
 ;
-.header-drawer{
+.header_drawer {
     height: 100%;
     width: 0px;
     position: fixed;
