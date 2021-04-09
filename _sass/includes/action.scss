@@ -3,9 +3,16 @@
     margin: 0px 20px 20px 0px;
     padding: 0px 0px 20px 0px;
     .action_card{
-      p{
+      .action_card_title{
+        width: 512px;
+      }
+      .action_card_subtitle{
+        width: 484px;
+        p{
         color: $white;
       }
+      }
+     
     };
 
 }
