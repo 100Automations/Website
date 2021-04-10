@@ -1,4 +1,8 @@
 .guides {
+    .guides_title{
+        display: flex;
+ 
+    }
     .guide_grid {
         .guide_card {
             background: linear-gradient(130.94deg, #1449B0 0.77%, #011C61 100.78%);
@@ -9,11 +13,11 @@
             padding: 6px;
 
             .guide_card_title {
-                color: #ffffff;
+                display: block;
+                text-align: center;
+                margin-top: 4rem;
+                color:$white;
             } 
-            .guide_card_text {
-                color:  #ffffff;
-            }
         }
     }
 }
