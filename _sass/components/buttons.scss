@@ -2,6 +2,7 @@
     padding: 14px;
     border-radius: 28px;
     background-color: $primary;
+    font-family: $poppins;
 }
 
 .button_primary:hover {
@@ -17,6 +18,7 @@ a.contribute{
     padding: 12px 30px;
     font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
     font-weight: 600;
+    margin: 4rem;
 };
 
 a.read_me_button{

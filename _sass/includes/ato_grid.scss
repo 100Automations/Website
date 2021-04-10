@@ -1,7 +1,19 @@
 .automations {
     .flexbox_row{
         height: max-content;
-    }
+    };
+    .automations_title{
+        display: flex;
+        h3{
+            margin-block: 0;
+        }
+        .automation_subtitle{
+            width: 645px;
+            p{
+                margin-block: 0;  
+            }
+        };
+    };
     .full_ato_card {
         display: flex;
         flex-flow: column nowrap;
