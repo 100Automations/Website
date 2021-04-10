@@ -1,1 +1,56 @@
+---
+title: Project Card Anatomy
+description: Explanation of all the elements on the project cards
+status: Active
+display: true
+---
 
+# Project Card Anatomy
+
+![project card anatomy image](https://raw.githubusercontent.com/100Automations/Website/gh-pages/assets/images/guides/project_card_anatomy-0320_1319.png)
+
+
+## Project Image
+A [unique image](https://github.com/100Automations/Website/blob/gh-pages/_guides/creating-good-readmes-for-automations.md) to identify and describe the project
+link: good image guide
+
+## Help Needed status
+If the project needs a specific type of assistance, it will be listed here
+ - Needs Maintenance
+ - Needs Support For Users
+ - Needs Refactoring
+ - Needs Documentation
+ - Needs Peer Review
+ - Needs To Be Built
+ - Needs To Be Researched
+ - Needs Advice
+ - Needs Takeover
+ - Advice Needed
+
+## Languages and frameworks Used
+A list of the technologies used to create the project, and the skills that could be useful for contributors
+
+## Status of Project
+The stage of the project's development
+ - In Use And Ready To Deploy
+ - In Use And Being Refactored
+ - Ready To Deploy
+ - In Development
+ - Ready For Development
+ - In Ideation
+ - Abandoned
+
+## Name of Project
+
+## Description
+A brief overview of the project, what it does, what problem it tries to address, and how it solves it.
+
+## Github ReadMe Link
+This goes the "readme" file at the GitHub code hosting platform. The readme provides a more in-depth description of the automation, with an overview of the technical details.
+
+## Codebases project is used by
+These or projects and organizations that are currently using the automation, identified by logo
+
+---
+_End of Guide_
+To propose/submit changes, please [edit](https://github.com/100Automations/Website/blob/master/_guides/project-card-anatomy.md) the markdown file for this guide
