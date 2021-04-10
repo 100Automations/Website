@@ -1,4 +1,4 @@
-.full-footer {
+.full_footer {
     padding: 24px;
     color: black;
     background-color: #ffffff;
@@ -7,7 +7,7 @@
     align-items: center;
     text-align: center;
   
-  .footer-slogan {
+  .footer_slogan {
     display: flex;
     flex-flow: row wrap ;
     justify-content: center;
@@ -23,13 +23,12 @@
     };
   }
   
-  .footer-links {
+  .footer_links {
     padding: 0px;
     li {
       display: inline;
       font-size:10px;
       height:15px;
-      // left:10px;
       list-style-type:none;
       margin:auto;
       position:relative;
