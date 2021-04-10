@@ -2,37 +2,38 @@
 
 //Import Oswald
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+$poppins:'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
 
 h1 {
-    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-family: $poppins;
     font-size: 60px;
     font-weight: 700;
     color: $bodygrey;
 }
 
 h2 {
-    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-family: $poppins;
     font-size: 60px;
     font-weight: 600;
     color: $white;
 }
 
 h3 {
-    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-family: $poppins;
     font-size: 48px;
     font-weight: 600;
     color: $bodygrey;
 }
 
 h4 {
-    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-family: $poppins;
     font-size: 40px;
     font-weight: 600;
     color: $bodygrey;
 }
 
 h5 {
-    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-family: $poppins;
     font-size: 28px;
     font-weight: 600;
     color: $bodygrey;
@@ -40,7 +41,7 @@ h5 {
 }
 
 h6 {
-    font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+    font-family: $poppins;
     font-size: 20px;
     font-weight: 600;
     color: $bodygrey;
@@ -74,3 +75,4 @@ a {
    font-size: 22px;
    font-weight: 600; 
 }
+

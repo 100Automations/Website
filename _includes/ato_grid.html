@@ -1,6 +1,13 @@
 <!-- This will be where automations are displayed on the home page -->
 <div class="automations">
-  <div class="flexbox_row ato_grid">
+<div class="automations_title flexbox_column">
+  <h3>Automations</h3>
+  <div class="automation_subtitle">
+    <p>Ready to use some of our automations? Learn how to implement them in your project by reading our guide on automation implementation.</p>
+  </div>
+</div>
+
+  <div class="flexbox_row">
     <!-- Jekyll loops through our automation collection -->
     {% for automation in site.automations %}
     <div class="full_ato_card">
