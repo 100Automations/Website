@@ -1,5 +1,7 @@
 // global typography settings ffor opur design system.
 
+//Import Oswald
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
 $poppins:'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
 
 h1 {
@@ -53,23 +55,24 @@ p {
     font-weight: 400;
 }
 
-p.body2 {
+
+p .body2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 140%;
     font-weight: 400;
 }
 
-p.body3 {
+p .body3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 135%;
     font-weight: 400; 
 }
 
-// a {
-//    font-family: $poppins;
-//    font-size: 22px;
-//    font-weight: 600; 
-// }
-// ;
+a {
+   font-family: 'Poppins', 'Monserrat', 'Gill Sans', sans-serif;
+   font-size: 22px;
+   font-weight: 600; 
+}
+
