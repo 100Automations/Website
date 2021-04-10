@@ -1,9 +1,5 @@
 .automations {
-  
-    .flexbox_row{
-        height: max-content;
-    };
-    .automations_title{
+ .automations_title{
         display: flex;
         h3{
             margin-block: 0;
@@ -15,13 +11,14 @@
             }
         };
     };
-
+    .flexbox_row{
+        justify-content: center;
+    }
     .full_ato_card {
         display: flex;
         flex-flow: column nowrap;
-        margin: 24px;
+        margin: 12px;
         width: 380px;
-        height: 720px;
 
         .button_needs {
             font-weight: 700;
@@ -37,7 +34,6 @@
     }
 
     .ato_card {
-        height: fit-content;
         border-radius: 26px 0 26px 26px;
         margin-top: 0;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
@@ -49,7 +45,6 @@
         }
         .ato_card_text {
             padding: 0 12px;
-            height: 250px;
         }
 
         .needs_list {

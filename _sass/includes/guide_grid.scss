@@ -7,7 +7,6 @@
 
     h4 {
       margin: 0;
-      padding-bottom: 4rem;
     }
 
     .guide_card_suggest {
@@ -15,3 +14,32 @@
         color: $primary;
     }
 }
+.guides {
+  .guides_title{
+      display: flex;
+
+  }
+  .guide_grid.flexbox_row {
+    justify-content: center;
+      .guide_card {
+          background: linear-gradient(130.94deg, #1449B0 0.77%, #011C61 100.78%);
+          border-radius: 16px;
+          width: 270px;
+          height: 230px;
+          margin: 12px;
+          padding: 6px;
+
+          .guide_card_title {
+              display: block;
+              text-align: center;
+              margin-top: 4rem;
+              color:$white;
+          } 
+      }
+  }
+  .guide_card_suggest {
+    background: linear-gradient(130.94deg, #c6c6c6 0%, #8f8f8f 100%);
+    color: $primary;
+}
+}
+
