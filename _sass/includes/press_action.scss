@@ -1,0 +1,31 @@
+div.press_action {
+    justify-content: center;
+    margin: auto;
+
+    div.press_release {
+        width: 50%;
+
+        label {
+            display:flex;
+            text-align: left;
+            font-family: $poppins;
+            font-size: 12px;
+            position: relative;
+        }
+
+        ;
+    }
+
+    ;
+
+    div.assets {
+        width: 50%;
+    }
+
+    ;
+    div.press_release_contact{
+        text-align: center;
+    }
+}
+
+;
