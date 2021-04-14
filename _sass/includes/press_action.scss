@@ -40,7 +40,17 @@ div.press_action {
     ;
 
     div.press_release_contact {
+        font-family: $poppins;
         text-align: center;
+
+        p {
+            font-family: $poppins;
+
+            a {
+                text-decoration: none;
+                color: blue;
+            }
+        }
     }
 }
 
