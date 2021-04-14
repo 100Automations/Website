@@ -6,7 +6,7 @@ div.press_action {
         width: 50%;
 
         label {
-            display:flex;
+            display: flex;
             text-align: left;
             font-family: $poppins;
             font-size: 12px;
@@ -20,10 +20,26 @@ div.press_action {
 
     div.assets {
         width: 50%;
+        justify-content: center;
+
+        div.assets_title {
+            h4 {
+                margin-block: 0;
+            }
+        }
+
+        div.assets_actions>div {
+            text-align: center;
+            height: max-content;
+            width: 33.3%;
+            border-radius: 26px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        }
     }
 
     ;
-    div.press_release_contact{
+
+    div.press_release_contact {
         text-align: center;
     }
 }
