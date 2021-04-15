@@ -9,11 +9,16 @@ div.press_action {
             display: flex;
             text-align: left;
             font-family: $poppins;
-            font-size: 12px;
             position: relative;
         }
 
         ;
+        input{
+            border: 1px solid #000000;
+            width: 373px;
+            height: 51px;
+
+        };
     }
 
     ;
