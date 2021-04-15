@@ -3,7 +3,7 @@
 <div class="automations_title flexbox_column">
   <h3>Automations</h3>
   <div class="automation_subtitle">
-    <p>Ready to use some of our automations? Learn how to implement them in your project by reading our guide on automation implementation.</p>
+    <p class="body2">Ready to use some of our automations? Learn how to implement them in your project by reading our guide on <strong>automation implementation</strong>.</p>
   </div>
 </div>
 
@@ -15,13 +15,13 @@
         Needs Help
       </button>
         <!-- Each card that is created will have a unique id accessed though the forloop.index-->
-        <div id="card_{{forloop.index}}" class="ato_card ">
+        <div id="card_{{forloop.index}}" class="ato_card flexbox-column">
           <!-- A list of needs that will display when the user clicks on it -->
           <!-- Note, we will be able to access the automation.needs and loop through them for display-->
           
             <ul id="needs_{{ forloop.index }}" class="needs_list d_none">
               {% for item in automation.needs %}
-                <li>{{ item | capitalize }}</li>
+                <li><p class="body3">{{ item | capitalize }}</p></li>
               {% endfor %}
             </ul>
           
@@ -34,8 +34,8 @@
             <h6>{{ automation.title }}</h6>
           </div>
           <div class="ato_card_text">
-            <p>
-              <hr>{{ automation.description }}<hr>
+            <p class="body3">
+              {{ automation.description }}
             </p>
           </div>
         <div class="ato_card_actions">
@@ -56,7 +56,7 @@
   const toggleList = () => {
     needs_id = event.currentTarget.id.replace("button_", "needs_");
     document.getElementById(needs_id).classList.toggle('d_none');
-    console.log(needs_id);
+    // console.log(needs_id);
   }
   Array.from(document.querySelectorAll('.button_needs')).forEach((button) => {
     button.addEventListener('click', toggleList);
