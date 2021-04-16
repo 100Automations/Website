@@ -3,7 +3,7 @@
     <button class="hamburger" onclick="openMenu()">☰</button>
     <div class="header_row">
       <!-- Title -->
-      <a href="/"><span class="header_title">100 Automations</span></a>
+      <a href="{{ site.data.nav[0].link }}"><span class="header_title">100 Automations</span></a>
       <!-- Add spacer, to align navigation to the right -->
       <div class="spacer"></div>
       <!-- Navigation -->
@@ -11,7 +11,7 @@
         <a disabled="true" class="nav_item" href="#">Automations</a>
         <a disabled="true" class="nav_item" href="#">Guides</a>
         <a disabled="true" class="nav_item" href="#">About</a>
-        <a disabled="false" class="nav_item" href="/press.html">Press</a>
+        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link }}">Press</a>
       </nav>
     </div>
   </header>
@@ -20,13 +20,13 @@
       <a disabled="true" class="nav_item" href="#">Automations</a>
         <a disabled="true" class="nav_item" href="#">Guides</a>
         <a disabled="true" class="nav_item" href="#">About</a>
-        <a disabled="true" class="nav_item" href="/press.html">Press</a>
+        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link }}">Press</a>
     </div>
   <script>
     function openMenu(){
-      document.querySelector(".header-drawer").style.width="250px"
+      document.querySelector(".header_drawer").style.width="250px"
     };
     function closeMenu(){
-      document.querySelector(".header-drawer").style.width="0px"
+      document.querySelector(".header_drawer").style.width="0px"
     }
   </script>
