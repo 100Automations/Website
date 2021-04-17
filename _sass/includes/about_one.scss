@@ -1,0 +1,7 @@
+div.about_one{
+    background-color: $primary;
+    div.about_one_title>h4, div.about_one_text>p{
+        color: $white;
+        text-align: left;
+    }
+}
