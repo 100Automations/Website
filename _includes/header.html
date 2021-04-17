@@ -3,15 +3,15 @@
     <button class="hamburger" onclick="openMenu()">☰</button>
     <div class="header_row">
       <!-- Title -->
-      <a href="{{ site.data.nav[0].link }}"><img src="assets/images/icons/logos/100-Automations-Single-Line.png" alt="100 Automations" width="300"></a>
+      <a href="{{ site.data.nav[0].link | relative_url }}"><img src="assets/images/icons/logos/100-Automations-Single-Line.png" alt="100 Automations" width="300"></a>
       <!-- Add spacer, to align navigation to the right -->
       <div class="spacer"></div>
       <!-- Navigation -->
       <nav class="header_nav_list">
         <a disabled="true" class="nav_item" href="#">Automations</a>
         <a disabled="true" class="nav_item" href="#">Guides</a>
-        <a disabled="true" class="nav_item" href="{{ site.data.nav[2].link }}">About</a>
-        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link }}">Press</a>
+        <a disabled="true" class="nav_item" href="{{ site.data.nav[2].link | relative_url }}">About</a>
+        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link | relative_url }}">Press</a>
       </nav>
     </div>
   </header>
@@ -19,8 +19,8 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
       <a disabled="true" class="nav_item" href="#">Automations</a>
         <a disabled="true" class="nav_item" href="#">Guides</a>
-        <a disabled="true" class="nav_item" href="{{ site.data.nav[2].link }}">About</a>
-        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link }}">Press</a>
+        <a disabled="true" class="nav_item" href="{{ site.data.nav[2].link | relative_url }}">About</a>
+        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link | relative_url }}">Press</a>
     </div>
   <script>
     function openMenu(){
