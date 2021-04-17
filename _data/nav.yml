@@ -1,4 +1,8 @@
 - name: Home
   link: /
+
 - name: Press
-  url: /press.html
+  link: /press.html
+
+- name: About
+  link: /about.html
