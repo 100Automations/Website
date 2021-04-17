@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link: ""
 
 - name: Press
-  link: /press.html
+  link: press
 
 - name: About
-  link: /about.html
+  link: about
