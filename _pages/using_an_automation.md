@@ -1,11 +1,11 @@
 ---
-title: Contributor Overview
+title: Using An Automation
 description: Example_description_text_for_blank_example_file.
 status: active
 display: true
 ---
 
-# Contributor Overview
+# Using An Automation
 
 ## Section_Heading_H2
 Example_description_text_for_blank_example_file
