@@ -28,7 +28,7 @@
           <!-- This is our image that we access through our own API -->
           <!-- The image folder is located in our assets -->
           <div class="ato_card_media">
-            <img src="{{ automation.image | absolute_url }}" alt="{{ automation.title }}">
+            <img src="{{ automation.image | relative_url }}" alt="{{ automation.title }}">
           </div>
           <div class="ato_card_title">
             <h6>{{ automation.title }}</h6>

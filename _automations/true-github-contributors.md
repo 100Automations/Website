@@ -4,7 +4,7 @@ identification: '18221058'
 title: True Github Contributors
 description: GitHub’s Contributor’s endpoint only shows the people who put in pull requests. On cross functional teams that use GitHub to manage projects, contributions from non code contributors (Designers, Product/Project Managers, Business Analysts, Q/A testers, etc.) are represented by comments on issues. True GithHub Contributors delivers a consolidated list of who contributed and how many times. This code can be seen on Hack for LA’s project pages, where are contributors are represented by their GitHub Avatar in the Contributors section.
 # card image should be 372px wide x 150px high
-image: /assets/images/projects/github.com/100Automations/true-github-contributors.png
+image: /assets/images/automations/true-github-contributors.png
 alt: 'Some GitHub profile Images of people who have contributed to the hackforla.org website and titles under some names indicating Design, Product in uppercase text.'
 # hero image should be 1500px wide x 700px high
 # image-hero: /assets/images/projects/[project repo name + -hero + .jpg or .png]
