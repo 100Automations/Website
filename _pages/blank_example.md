@@ -5,18 +5,18 @@ status: active
 display: true
 ---
 
-# Blank_Example_File
+# Main_Title_H1
 
-## Heading_Level_2
+## Section_Heading_H2
 Example_description_text_for_blank_example_file
 
-## Heading_Level_2
+## Section_Heading_H2
 Example_description_text_for_blank_example_file
 
-### Heading_Level_3
+### Sub-Section_Heading_H3
 Example_description_text_for_blank_example_file
 
-### Heading_Level_3
+### Sub-Section_Heading_H3
 Example_description_text_for_blank_example_file
 
 ---
