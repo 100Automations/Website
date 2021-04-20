@@ -1,4 +1,3 @@
-
 ---
 title: Contributor Overview
 description: Example_description_text_for_blank_example_file.
