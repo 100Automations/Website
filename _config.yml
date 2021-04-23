@@ -20,10 +20,17 @@ collections:
   automations:
   guides:
     output: true
+  pages:
+    output: true
 
 defaults:
   - scope:
       path: ""
       type: "guides"
+    values:
+      layout: "guides"
+  - scope:
+      path: ""
+      type: "pages"
     values:
       layout: "guides"
