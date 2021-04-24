@@ -9,10 +9,19 @@ layout: default
     }
 </style>
 <div class="guide_layout">
-    <section class="guide-hero" style="background-color: pink;">
+    <section class="hero-container hero-container--guides" style="background-color: pink;">
         herllo
     </section>
-    <section class="guide-content">
-        {{content}}
+    <section class="body-container body-container--guides">
+        <div class="content-container">
+          {{content}}
+        </div>
+        <div class="sticky-nav-container">
+          <nav class="navbar border border-dark rounded sticky-top navbar-expand-md">
+            {% include toc.html html=content class='navbar-nav' item_class='nav-item'%}
+          </nav>
+        </div>
+        
     </section>
+
 </div>
