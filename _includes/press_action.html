@@ -1,16 +1,22 @@
 <div class="press_action flexbox_row">
-    <div class="press_release">
-        <h4>
-        Press Releases
-        </h4>
-        <label for="prtitle">Press Release Title</label>
-        <input type="text" id="prtitle" name="prtitle">
+    <div class="press_release flexbox_column">
+        <div class="press_release_title">
+            <h4>
+                Press Releases
+            </h4>
+        </div>
+        <div class="press_release_input">
+            <label for="prtitle">Press Release Title</label>
+            <input type="text" id="prtitle" name="prtitle">
+        </div>
     </div>
-    <div class="assets">
-        <h4>
-            Assets
-        </h4>
-        <div>
+    <div class="assets flexbox_column">
+        <div class="assets_title">
+            <h4>
+                Assets
+            </h4>
+        </div>
+        <div class="assets_actions flexbox_row">
             <div>
                 Logo
             </div>
@@ -22,9 +28,10 @@
             </div>
         </div>
     </div>
- 
-</div>   
-<p>
-        Are you a member of the media?
-        Please send us a note at 100Automations@hackforla.org
-    </p>
+    <div class="press_release_contact">
+        <p>
+            Are you a member of the media?
+            Please send us a note at <a href="mailto:100Automations@hackforla.org">100Automations@hackforla.org</a>
+        </p>
+    </div>
+</div>

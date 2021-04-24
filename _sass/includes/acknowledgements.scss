@@ -1,0 +1,13 @@
+div.acknowledgements{
+    background-color: $primary;
+    div.acknowledgements_title>h1, div.origins, div.mentions, div.view_projects{
+        h6{
+            color: $white; 
+        };
+        color: $white;
+    };
+    .origins, .mentions{
+        width: 50%;
+        margin: auto;
+    }
+}

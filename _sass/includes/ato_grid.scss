@@ -1,16 +1,20 @@
 .automations {
- .automations_title{
-        display: flex;
-        h3{
-            margin-block: 0;
+    padding-bottom: 7rem;
+    .automations_title{
+        text-align: center;
+        
+        h3 {
+            margin: 1.5rem 0 1.75rem 0;
         }
         .automation_subtitle{
-            width: 645px;
-            p{
-                margin-block: 0;  
+            width: 50%;
+            margin-bottom: 3.5rem;
+            strong {
+                color: $secondary;
             }
-        };
-    };
+        }
+    }
+
     .flexbox_row{
         justify-content: center;
     }
@@ -19,10 +23,11 @@
         flex-flow: column nowrap;
         margin: 12px;
         width: 380px;
+        height: 800px;
 
         .button_needs {
+            width: 180px;
             font-weight: 700;
-            width: 140px;
             background: $primary;
             color: $white;
             border: none;
@@ -31,47 +36,52 @@
             padding: 12px;
             align-self: flex-end;
         }
-    }
 
-    .ato_card {
-        border-radius: 26px 0 26px 26px;
-        margin-top: 0;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-        position: relative;
-        
-
-        .ato_card_title {
-            padding: 0 12px;
-        }
-        .ato_card_text {
-            padding: 0 12px;
-        }
-
-        .needs_list {
-            padding: 0 12px 12px 30px;
-            margin: 0;
-            width: 140px;
-            max-height: 182px;
-            background: $primary;
-            color: $white;
-            position: absolute;
-            right: 0;
-            top: 0;
-            border-radius: 0px 0 10px 10px;
-            }
-        .d_none {
-            display: none;
-        }
-
-        img {
-            width: 100%;
-        }
-
-        .ato_card_actions {
-            width: 100%;
-            text-align: center;
-            padding: 12px 0px;
+        .ato_card {
+            border-radius: 26px 0 26px 26px;
+            margin-top: 0;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+            height: 636px;
+            position: relative;
             
+            .ato_card_title {
+                padding: 0 12px;
+                margin: 0;
+                h6 {
+                    margin: 0;
+                }
+            }
+            .ato_card_text {
+                padding: 0 12px;
+                height: 200px;
+            }
+
+            .needs_list {
+                margin: 0;
+                width: 140px;
+                max-height: 182px;
+                background: $primary;
+                color: $white;
+                position: absolute;
+                right: 0;
+                top: 0;
+                border-radius: 0 0 10px 10px;
+                }
+            .d_none {
+                display: none;
+            }
+
+            img {
+                width: 100%;
+                border-radius: 26px 0 0 0;
+            }
+
+            .ato_card_actions {
+                height: 40px;
+                width: 100%;
+                text-align: center;
+                padding: 3rem 0;
+            }
         }
     }
 }
