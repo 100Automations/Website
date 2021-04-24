@@ -2,10 +2,155 @@
 layout: default
 ---
 <!-- This will be our layout for each guide in our collection -->
-<div class="guide_layout">
-    <div class="guide_layout-grid">
-        <div class="guide_layout-cell">
-            {{ content }}
+
+<style>
+
+
+    .guide{
+      display: grid;
+      margin: 0 120px 0 120px;
+      grid-template-columns: repeat(12, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      grid-column-gap: 3.975rem;
+    }
+
+    .content-container--guide  h1 {
+
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 60px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383843;
+
+
+    }
+    .content-container--guide  h2{
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383843;
+ 
+    }
+
+    .content-container--guide h3{
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383843;
+    }
+    .content-container--guide h4{
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #383843;
+    }
+
+    .content-container--guide p {
+      /* styleName: Guide/P1; */
+      font-family: Open Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+
+    }
+
+    .hero-container{
+        grid-row: 1;
+        display: grid;
+        grid-column-gap: 10px;
+        grid-column: 1/span 12;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    .hero-container--guides{
+      background-color: #003750;
+      box-shadow: -20rem 0 #003750, 40rem 0 #003750;
+      margin-bottom: 4rem;
+
+    }
+
+    .hero-container--guides .col1{
+      grid-column: 1/8;
+      max-width: 827px;
+      max-height: 168px;
+      margin: 4rem 0 4rem 0;    
+  }
+    .hero-container--guides .col3{
+      grid-column: 10/12
+    }
+
+    .body-container{
+      grid-row: 2;
+      display: grid;
+      grid-column-gap: 10px;
+      grid-column: 1/span 12;
+    }
+
+    .content-container{
+      grid-column: 1/8;
+    } 
+
+    .sticky-nav-container--guides{
+      grid-column: 9/12;
+
+      }
+    .sticky-nav-container--guides h2{
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #003750;
+    }
+
+    .sticky-nav-container--guides ul{
+      list-style-type: none;
+      margin:0;
+      padding-left: 1.5rem;
+    }
+</style>
+<div class="guide guide_layout">
+    <section class="hero-container hero-container--guides">
+        <h1 class="title1 col1">
+          {{page.title}}
+        </h1>
+        <img class="col3" src="/assets/images/guides/OS.svg">
+    </section>
+    <section class="body-container body-container--guides">
+        <div class="content-container content-container--guide">
+          <h5 class="title5">In This Guide</h5>
+          <p class="p1"> Learn best practice for creating a good project image </p>
+          {{content}}
         </div>
-    </div>
+
+        <div class="sticky-nav-container--guides">
+
+          <nav>
+            <h2>Contents</h2>
+            {% include toc.html html=content h_min=2%}
+          </nav>
+        </div>
+        
+    </section>
+
 </div>

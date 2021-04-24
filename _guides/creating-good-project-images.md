@@ -7,14 +7,8 @@ display: true
 
 # Creating a Good Project Image
 
-- [General Design Tips](#design-tips)
-- [Use Clear Images](#clear-image)
-- [Image Rights and Credits](#image-rights)
-- [Resources](#resources)
 
-
-<a name="design-tips"></a>
-### General Design Tips
+## General Design Tips
 
 The project image is 744 x 300 pixels, but displays at half that size, so it needs to be a clear, simple identifier of your automation.
 
@@ -23,8 +17,7 @@ The project image is 744 x 300 pixels, but displays at half that size, so it nee
 - You might not need any text. If you do use it, keep it short and large. 
 
 
-<a name="clear-image"></a>
-### Use Clear Images
+## Use Clear Images
 
 **Bold, simple images usually work best**
 - The project image isn’t very large, and may be seen on small screens.
@@ -32,8 +25,7 @@ The project image is 744 x 300 pixels, but displays at half that size, so it nee
 - If using photo, keep it simple. Consider cropping complex images down to a clear compelling detail.
 
 
-<a name="image-rights"></a>
-### Image Rights and Credits
+## Image Rights and Credits
 **Only use art and images that you have the rights to re-use**
 - Do not use an image that you found in search without identifying the source and use rights. 
 - The safest images to use are public domain or CC0. You can do whatever you want with these, without attribution. 
@@ -50,32 +42,31 @@ The project image is 744 x 300 pixels, but displays at half that size, so it nee
 >  - License
 
 
-<a name="resources"></a>
-### Resources
+## Resources
 
 
-#### Tools
+### Tools
 
-**Image Editors**
+#### Image Editors
  - [iPiccy](https://ipiccy.com)
  - [Canva](https://www.canva.com)
  - [GIMP](https://www.gimp.org)
 
-**Color Schemes**
+#### Color Schemes
  - [Colormind](http://colormind.io)
  - [Coolors](https://coolors.co)
  - [Adobe Color](https://color.adobe.com/create/color-wheel)
 
 
-#### Where to find images
+### Where to find images
 
-**Photgraphs:** 
+#### Photgraphs:
  - [Pixabay](https://pixabay.com)
  - [Unsplash](https://unsplash.com)
  - [Pexels](https://www.pexels.com)
  - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images)
 
-**Icons:**
+#### Icons:
  - [The Noun Project](https://thenounproject.com) - attribution required for free use
  - [flaticon](https://www.flaticon.com) - attribution required
 
