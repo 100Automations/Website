@@ -3,9 +3,9 @@
   margin: 0px;
   padding: 0px;
   height: 80vh;
-
+  overflow: hidden;
   .gears {
-    overflow: hidden;
+   position: relative;
     .hero_gear {
       position: absolute;
     }
