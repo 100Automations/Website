@@ -5,6 +5,8 @@ status: active
 display: true
 ---
 
+note: this is the hero section "start contributing" button page
+
 # Creator Overview
 
 ## Section_Heading_H2
