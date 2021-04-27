@@ -1,20 +1,55 @@
 .action {
-    background-color: $primary;
-    margin: 0px 20px 20px 0px;
-    padding: 0px 0px 20px 0px;
-    .action_card{
-      .action_card_title{
-        padding-left: 4rem;
-        width: 512px;
-      }
-      .action_card_subtitle{
-        padding-left: 4rem;
-        width: 484px;
+  background-color: $primary;
+  margin: 0px;
+  padding: 0px;
+  height: 80vh;
+  overflow: hidden;
+  .gears {
+   position: relative;
+    .hero_gear {
+      position: absolute;
+    }
+    .gear_1{
+      top: 1vh;
+      right: 20vw;
+    }
+    .gear_2{
+      right: -5vw;
+      top: 20vh;
+    }
+    .gear_3{
+      right: 15vw;
+      top: 30vh;
+    }
+  }
 
-        p{
-        color: $white;
-        }
+
+  //text area in action section
+  .action_card{
+    .action_card_title{
+      padding: 3.5rem 0rem 0rem 4rem;
+      line-height: 84px;
+      max-width: 512px;
+
+      h2{
+        margin:0;
+      }
+    }
+
+    .action_card_subtitle{
+      padding: 0rem 0rem 3rem 4rem;
+      max-width: 484px;
+
+      p{
+      color: $white;
       }
     }
   }
+
+  svg {
+    position: absolute;
+    bottom: 91px;
+  }
+}
+
 

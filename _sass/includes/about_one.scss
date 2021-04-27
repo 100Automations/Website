@@ -1,7 +1,13 @@
 div.about_one{
     background-color: $primary;
-    div.about_one_title>h4, div.about_one_text>p{
+ div.about_one_text>p{
         color: $white;
+        text-align: left;
+        width: 50%;
+    };
+    div.about_one_title>h4{
+        color: $white;
+        justify-content: left;
         text-align: left;
     }
 }
