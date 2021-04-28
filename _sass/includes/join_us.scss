@@ -3,6 +3,37 @@ margin-block-start: 0em;
 margin-block-end: 0em;
 }
 
-div.goals_list_1, div.goals_list_2{
+div.join_us_goals_lists{
+ 
+     .goals_list_1, .goals_list_2{
     width: 50%;
+    
+    .goals_list_item{
+        flex-flow: unset;
+     p{
+         margin: 0;
+     }
+    }
+}
+}
+
+.join_us_actions{
+    justify-content: center;
+    button{
+        font-family: $poppins;
+        font-weight: 600;
+        color: $white;
+        background: $primary;
+        border-radius: 28px;
+        padding: 12px 30px;
+        margin-right: 14px;
+
+        
+    }
+    ;
+    #white{
+        color: $primary;
+        background: $white;
+    }
+    ;
 }

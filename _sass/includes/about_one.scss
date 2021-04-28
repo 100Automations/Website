@@ -1,13 +1,27 @@
 div.about_one{
     background-color: $primary;
- div.about_one_text>p{
+ div.about_one_title{
+    flex-flow: unset;
+img, h4{
+    margin: .5em;
+}
+ }
+ ;
+ div.about_one_text{ 
+     p{
         color: $white;
         text-align: left;
         width: 50%;
-    };
+        margin-left: 1em;
+    }
+    ;
+    }
+    ;
     div.about_one_title>h4{
         color: $white;
         justify-content: left;
         text-align: left;
     }
+    ;
+
 }
