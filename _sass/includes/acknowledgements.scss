@@ -8,6 +8,12 @@ div.acknowledgements{
     };
     .origins, .mentions{
         width: 50%;
-        margin: auto;
+        flex-direction: unset;
+    };
+    hr{
+        width: 100%;
+    }
+    .view_projects_icons{
+        justify-content: center;
     }
 }
