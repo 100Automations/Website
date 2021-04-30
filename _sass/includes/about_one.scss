@@ -19,14 +19,18 @@ div.about_one{
      p{
         color: $white;
         text-align: left;
-        width: 50%;
         margin-left: 1em;
+        flex:1;
         }
         ;
- }
- ;
- div.roadmap{
-        flex:1;
+        .roadmap{
+            flex: 1;
+            flex-direction: column;
+            h3{
+                margin: 0;
+                color: $white;
+            }
+        }
  }
  ;
 
