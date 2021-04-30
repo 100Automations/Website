@@ -1,15 +1,27 @@
+div.join_us_goals_title{
+    img{
+        position: absolute;
+        left: -68px;
+    }
+    h3{
+        margin-left: 2rem;
+    }
+}
+
 div.join_us_subtitle>h6{
 margin-block-start: 0em;
 margin-block-end: 0em;
 }
 
 div.join_us_goals_lists{
- 
-     .goals_list_1, .goals_list_2{
-    width: 50%;
     
+     .goals_list_1, .goals_list_2{
+        flex:1;
     .goals_list_item{
+        width: 440px;
         flex-flow: unset;
+        margin-left: 129px;
+        margin-bottom: 62px;
      p{
          margin: 0;
      }
@@ -25,15 +37,17 @@ div.join_us_goals_lists{
         color: $white;
         background: $primary;
         border-radius: 28px;
-        padding: 12px 30px;
         margin-right: 14px;
-
+        width: 193px;
+        height: 58px;
+        padding:12px, 30px, 12px, 30px;
         
     }
     ;
     #white{
         color: $primary;
         background: $white;
+        width: 143px;
     }
     ;
 }
