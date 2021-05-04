@@ -21,7 +21,7 @@ So you have an idea for an automation and want to build it yourself? You can eit
 
 If you use the Automation Form, one of the 100 Automations team will take the information, create an issue card for you in the automation creation workflow in GitHub, and reach out to you once that is ready.
 
-If you use the Automation Proposal template, our [automation workflow overview](https://github.com/100Automations/futureautomations/wiki/Ideators-Guide) will help you get an understanding of how you can use this to develop automations.
+If you use the Automation Proposal template, our [automation workflow overview](https://github.com/100Automations/futureautomations/wiki/Workflow-Guide-for-Ideators) will help you get an understanding of how you can use this to develop automations.
 
 When your automations get to the "In progress" phase of the workflow, be sure to read our [Guide on Creating an Automation Repo](url) to get you set up at the build phase.
 
