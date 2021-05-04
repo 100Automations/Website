@@ -4,12 +4,11 @@ safe: true
 source: .
 
 title: 100 Automations
-email: hello@hackforla.org
+email: 100Automations@hackforla.org
 description: The 100 Automations project showcases Hack for LA automations and microservices that reduce repetitive work in open source development.
 
 baseurl: "/Website"
-# url: https://www.100automations.org
-url: https://100automations.github.io/Website/
+url: https://100automations.github.io
 repository: 100Automations/Website
 
 sass:

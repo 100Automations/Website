@@ -50,6 +50,8 @@ needs:
 #  - to be researched
 #  - takeover
 #  - advice
+languages:
+    - JavaScript
 status:
 #  - in use and ready to deploy
   -  in use and being refactored
