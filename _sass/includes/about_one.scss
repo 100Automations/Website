@@ -2,26 +2,36 @@ div.about_one{
     background-color: $primary;
  div.about_one_title{
     flex-flow: unset;
-img, h4{
+    flex:1;
+    img, h4{
     margin: .5em;
-}
+    }
+    ;
+    h4{
+        color: $white;
+        justify-content: left;
+        text-align: left;
+    }
+    ;
  }
  ;
  div.about_one_text{ 
      p{
         color: $white;
         text-align: left;
-        width: 50%;
         margin-left: 1em;
-    }
-    ;
-    }
-    ;
-    div.about_one_title>h4{
-        color: $white;
-        justify-content: left;
-        text-align: left;
-    }
-    ;
+        flex:1;
+        }
+        ;
+        .roadmap{
+            flex: 1;
+            flex-direction: column;
+            h3{
+                margin: 0;
+                color: $white;
+            }
+        }
+ }
+ ;
 
 }
