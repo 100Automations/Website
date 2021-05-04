@@ -1,7 +1,7 @@
 ---
 # 'identification' is the 9 digit ID for your repo in the GitHub API.
-identification: '171717171'
-title: Pre-commit hooks starter kit
+identification: '279190183'
+title: Pre-commit Hooks Starter Kit
 description: Pre-commit hooks are a simple way to check your code for any issues before committing your code to Github. It could be something as simple as removing extra spaces from the end of a file to verifying that the code you want to commit is valid Python or does not contain any secrets or access tokens. Pre-Commit Hooks can be written in a number of languages including Python, Ruby, and Rust but this automation focuses on Python.
 image: 'https://user-images.githubusercontent.com/47950704/109089179-aa233100-76c5-11eb-86cd-00e9ecedae02.png'
 alt: 'Jekyll logo with test tube and words Gather Data Types all in green'
@@ -9,11 +9,11 @@ alt: 'Jekyll logo with test tube and words Gather Data Types all in green'
 # image-hero: /assets/images/projects/[project repo name + -hero + .jpg or .png]
 # alt-hero: 'description of the hero image'
 Authors:
-- name: First Last
+- name: Sophia Alice
   links:
-    slack: 'https://app.slack.com/team/U018DD0AJPJ'
-    github: 'https://github.com/rblaz001'
-  picture: 'https://avatars.githubusercontent.com/rblaz001'
+    slack: 'https://app.slack.com/team/UN7V7L934'
+    github: 'https://github.com/salice'
+  picture: 'https://avatars.githubusercontent.com/u/4333657?v=4'
 links: 
   - name: Github
     url: 'https://github.com/100Automations/github-actions'
