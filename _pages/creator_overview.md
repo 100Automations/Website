@@ -5,21 +5,15 @@ status: active
 display: true
 ---
 
-note: this is the hero section "start contributing" button page
+# Want to know how to start creating automations?
 
-# Creator Overview
+There are many ways to contribute to the 100 Automations project. Whether you have an excellent idea but don't know how to build, or you have an automation that needs improvement, or you have an idea and are excited to build it here. We have something for you.
 
-## Section_Heading_H2
-Example_description_text_for_blank_example_file
+If you have an idea start by reading our [Ideators Guide](https://100automations.github.io/Website/pages/submit_idea.html)
 
-## Section_Heading_H2
-Example_description_text_for_blank_example_file
+If you are interested in building an automation that has already been vetted by our team, take a look at our [Builders Guide](https://100automations.github.io/Website/pages/start_building.html)
 
-### Sub-Section_Heading_H3
-Example_description_text_for_blank_example_file
-
-### Sub-Section_Heading_H3
-Example_description_text_for_blank_example_file
+If you just want to contribute to an existing automation, you can do so by checking out the [Contributors Guide](https://100automations.github.io/Website/pages/start_contributing.html)
 
 ---
 ## End of File

@@ -7,17 +7,15 @@ display: true
 
 # Start Contributing
 
-## Section_Heading_H2
-Example_description_text_for_blank_example_file
+## How can you help?
+Automations on our site are in various levels of development. Some of them need help. Some of them are ready to use. 
 
-## Section_Heading_H2
-Example_description_text_for_blank_example_file
+Here's an [anatomy of an automation card](https://100automations.github.io/Website/guides/project_card_anatomy.html) that tells you exactly everything you need to know about automations.
 
-### Sub-Section_Heading_H3
-Example_description_text_for_blank_example_file
+You can click into each automation project and contact the automation creator to offer your help.
 
-### Sub-Section_Heading_H3
-Example_description_text_for_blank_example_file
+## Link to List of Automations
+(Work in progress)
 
 ---
 ## End of File
