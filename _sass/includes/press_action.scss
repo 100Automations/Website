@@ -34,12 +34,44 @@ div.press_action {
         }
         ;
 
-        div.assets_actions>div {
+        div.assets_actions>div.asset {
             text-align: center;
             height: max-content;
-            width: 33.3%;
+            flex:1;
             border-radius: 26px;
             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+            border-radius: 26px;
+            margin: 0px 36px;
+            padding: 36px 16px 24px;
+            img{
+                margin: 12px 0px;
+            }
+          #ato{
+            width: 130.1px;
+            height: 53.36px;
+          }
+          #bio{
+            width: 64px;
+            height: 64px;
+          }
+          #fact{
+            width:48.17px;
+            height: 56.67px;
+          }
+            span{
+                font-family: $poppins   ;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 118%;
+                /* or 24px */
+
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                text-transform: capitalize;
+
+            }
         }
         ;
     }
