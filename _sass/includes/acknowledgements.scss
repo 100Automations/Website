@@ -35,13 +35,20 @@ div.acknowledgements{
         position: relative;
         h1{
          color: $white;
+        font-size: 8vw;
+        margin:auto;
         }
-      img{
+        div#acknowledments_gear_image{
+            
+            img{
         position: absolute;
         height: 144px;
-        right:-68px;
-
-         
-      }
+        right:-68px; 
+        }
+        ;
     }
+    ;
+    }
+    ;
 }
+;
