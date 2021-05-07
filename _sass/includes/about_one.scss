@@ -1,5 +1,6 @@
 div.about_one{
     background-color: $primary;
+    flex:1;
  div.about_one_title{
     flex-flow: unset;
     flex:1;
@@ -34,4 +35,13 @@ div.about_one{
  }
  ;
 
+};
+
+@media screen and (max-width: 360px){
+    div.about_one.flexbox_row{
+        flex-flow: column;
+        div.about_one_text>.roadmap{
+           flex: none;
+        }
+    };
 }

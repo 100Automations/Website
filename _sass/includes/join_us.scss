@@ -1,17 +1,14 @@
-div.join_us_goals_title{
-    img{
-        position: absolute;
-        left: -68px;
-    }
-    h3{
-        margin-left: 2rem;
-    }
-}
-
 div.join_us_subtitle>h6{
 margin-block-start: 0em;
 margin-block-end: 0em;
 }
+;
+div.join_us_goals_title>img{
+    position: relative;
+    left:-72px;
+
+}
+;
 
 div.join_us_goals_lists{
     
@@ -20,7 +17,6 @@ div.join_us_goals_lists{
     .goals_list_item{
         width: 440px;
         flex-flow: unset;
-        margin-left: 129px;
         margin-bottom: 62px;
      p{
          margin: 0;
@@ -50,4 +46,21 @@ div.join_us_goals_lists{
         width: 143px;
     }
     ;
+};
+
+@media screen and (max-width: 440px){
+    div.join_us_goals_title>h3{
+        width: 187.78px;
+        height: 56.33px;
+        font-size: 40px;
+        line-height: 38px;
+        
+    };
+    div.join_us_goals_lists .goals_list_1 .goals_list_item, div.join_us_goals_lists .goals_list_2 .goals_list_item {
+        width: 246px;
+        margin-left: 0px;
+        }
+        ;
 }
+;
+

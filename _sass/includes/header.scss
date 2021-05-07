@@ -3,6 +3,7 @@ header.header{
         display: flex;
         justify-content: space-between;
         align-items: center;
+      padding: 0px 30px;
     
         .spacer {
             flex: 1;
@@ -41,12 +42,20 @@ header.header{
     
     button.hamburger{
         display: none;
+        background-color: $white;
+        color: $primary;
+        border: 0;
+        width: 45px;
+        height: 45px;
     }
     
 
     // Mobile styles
 
     @media screen and (max-width: 767px) {
+        .header_row{
+            padding: 0px 19px;
+        }
         nav.header_nav_list{
             visibility: hidden;
         };
@@ -66,7 +75,7 @@ div.header_drawer{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: rgba(0, 55, 80, 1);
+    background-color: $primary;
     overflow-x: hidden;
     padding-top: 15px;
     transition: 0.5s;
