@@ -1,44 +1,39 @@
 <!-- This will be our hero card to display description and 'contribute' -->
-<div class="action">
-  
-  <div class="gears">
-    <img src="assets/images/illustrations/small_gear.png" alt="Small Gear" class="hero_gear gear_1">
-    <img src="assets/images/illustrations/med_gear.png" alt="Medium Gear" class="hero_gear gear_2">
-    <img src="assets/images/illustrations/big_gear.png" alt="Large Gear" class="hero_gear gear_3">
-  </div>
-
-  <div class="action_card flexbox-column">
+<div class="action flexbox_row">
+<div class="action_card">
     <div class="action_card_title">
-     <h2>100 Automations</h2> 
+      <h2>100 Automations</h2>
     </div>
     <div class="action_card_subtitle">
-    <p>
-      We’re supporting tools and micro services to help simplify open source development for the wider Civic Tech community. 
-      We welcome ideas and projects in all stages - connect with us and let’s build 100 automations.
-    </p>
+      <p>
+        We’re supporting tools and micro services to help simplify open source development for the wider Civic Tech
+        community.
+        We welcome ideas and projects in all stages - connect with us and let’s build 100 automations.
+      </p>
     </div>
     <div class="action_card_actions">
       <a href="{{ site.pages[1].url | relative_url }}" class="contribute">
-        Contribute
+        Get Involved
       </a>
     </div>
   </div>
-  <svg viewBox="0 0 1445 91">
-    <path fill="white" fill-opacity="1" d="M0 64.5273V34.3571C40.9417 21.1208 160.154 11.5818 240.833 4.96364C321.512 -1.65455 400.987 11.5818 481.667 20.4061C562.346 29.2303 641.821 33.6424 722.5 29.2303C803.179 24.8182 882.654 11.5818 963.333 4.96364C1044.01 -1.65455 1123.49 -1.65455 1204.17 4.96364C1284.85 11.5818 1364.32 24.8182 1405.26 31.4364L1445 38.0545V91H1405.26C1364.32 91 1284.85 91 1204.17 91C1123.49 91 1044.01 91 963.333 91C882.654 91 803.179 91 722.5 91C641.821 91 562.346 91 481.667 91C400.987 91 321.512 91 240.833 91C160.154 91 80.6792 91 39.7375 91H0V64.5273Z"></path>
-  </svg>
+  <div class="gears">
+    <img src="assets/images/illustrations/small_gear.png" alt="Small Gear" id="small_gear" class="hero_gear ">
+    <img src="assets/images/illustrations/med_gear.png" alt="Medium Gear" id="med_gear" class="hero_gear ">
+    <img src="assets/images/illustrations/big_gear.png" alt="Large Gear" id="big_gear" class="hero_gear ">
+  </div>
 </div>
-
-
 <script>
   //spinning gears
   window.onscroll = function () {
     scrollRotate();
-};
+  };
 
-function scrollRotate() {
-    let gears = document.querySelectorAll(".hero_gear");
+  function scrollRotate() {
+    const gears = document.querySelector(".hero_gear");
     gears.forEach((gear) => {
-      gear.style.transform = "rotate(" + window.pageYOffset/4 + "deg)";
+      gear.style.transform = "rotate(" + window.pageYOffset / 4 + "deg)";
     });
-}
+  }
 </script>
+

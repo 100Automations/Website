@@ -1,55 +1,63 @@
 .action {
   background-color: $primary;
-  margin: 0px;
-  padding: 0px;
-  height: 80vh;
   overflow: hidden;
+  margin: 0px;
+  padding-bottom: 100px;
   .gears {
    position: relative;
+flex:1;
     .hero_gear {
       position: absolute;
     }
-    .gear_1{
-      top: 1vh;
-      right: 20vw;
+    ;
+    #small_gear{
+       bottom: 120px;
+       right: 220px;
     }
-    .gear_2{
-      right: -5vw;
-      top: 20vh;
+    ;
+    #med_gear{
+     top: -300px;
+     right: -100px;
     }
-    .gear_3{
-      right: 15vw;
-      top: 30vh;
-    }
-  }
+    ;
+    #big_gear{
+      top:-140px;
+    };
 
+   };
+   
 
   //text area in action section
   .action_card{
+    z-index: 1;
+    overflow: visible;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    max-width:558px;
+    min-width: 295px;
     .action_card_title{
-      padding: 3.5rem 0rem 0rem 4rem;
-      line-height: 84px;
-      max-width: 512px;
+      text-align: center;
 
       h2{
         margin:0;
       }
+      ;
     }
+    ;
 
     .action_card_subtitle{
-      padding: 0rem 0rem 3rem 4rem;
-      max-width: 484px;
-
       p{
       color: $white;
       }
+      ;
+    }
+    ;
+    .action_card_actions{
+      padding-bottom:50px;
     }
   }
-
-  svg {
-    position: absolute;
-    bottom: 91px;
-  }
+  ;
 }
+;
 
 
