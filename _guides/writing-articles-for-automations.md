@@ -20,7 +20,7 @@ Here are some tips on writing an article for your code on Medium and other publi
 
 ### Spelling and Grammar
 - Double-check for spelling and grammar before you publish your article.
-- Use spelling and grammar checkers, such as [Grammarly](https://www.grammarly.com/grammar-check).
+- Use spelling and grammar checkers, such as [Grammarly](https://www.grammarly.com/grammar-check){:target="_blank"}.
 
 ### Readability
 - Most people will be skimming through your article. Make your article easy to digest by breaking down long sentences and long paragraphs. 

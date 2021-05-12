@@ -7,11 +7,11 @@ display: true
 
 # Project Card Anatomy
 
-![project card anatomy image](https://raw.githubusercontent.com/100Automations/Website/gh-pages/assets/images/guides/project_card_anatomy-0320_1319.png)
+![project card anatomy image](https://raw.githubusercontent.com/100Automations/Website/gh-pages/assets/images/guides/project_card_anatomy-0320_1319.png){:target="_blank"}
 
 
 ## Project Image
-A [unique image](https://github.com/100Automations/Website/blob/gh-pages/_guides/creating-good-readmes-for-automations.md) to identify and describe the project
+A [unique image](https://github.com/100Automations/Website/blob/gh-pages/_guides/creating-good-readmes-for-automations.md){:target="_blank"} to identify and describe the project
 link: good image guide
 
 ## Help Needed status
@@ -53,4 +53,4 @@ These or projects and organizations that are currently using the automation, ide
 
 ---
 _End of Guide_
-To propose/submit changes, please [edit](https://github.com/100Automations/Website/blob/master/_guides/project-card-anatomy.md) the markdown file for this guide
+To propose/submit changes, please [edit](https://github.com/100Automations/Website/blob/master/_guides/project-card-anatomy.md){:target="_blank"} the markdown file for this guide
