@@ -1,55 +1,123 @@
 .action {
   background-color: $primary;
-  margin: 0px;
-  padding: 0px;
-  height: 80vh;
   overflow: hidden;
+  margin: 0px;
+  padding: 100px 0px;
   .gears {
    position: relative;
+flex:1;
     .hero_gear {
       position: absolute;
     }
-    .gear_1{
-      top: 1vh;
-      right: 20vw;
+    ;
+    #small_gear{
+       bottom: 120px;
+       right: 320px;
     }
-    .gear_2{
-      right: -5vw;
-      top: 20vh;
+    ;
+    #med_gear{
+     top: -300px;
+     right: -75px;
     }
-    .gear_3{
-      right: 15vw;
-      top: 30vh;
-    }
-  }
+    ;
+    #big_gear{
+      top:-140px;
+      right: 200px;
+    };
 
+   };
+   
 
   //text area in action section
   .action_card{
+    z-index: 1;
+    overflow: visible;
+    text-overflow: ellipsis;
+    max-width:558px;
+    min-width: 295px;
     .action_card_title{
-      padding: 3.5rem 0rem 0rem 4rem;
-      line-height: 84px;
-      max-width: 512px;
+      text-align: center;
+      word-break: break-all;
 
-      h2{
-        margin:0;
+      .h2{
+        font-family: $poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 140%;
+        color: $white;
       }
+      ;
     }
+    ;
 
     .action_card_subtitle{
-      padding: 0rem 0rem 3rem 4rem;
-      max-width: 484px;
-
+      padding: 0px 50px;
       p{
       color: $white;
       }
+      ;
     }
+    ;
+    .action_card_actions{
+     text-align: left;
+      padding-bottom:50px;
+    }
+    ;
   }
+  ;
+  @media screen and (max-width: 360px) {
+    height:466px;
+    .action_card{
+      .action_card_title{
+        .h2{
+          font-family: $poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 40px;
+          line-height: 114%;
+          color: $white;
+        }
+      }
+      ;
+      .action_card_subtitle{
+        width: 295px;
+        p{
+          margin-block-start: 0em;
+        }
+      }
+      ;
+      .action_card_actions{
+        position:relative;
+        a.contribute{
+          position: absolute
+        }
+       
+      }
+      ;
 
-  svg {
-    position: absolute;
-    bottom: 91px;
+    }
+    ;
+.gears #small_gear{
+    height: 92.6px;
+      bottom: 460px;
+      right: 220px;
+   }
+   ;
+  .gears #med_gear{
+    height: 189.49px;
+    top: -540px;
+    right: -55px;
+   }
+   ;
+  .gears #big_gear{
+    height: 297.02px;
+     top: -430px;
+     right: 100px;
+   };
   }
+  ;
 }
+;
 
 
