@@ -29,6 +29,17 @@
           <div class="ato_card_media">
             <img src="{{ automation.image | relative_url }}" alt="{{ automation.title }}">
           </div>
+          <div class="ato_bag">
+            <div class="ato_tech">
+
+            </div>
+            <div class="ato_chip">
+              {% for item in automation.status %}
+              <span>{{item}}</span>
+              {% endfor %}
+            </div>
+          </div>
+          <br>
           <div class="ato_card_title">
             <h6>{{ automation.title }}</h6>
           </div>
@@ -41,8 +52,9 @@
           <!-- Automation Readme url is located in links index 1 -->
           <!-- We will need to design a README.md button -->
           <a href="{{ automation.links[1].url }}"
-            class="read_me_button">
-            ReadMe <i class="fa fa-github"></i>
+            class="read_me_button"
+            target="_blank">
+            ReadMe<i class="fa fa-github"></i>
           </a>
         </div>
       </div>
