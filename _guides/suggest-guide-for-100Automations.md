@@ -53,7 +53,3 @@ If there is no guide for the topic you want, use this: [form](https://github.com
 
 Credit assignment is at the 100Automations teams discretion, we will document our decision making process in the issue.  Our intention is always to provide credit where possible for work that grows the open source community.
 
----
-#### END
----
-To propose/submit changes to this guide please [edit]() the markdown file for this guide
