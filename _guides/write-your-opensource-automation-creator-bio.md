@@ -43,7 +43,7 @@ Here are two examples:
 **Example 1: [Sophia Alice](https://www.linkedin.com/in/sophia-alice/)**
 >Hi, my name is Sophia and I'm a data scientist and engineer from Philadelphia. I enjoy working with data in every step of the process, from ingestion to visualization, with an emphasis on machine learning. I'm the co-leader of the Hack for LA data science community of practice.
 >
->You can see my skills and connect with me on [LinkedIn](https://www.linkedin.com/in/sophia-alice/), or check out my code on [GitHub](https://github.com/salice).
+>You can see my skills and connect with me on [LinkedIn](https://www.linkedin.com/in/sophia-alice/){:target="_blank"}, or check out my code on [GitHub](https://github.com/salice){:target="_blank"}.
 >For any other inquiries, please feel free to [Email](mailto:sophiaalice@protonmail.com) me.
 
 **Includes:**
@@ -65,12 +65,12 @@ Here are two examples:
 > Front End: HTML5, CSS3, React, Next.js
 > Back End: Express, Flask, Node.JS, AWS, Firebase
 > Programming Languages: JavaScript, TypeScript, Python
->To see more of my technical skills, frameworks, languages, please go to my [LinkedIn](https://www.linkedin.com/in/timmalstead/) profile.
+>To see more of my technical skills, frameworks, languages, please go to my [LinkedIn](https://www.linkedin.com/in/timmalstead/){:target="_blank"} profile.
 >
 > SOFT SKILLS:
 > Communication, Empathy, Time-management
 > 
-> I love collaborating with others. Let's get in touch! [GitHub](https://github.com/timmalstead) |  [LinkedIn](https://www.linkedin.com/in/timmalstead/) | [My Website](https://timmalstead.com/)
+> I love collaborating with others. Let's get in touch! [GitHub](https://github.com/timmalstead){:target="_blank"} |  [LinkedIn](https://www.linkedin.com/in/timmalstead/){:target="_blank"} | [My Website](https://timmalstead.com/){:target="_blank"}
 
 **Includes:**
 - Your larger goals (personal and or professional)
@@ -117,7 +117,7 @@ A good profile picture is a:
 - Professional headshot
 - Recent (it needs to look like you)
 
-Here are [10 Tips for Picking the Right LinkedIn Profile Picture](https://business.linkedin.com/talent-solutions/blog/2014/12/5-tips-for-picking-the-right-linkedin-profile-picture).
+Here are [10 Tips for Picking the Right LinkedIn Profile Picture](https://business.linkedin.com/talent-solutions/blog/2014/12/5-tips-for-picking-the-right-linkedin-profile-picture){:target="_blank"}v.
 
 ---
 #### END
