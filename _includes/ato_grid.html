@@ -4,13 +4,14 @@
   <h3>Automations</h3>
   <!-- <div class="automation_subtitle">
     <p class="body2">Ready to use some of our automations? Learn how to implement them in your project by reading our guide on <strong>automation implementation</strong>.</p>
-  </div> --></div>
+  </div> -->
+</div>
   <div class="flexbox_row">
     <!-- Jekyll loops through our automation collection -->
     {% for automation in site.automations %}
     <div class="full_ato_card">
       <button id="button_{{ forloop.index }}" class="button_needs">
-        Needs Help
+        Needs Help <i>>></i>
       </button>
         <!-- Each card that is created will have a unique id accessed though the forloop.index-->
         <div id="card_{{forloop.index}}" class="ato_card flexbox-column">
@@ -28,6 +29,17 @@
           <div class="ato_card_media">
             <img src="{{ automation.image | relative_url }}" alt="{{ automation.title }}">
           </div>
+          <div class="ato_bag">
+            <div class="ato_tech">
+              <img src="{{'/assets/images/icons/logos/javascriptIcon.png'| relative_url }}" class="tech_icon" alt="javascript">
+            </div>
+            <div class="ato_chip">
+              {% for item in automation.status %}
+              <span>{{item}}</span>
+              {% endfor %}
+            </div>
+          </div>
+          <br>
           <div class="ato_card_title">
             <h6>{{ automation.title }}</h6>
           </div>
@@ -44,6 +56,9 @@
             class="read_me_button">
             ReadMe <i class="fa fa-github"></i>
           </a>
+        </div>
+        <div class="seen_in">
+        <span>As Seen In:</span> <img src="{{'/assets/images/icons/logos/logo-hfl.png'| relative_url }}" alt="Hack for LA">
         </div>
       </div>
     </div>
