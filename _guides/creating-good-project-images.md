@@ -29,8 +29,8 @@ The project image is 744 x 300 pixels, but displays at half that size, so it nee
 **Only use art and images that you have the rights to re-use**
 - Do not use an image that you found in search without identifying the source and use rights. 
 - The safest images to use are public domain or CC0. You can do whatever you want with these, without attribution. 
-- You can use images licensed to require attribution (eg: CC-BY) as long as you [give credit to the artist](https://creativecommons.org/use-remix/attribution/)  in your project
-- Don’t use any company or software logos without checking their usage guidelines. (eg:  [GitHub's logo guidelines](https://github.com/logos) ask that you not use their logo in your project images)
+- You can use images licensed to require attribution (eg: CC-BY) as long as you [give credit to the artist](https://creativecommons.org/use-remix/attribution/){:target="_blank"}  in your project
+- Don’t use any company or software logos without checking their usage guidelines. (eg:  [GitHub's logo guidelines](https://github.com/logos){:target="_blank"} ask that you not use their logo in your project images)
 
 **How to credit images:**
  - It's best practice to credit image sources when possible, even if not required.
@@ -48,33 +48,33 @@ The project image is 744 x 300 pixels, but displays at half that size, so it nee
 ### Tools
 
 #### Image Editors
- - [iPiccy](https://ipiccy.com)
- - [Canva](https://www.canva.com)
- - [GIMP](https://www.gimp.org)
+ - [iPiccy](https://ipiccy.com){:target="_blank"}
+ - [Canva](https://www.canva.com){:target="_blank"}
+ - [GIMP](https://www.gimp.org){:target="_blank"}
 
 #### Color Schemes
- - [Colormind](http://colormind.io)
- - [Coolors](https://coolors.co)
- - [Adobe Color](https://color.adobe.com/create/color-wheel)
+ - [Colormind](http://colormind.io){:target="_blank"}
+ - [Coolors](https://coolors.co){:target="_blank"}
+ - [Adobe Color](https://color.adobe.com/create/color-wheel){:target="_blank"}
 
 
 ### Where to find images
 
 #### Photgraphs:
- - [Pixabay](https://pixabay.com)
- - [Unsplash](https://unsplash.com)
- - [Pexels](https://www.pexels.com)
- - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images)
+ - [Pixabay](https://pixabay.com){:target="_blank"}
+ - [Unsplash](https://unsplash.com){:target="_blank"}
+ - [Pexels](https://www.pexels.com){:target="_blank"}
+ - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images){:target="_blank"}
 
 #### Icons:
- - [The Noun Project](https://thenounproject.com) - attribution required for free use
- - [flaticon](https://www.flaticon.com) - attribution required
+ - [The Noun Project](https://thenounproject.com){:target="_blank"} - attribution required for free use
+ - [flaticon](https://www.flaticon.com){:target="_blank"} - attribution required
 
 **Image Attribution Guidelines:**
- - [Noun Project: How do I give creators credit in my work?](https://thenounproject.zendesk.com/hc/en-us/articles/200509928-How-do-I-give-creators-credit-in-my-work-)
- - [Creative Commons: How to give attribution](https://creativecommons.org/use-remix/attribution/)
- - [CC: Best practices for attribution](https://wiki.creativecommons.org/wiki/best_practices_for_attribution)
- - [Wikimedia Commons: Simple media reuse guide](https://commons.wikimedia.org/wiki/Commons:Simple_media_reuse_guide)
+ - [Noun Project: How do I give creators credit in my work?](https://thenounproject.zendesk.com/hc/en-us/articles/200509928-How-do-I-give-creators-credit-in-my-work-){:target="_blank"}
+ - [Creative Commons: How to give attribution](https://creativecommons.org/use-remix/attribution/){:target="_blank"}
+ - [CC: Best practices for attribution](https://wiki.creativecommons.org/wiki/best_practices_for_attribution){:target="_blank"}
+ - [Wikimedia Commons: Simple media reuse guide](https://commons.wikimedia.org/wiki/Commons:Simple_media_reuse_guide){:target="_blank"}
 
 
 ---

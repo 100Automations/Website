@@ -1,31 +1,30 @@
 ---
 # 'identification' is the 9 digit ID for your repo in the GitHub API.
-identification: '171717171'
-title: TEST CARD
-description: When using Github and Jekyll it is easy to end up with files that are missing data types, with no built in way to enforce uniformity. The Jekyll-Gather-Data-Types automation creates reports that identify what data types are being used across all files in a collection and what might be missing from individual files in order to target code for remediation. Future functionality could include providing the option of using GitHub actions to prevent incomplete files from being committed (PRs).
-# card image should be 372px wide x 150px high
-image: /assets/images/automations/jekyll-gather-data-types.png
+identification: '279190183'
+title: Pre-commit Hooks Starter Kit
+description: Pre-commit hooks are a simple way to check your code for any issues before committing your code to Github. It could be something as simple as removing extra spaces from the end of a file to verifying that the code you want to commit is valid Python or does not contain any secrets or access tokens. Pre-Commit Hooks can be written in a number of languages including Python, Ruby, and Rust but this automation focuses on Python.
+image: /assets/images/automations/github-pre-commit-hooks.png
 alt: 'Jekyll logo with test tube and words Gather Data Types all in green'
 # hero image should be 1500px wide x 700px high
 # image-hero: /assets/images/projects/[project repo name + -hero + .jpg or .png]
 # alt-hero: 'description of the hero image'
 Authors:
-- name: First Last
+- name: Sophia Alice
   links:
-    slack: 'https://app.slack.com/team/U018DD0AJPJ'
-    github: 'https://github.com/rblaz001'
-  picture: 'https://avatars.githubusercontent.com/rblaz001'
+    slack: 'https://app.slack.com/team/UN7V7L934'
+    github: 'https://github.com/salice'
+  picture: 'https://avatars.githubusercontent.com/u/4333657?v=4'
 links: 
   - name: Github
-    url: 'https://github.com/100Automations/jekyll-gather-data-types'
+    url: 'https://github.com/100Automations/github-actions'
   - name: Readme
-    url: 'https://github.com/100Automations/jekyll-gather-data-types/blob/master/README.md'
+    url: 'https://github.com/100Automations/github-actions/blob/master/README.md'
   - name: Contributing
-    url: 'https://github.com/100Automations/jekyll-gather-data-types/blob/master/contributing.md'
+    url: ''
   - name: Support
-    url: 'https://github.com/100Automations/jekyll-gather-data-types/blob/master/SUPPORT.md'
+    url: ''
   - name: Security
-    url: 'https://github.com/100Automations/jekyll-gather-data-types/blob/master/SECURITY.md'
+    url: ''
   # unused links can be commented out
   # - name: Showcase deck
   #   url: ''

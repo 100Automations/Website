@@ -8,7 +8,7 @@ display: true
 # Creating a Good Read.me for your Automation
 
 ## Example
-See an example of a good 100 Automations Read.me: [True GitHub Contributors](https://github.com/100Automations/true-github-contributors/blob/mixin/readme.md)
+See an example of a good 100 Automations Read.me: [True GitHub Contributors](https://github.com/100Automations/true-github-contributors/blob/mixin/readme.md){:target="_blank"}
 
 ## Instructions
 A good 100 Automations Read.me should have the following content:
@@ -69,4 +69,4 @@ What's the expected result?
 ---
 #### END
 ---
-To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/creating-good-readmes-for-automations.md) the markdown file for this guide
+To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/creating-good-readmes-for-automations.md){:target="_blank"} the markdown file for this guide
