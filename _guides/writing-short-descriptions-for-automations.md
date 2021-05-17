@@ -59,4 +59,4 @@ Reason: because the use of the automation does not produce artifacts that can be
 END
 ---
 
-To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/writing-short-descriptions-for-automations.md) the markdown file for this guide
+To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/writing-short-descriptions-for-automations.md){:target="_blank"} the markdown file for this guide
