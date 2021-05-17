@@ -88,12 +88,16 @@
                 display: none;
             }
             ;
-
-            img {
+            .ato_card_media{
+                width: 372px;
+                height: 150px;
+                 img {
                 width: 100%;
                 border-radius: 26px 0 0 0;
             }
             ;
+            }
+           
             .ato_bag{
             position: relative;
             .ato_tech>.tech_icon{
