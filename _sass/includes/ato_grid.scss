@@ -6,23 +6,18 @@
         h3 {
             margin: 1.5rem 0 1.75rem 0;
         }
-        ;
         .automation_subtitle{
             width: 50%;
             margin-bottom: 3.5rem;
             strong {
                 color: $secondary;
             }
-            ;
         }
-        ;
     }
-    ;
 
     .flexbox_row{
         justify-content: center;
     }
-    ;
     .full_ato_card {
         display: flex;
         flex-flow: column nowrap;
@@ -41,7 +36,6 @@
             padding: 12px;
             align-self: flex-end;
         }
-        ;
 
         .ato_card {
             border-radius: 26px 0 26px 26px;
@@ -49,7 +43,6 @@
             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
             height: 636px;
             position: relative;
-            padding-bottom: 70px;
             
             .ato_card_title {
                 padding: 0 28px;
@@ -57,14 +50,11 @@
                 h6 {
                     margin: 0;
                 }
-                ;
             }
-            ;
             .ato_card_text {
                 padding: 0 28px;
                 height: 200px;
             }
-            ;
 
             .needs_list {
                 margin: 0;
@@ -81,15 +71,15 @@
                 p.body3 {
                     margin: 4px 0;
                 }
-                ;
                 }
-                ;
             .d_none {
                 display: none;
             }
+
             ;
             .ato_card_media{
                  img {
+
                 width: 100%;
                 border-radius: 26px 0 0 0;
                 margin-bottom: 30px;
@@ -142,10 +132,12 @@
             }
             ;
 
-            .ato_card_actions {
 
+            .ato_card_actions {
+                height: 40px;
                 width: 100%;
                 text-align: center;
+
                 position: relative;
                 top: 90px;
             }
@@ -175,9 +167,7 @@
                 ;
             }
             ;
+
         }
-        ;
     }
-    ;
 }
-;
