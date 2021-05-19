@@ -113,7 +113,7 @@
                 align-items: center;
                 padding: 3px 15px;
                 
-                position: absolute;
+                position: relative;
                 width: 150px;
                 height: 18.72px;
                 left: 260px;
@@ -148,6 +148,7 @@
                 text-align: center;
                 position: relative;
                 top: 90px;
+               
             }
             ;
             .seen_in{
@@ -168,11 +169,22 @@
                 img{
                     position: absolute;
                     width: 45px;
-                    top: 140px;
+                    top: 138px;
                     left: 96px;
                    
                 }
                 ;
+            }
+            ;
+            @media screen and (max-width:480px) {
+                
+                    .ato_bag>.ato_chip{
+                        left: 154px;
+                    };
+                    .ato_card_actions>a.read_me_button{
+                        padding: 4px 100px;
+                    }
+                
             }
             ;
         }
