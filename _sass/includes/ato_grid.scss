@@ -143,11 +143,15 @@
             ;
 
             .ato_card_actions {
-
-                width: 100%;
-                text-align: center;
+                background: $secondary;
+                border-radius: 28px;
+                box-shadow: 0px 3.86033px 9.65083px rgba(0, 0, 0, 0.25), inset 0px 3.86033px 3.86033px rgba(255, 255, 255, 0.25);
+                display: flex;
+                width: 90%;
+                justify-content: center;
                 position: relative;
                 top: 90px;
+                left:20px;
                
             }
             ;
