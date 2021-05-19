@@ -5,26 +5,25 @@
   padding: 100px 0px;
   .gears {
    position: relative;
-flex:1;
+    flex:1;
     .hero_gear {
       position: absolute;
     }
     ;
     #small_gear{
-       bottom: 120px;
+       bottom: 80px;
        right: 320px;
     }
     ;
     #med_gear{
-     top: -300px;
-     right: -75px;
+     top: -258px;
+     right: -61px;
     }
     ;
     #big_gear{
       top:-140px;
       right: 200px;
     };
-
    };
    
 
@@ -33,11 +32,14 @@ flex:1;
     z-index: 1;
     overflow: visible;
     text-overflow: ellipsis;
-    max-width:558px;
-    min-width: 295px;
+    position: relative;
+    left: 50px;
+    bottom: 80px;
     .action_card_title{
       text-align: center;
       word-break: break-all;
+      position: relative;
+      right: 20px;
 
       .h2{
         font-family: $poppins;
@@ -52,7 +54,10 @@ flex:1;
     ;
 
     .action_card_subtitle{
-      padding: 0px 50px;
+      position: relative;
+      padding: 0px 30px;
+      width: 512px;
+      right: 10px;
       p{
       color: $white;
       }
@@ -60,16 +65,19 @@ flex:1;
     }
     ;
     .action_card_actions{
+      position: relative;
      text-align: left;
-      padding-bottom:50px;
+     right:70px;
+     top:50px;
     }
     ;
   }
   ;
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 480px) {
     height:466px;
     .action_card{
       .action_card_title{
+        right:40px;
         .h2{
           font-family: $poppins;
           font-style: normal;
@@ -82,6 +90,7 @@ flex:1;
       ;
       .action_card_subtitle{
         width: 295px;
+        right: 30px;
         p{
           margin-block-start: 0em;
         }
@@ -89,6 +98,7 @@ flex:1;
       ;
       .action_card_actions{
         position:relative;
+        top:0px;
         a.contribute{
           position: absolute
         }
@@ -100,19 +110,19 @@ flex:1;
     ;
 .gears #small_gear{
     height: 92.6px;
-      bottom: 460px;
+      bottom: 260px;
       right: 220px;
    }
    ;
   .gears #med_gear{
     height: 189.49px;
-    top: -540px;
+    top: -340px;
     right: -55px;
    }
    ;
   .gears #big_gear{
     height: 297.02px;
-     top: -430px;
+     top: -230px;
      right: 100px;
    };
   }
