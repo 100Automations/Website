@@ -1,9 +1,8 @@
 .action {
   background-color: $primary;
-  margin: 0px;
-  padding: 0px;
-  height: 80vh;
   overflow: hidden;
+  margin: 0px;
+  padding: 100px 0px;
   .gears {
    position: relative;
     flex:1;
@@ -42,22 +41,27 @@
       position: relative;
       right: 20px;
 
-
-      h2{
-        margin:0;
+      .h2{
+        font-family: $poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 140%;
+        color: $white;
       }
+      ;
     }
+    ;
 
     .action_card_subtitle{
-
       position: relative;
       padding: 0px 30px;
       width: 512px;
       right: 10px;
-
       p{
       color: $white;
       }
+      ;
     }
     ;
     .action_card_actions{
@@ -121,8 +125,8 @@
      top: -230px;
      right: 100px;
    };
-
   }
+  ;
 }
-
+;
 
