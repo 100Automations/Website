@@ -112,13 +112,13 @@
                 flex-direction: row;
                 align-items: center;
                 padding: 3px 15px;
-                
-                position: relative;
+                position: absolute;
+                margin-right:28px;
                 width: 150px;
                 height: 18.72px;
                 left: 260px;
+                right:0px;
                 top: -3px;
-                
                 background: linear-gradient(130.94deg, #015573 0.77%, #01455E 100.78%);
                 border-radius: 20px;
                 span{
