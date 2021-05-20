@@ -1,22 +1,23 @@
 <!-- This will be the grid for guides on the home page -->
 <div id="guide_grid" class="guides">
-  <div class="guides_title flexbox_column">
-    <h3>Guides</h3>
+  <div class="guides_title flexbox_row">
+    <span id="guides_title_text">Guides</span>
+    <div class="spacer"></div>
+    <a id="suggest_a_guide" href="{{site.guides[6].url | relative_url }}">Suggest a guide</a>
   </div>
   <div class="guide_grid flexbox_row">
     <!-- Jekyll loops through our guides collection -->
     {% for guide in site.guides %}
+    {% if forloop.index == 5 %}
+    {% break %}
+    {% else %}
     <div class="guide_card">
         <!-- This link will use our guide layout for this guide -->
         <a href="{{ guide.url | relative_url }}">
           <h6 class="guide_card_title">{{ guide.title }}</h6>
         </a> 
     </div>
+    {% endif %}
     {% endfor %}
-    <div id="guide_card_suggest" class="guide_card">
-      <a href="#">
-        <h6 class="guide_card_title">Suggest a guide</h6>
-      </a> 
-  </div>
   </div>
 </div>
