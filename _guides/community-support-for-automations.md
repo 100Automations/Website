@@ -35,13 +35,13 @@ Include the type of contribution you’re looking for. For example:
 - coding
 
 ### Template:
-- [Default CONTRIBUTING.md](https://github.com/100Automations/.github-automations/blob/master/CONTRIBUTING.md) file from our template repository
+- [Default CONTRIBUTING.md](https://github.com/100Automations/.github-automations/blob/master/CONTRIBUTING.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
 - https://github.com/100Automations/true-github-contributors/blob/mixin/CONTRIBUTING.md
 
 ### Additional resources:
-- GitHub guide: [Setting guidelines for repository contributors](https://docs.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors)
+- GitHub guide: [Setting guidelines for repository contributors](https://docs.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors){:target="_blank"}
 
 
 <br/>
@@ -51,13 +51,13 @@ Include the type of contribution you’re looking for. For example:
 **The security.md file tells how people can safely report a security vulnerability in your automation.**
 
 ### Template:
-- [Default SECURITY.md](https://github.com/100Automations/.github-automations/blob/master/SECURITY.md) file from our template repository
+- [Default SECURITY.md](https://github.com/100Automations/.github-automations/blob/master/SECURITY.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
 - https://github.com/100Automations/true-github-contributors/blob/mixin/SECURITY.md
 
 ### Additional resources:
-- GitHub guide: [Adding a security policy to your repository](https://docs.github.com/en/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository)
+- GitHub guide: [Adding a security policy to your repository](https://docs.github.com/en/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository){:target="_blank"}
 
 
 <br>
@@ -67,13 +67,13 @@ Include the type of contribution you’re looking for. For example:
 **The support.md files lets people know how to get help implementing your automation**
 
 ### Template:
-- [Default SUPPORT.md](https://github.com/100Automations/.github-automations/blob/master/SUPPORT.md) file from our template repository
+- [Default SUPPORT.md](https://github.com/100Automations/.github-automations/blob/master/SUPPORT.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
 - https://github.com/100Automations/true-github-contributors/blob/mixin/SUPPORT.md
 
 ### Additional resources:
-- see GitHub [Adding support resources to your project](https://docs.github.com/en/github/building-a-strong-community/adding-support-resources-to-your-project) tutorial 
+- see GitHub [Adding support resources to your project](https://docs.github.com/en/github/building-a-strong-community/adding-support-resources-to-your-project){:target="_blank"} tutorial 
 
 
 <br/>
@@ -83,10 +83,10 @@ Include the type of contribution you’re looking for. For example:
 **Usually the first place developers look, so it should be fairly comprehensive with links to the other health files.**
 
 ### Guide:
-- 100 Automations Guide: [Creating a Good Read.me for Your Automation](https://github.com/100Automations/Website/blob/master/_guides/creating-good-readmes-for-automations.md)
+- 100 Automations Guide: [Creating a Good Read.me for Your Automation](https://github.com/100Automations/Website/blob/master/_guides/creating-good-readmes-for-automations.md){:target="_blank"}
 
 ### Template:
-- [Default README.md](https://github.com/100Automations/.github-automations/blob/master/README.md) file from our template repository
+- [Default README.md](https://github.com/100Automations/.github-automations/blob/master/README.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
 - https://github.com/100Automations/true-github-contributors/blob/mixin/readme.md
@@ -102,13 +102,13 @@ Include the type of contribution you’re looking for. For example:
 **We recommend GNU 2.0**
 
 ### Template:
-- Default [LICENSE](https://github.com/100Automations/.github/blob/master/LICENSE) file from our template repository
+- Default [LICENSE](https://github.com/100Automations/.github/blob/master/LICENSE){:target="_blank"} file from our template repository
 
 ### Example from a project:
 - https://github.com/100Automations/true-github-contributors/blob/mixin/LICENSE
 
 ### Additional resources:
-- see GitHub [Adding a license to a repository](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-license-to-a-repository)
+- see GitHub [Adding a license to a repository](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-license-to-a-repository){:target="_blank"}
 
 
 <br/>
@@ -117,22 +117,22 @@ Include the type of contribution you’re looking for. For example:
 ## CODE_OF_CONDUCT.md
 **Your new repo will contain a Code of Conduct file.**
 
-You just need to add your project name. Please do not edit any other details. If you have suggested revisions, please let us know by opening an [issue](https://github.com/100Automations/Website/issues/new?assignees=&labels=&template=blank-issue.md&title=).
+You just need to add your project name. Please do not edit any other details. If you have suggested revisions, please let us know by opening an [issue](https://github.com/100Automations/Website/issues/new?assignees=&labels=&template=blank-issue.md&title=){:target="_blank"}.
 
-If importing your automation from your own repository, add our [default Code of Conduct](https://github.com/100Automations/.github/blob/master/CODE_OF_CONDUCT.md)
+If importing your automation from your own repository, add our [default Code of Conduct](https://github.com/100Automations/.github/blob/master/CODE_OF_CONDUCT.md){:target="_blank"}
 
 ### Template:
-- Default [CODE_OF_CONDUCT.md](https://github.com/100Automations/.github/blob/master/CODE_OF_CONDUCT.md) file from our template repository
+- Default [CODE_OF_CONDUCT.md](https://github.com/100Automations/.github/blob/master/CODE_OF_CONDUCT.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
 - https://github.com/100Automations/true-github-contributors/blob/mixin/CODE_OF_CONDUCT.md
 
 ### Additional resources:
-- See GitHub [Adding a code of conduct to your project](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)
+- See GitHub [Adding a code of conduct to your project](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project){:target="_blank"}
 
 <br/>
 
 ---
 ## End of File
 
-To propose/submit changes please [edit](https://github.com/100Automations/Website/blob/master/_guides/community-support-for-automations.md) the markdown file for this guide 
+To propose/submit changes please [edit](https://github.com/100Automations/Website/blob/master/_guides/community-support-for-automations.md){:target="_blank"} the markdown file for this guide 

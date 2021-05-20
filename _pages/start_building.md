@@ -37,7 +37,7 @@ Some automations are already in development but still need help. Click on the "n
 Here is the [anatomy of an automation card](https://github.com/100Automations/Website/blob/gh-pages/_guides/project_card_anatomy.md) to hep you navigate around automations on our homepage.
 
 ## Need help at any stage?
-If you need help at any stage of the build process, be sure to move your automation card in the [Futureautomations board](https://github.com/100Automations/futureautomations/projects/1) to the [Questions for the 100 Automations Team](https://github.com/100Automations/futureautomations/projects/1#column-12391599) column.
+If you need help at any stage of the build process, be sure to move your automation card in the [Futureautomations board](https://github.com/100Automations/futureautomations/projects/1) to the [Questions for the 100 Automations Team](https://github.com/100Automations/futureautomations/projects/1#column-12391599){target="_blank"} column.
 
 If your automation needs help, in the form of peer review, maintenance, support for users, refactoring, or documentation, make sure to apply the "Needs help" and the type of help labels to your automation card.
 

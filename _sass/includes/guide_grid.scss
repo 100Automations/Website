@@ -4,12 +4,42 @@
     padding: 0 0 12rem 0;
     margin-bottom: 4rem;
     border-radius: 0 0 100px 100px;
-
-    h4 {
-      margin: 0;
+    .guides_title{
+      position: relative;
+      right:200px;
+      .spacer{
+        flex:1
+      }
+      ;
+      #suggest_a_guide{
+        border: 2px solid #003750;
+        box-sizing: border-box;
+        border-radius: 28px;
+        padding: 12px 22px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: $poppins;
+        color: #003750;
+      }
+      ;
+      #guides_title_text{
+        position: inherit;
+        left:120px;
+      flex: 1;
+      font-family: $poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 140%;
+      }
+      ;
     }
+    ;
   .guide_grid {
     justify-content: center;
+    
 
       .guide_card {
           border-radius: 16px;
@@ -17,38 +47,58 @@
           height: 230px;
           margin: 12px;
           padding: 6px;
-
+          background: linear-gradient(130.94deg, #F36437 0.77%, #C93709 100.78%);
+          a{
+            text-decoration: none;
+          }
+          ;
           .guide_card_title {
               display: block;
               text-align: center;
               margin-top: 4rem;
               color:$white;
           } 
-      }
-
-      #guide_card_suggest {
-        background: linear-gradient(130.94deg, #c6c6c6 0%, #8f8f8f 100%);
-        color: $primary;
-      }
-      
-
+          ;
+        }
+      ;
       // guide_card color pattern
-      .guide_card:nth-child(5n-4) {
-        background-image: linear-gradient(130deg, #1449B0 0.8%, #011C61 100%);
+      // .guide_card:nth-child(5n-4) {
+      //   background-image: linear-gradient(130deg, #1449B0 0.8%, #011C61 100%);
+      // }
+      // .guide_card:nth-child(5n-3) {
+      //   background-image: linear-gradient(130deg, #BB4513 0.8%, #5B2E05 100%);
+      // }
+      // .guide_card:nth-child(5n-2) {
+      //   background-image: linear-gradient(130deg, #7B23A4 0.8%, #2C053F 100%);
+      // }
+      // .guide_card:nth-child(5n-1) {
+      //   background-image: linear-gradient(130deg, #22852C 0.8%, #032D07 100%);
+      // }
+      // .guide_card:nth-child(5n) {
+      //   background-image: linear-gradient(130deg, #B241A7 0.8%, #5B0944 100%);
+      // }
+    }
+    ;
+    @media screen and (max-width: 480px) {
+      .guides_title{
+        justify-content: center;
+        right: 0px;
+        .spacer{
+          flex:none;
+        }
+        #suggest_a_guide{
+          position: absolute;
+          top:1200px;
+        }
+        ;
+        #guides_title_text{
+          left:0px;
+        }
+        ;
       }
-      .guide_card:nth-child(5n-3) {
-        background-image: linear-gradient(130deg, #BB4513 0.8%, #5B2E05 100%);
-      }
-      .guide_card:nth-child(5n-2) {
-        background-image: linear-gradient(130deg, #7B23A4 0.8%, #2C053F 100%);
-      }
-      .guide_card:nth-child(5n-1) {
-        background-image: linear-gradient(130deg, #22852C 0.8%, #032D07 100%);
-      }
-      .guide_card:nth-child(5n) {
-        background-image: linear-gradient(130deg, #B241A7 0.8%, #5B0944 100%);
-      }
+      ;
+
+    }
+    ;
   }
-}
-
-
+  ;

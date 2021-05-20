@@ -6,18 +6,23 @@
         h3 {
             margin: 1.5rem 0 1.75rem 0;
         }
+        ;
         .automation_subtitle{
             width: 50%;
             margin-bottom: 3.5rem;
             strong {
                 color: $secondary;
             }
+            ;
         }
+        ;
     }
+    ;
 
     .flexbox_row{
         justify-content: center;
     }
+    ;
     .full_ato_card {
         display: flex;
         flex-flow: column nowrap;
@@ -36,6 +41,7 @@
             padding: 12px;
             align-self: flex-end;
         }
+        ;
 
         .ato_card {
             border-radius: 26px 0 26px 26px;
@@ -43,6 +49,7 @@
             box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
             height: 636px;
             position: relative;
+            padding-bottom: 70px;
             
             .ato_card_title {
                 padding: 0 28px;
@@ -50,11 +57,14 @@
                 h6 {
                     margin: 0;
                 }
+                ;
             }
+            ;
             .ato_card_text {
                 padding: 0 28px;
                 height: 200px;
             }
+            ;
 
             .needs_list {
                 margin: 0;
@@ -71,21 +81,119 @@
                 p.body3 {
                     margin: 4px 0;
                 }
+                ;
                 }
+                ;
             .d_none {
                 display: none;
             }
-
-            img {
+            ;
+            .ato_card_media{
+                 img {
                 width: 100%;
                 border-radius: 26px 0 0 0;
+                margin-bottom: 30px;
             }
+            ;
+            }
+           
+            .ato_bag{
+            position: relative;
+            margin-bottom: 20px;;
+            .ato_tech>.tech_icon{
+                width: 16px;
+                border-radius: 0px;
+                position: absolute;
+                left: 30px;
+
+            }
+            .ato_chip{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 3px 15px;
+                position: absolute;
+                margin-right:28px;
+                width: 150px;
+                height: 18.72px;
+                left: 260px;
+                right:0px;
+                top: -3px;
+                background: linear-gradient(130.94deg, #015573 0.77%, #01455E 100.78%);
+                border-radius: 20px;
+                span{
+                    font-family: $poppins;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 8px;
+                    line-height: 100%;
+                    text-transform: uppercase;
+                    color:$white;
+                    clear: both;
+                    display: inline-block;
+                    overflow: visible;
+                    white-space: nowrap;
+                    text-align: left;
+
+                }
+                ;
+            }
+            ;
+            }
+            ;
 
             .ato_card_actions {
-
-                width: 100%;
-                text-align: center;
+                background: $secondary;
+                border-radius: 28px;
+                box-shadow: 0px 3.86033px 9.65083px rgba(0, 0, 0, 0.25), inset 0px 3.86033px 3.86033px rgba(255, 255, 255, 0.25);
+                display: flex;
+                width: 90%;
+                justify-content: center;
+                position: relative;
+                top: 90px;
+                left:20px;
+               
             }
+            ;
+            .seen_in{
+                position: relative;
+                bottom: 40px;
+                span{
+                    position: absolute;
+                    left: 30px;
+                    top: 150px;
+                    font-family: Open Sans;
+                    font-style: italic;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 130%;
+                }
+                ;
+
+                img{
+                    position: absolute;
+                    width: 45px;
+                    top: 138px;
+                    left: 96px;
+                   
+                }
+                ;
+            }
+            ;
+            @media screen and (max-width:480px) {
+                
+                    .ato_bag>.ato_chip{
+                        left: 154px;
+                    };
+                    .ato_card_actions>a.read_me_button{
+                        padding: 4px 100px;
+                    }
+                
+            }
+            ;
         }
+        ;
     }
+    ;
 }
+;
