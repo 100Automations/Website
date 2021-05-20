@@ -4,10 +4,7 @@ header.header{
         justify-content: space-between;
         align-items: center;
       padding: 0px 30px;
-    
-        .spacer {
-            flex: 1;
-        }
+
     
     
         .header_nav_list {
@@ -52,7 +49,7 @@ header.header{
 
     // Mobile styles
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 480px) {
         .header_row{
             padding: 0px 19px;
         }
