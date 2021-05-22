@@ -119,7 +119,3 @@ A good profile picture is a:
 
 Here are [10 Tips for Picking the Right LinkedIn Profile Picture](https://business.linkedin.com/talent-solutions/blog/2014/12/5-tips-for-picking-the-right-linkedin-profile-picture){:target="_blank"}v.
 
----
-#### END
----
-To propose/submit changes to this guide please [edit]() the markdown file for this guide
