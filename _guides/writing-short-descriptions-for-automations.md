@@ -55,8 +55,3 @@ Here are two examples:
 - A practical example where you can see this (recommended)
 Reason: because the use of the automation does not produce artifacts that can been seen through a browser.
 
----
-END
----
-
-To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/writing-short-descriptions-for-automations.md){:target="_blank"} the markdown file for this guide
