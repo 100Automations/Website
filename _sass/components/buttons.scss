@@ -23,18 +23,24 @@ a.contribute{
 };
 
 a.read_me_button{
+    width: 100%;
+    height: 38px; 
+    background: $secondary;
+    border-radius: 28px;
+    box-shadow: 0px 3.86033px 9.65083px rgba(0, 0, 0, 0.25), inset 0px 3.86033px 3.86033px rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: $poppins;
     text-align: center;
-    vertical-align: middle;
     text-transform: none;
-    font-style: normal;
     font-weight: 600;
-    font-size: 19px;
-    line-height: 42px;
-    height: 40px;    
+    font-size: 20px;
+    line-height: 42px; 
     color: $white;
     text-decoration: none;
-    
-  
+    i {
+        margin-left: 10px;
+    }
 };
 
