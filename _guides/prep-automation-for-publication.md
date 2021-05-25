@@ -84,7 +84,3 @@ _If status in use, what codebase can it be seen in?_
 ## Ready to submit your automation?
 Use our [issue template](https://github.com/100Automations/Website/issues/new?assignees=&labels=documentation%2C+good+first+issue&template=create-automation-card-for--automation-name-.md&title=Create+automation+card+for+%5Bautomation+name%5D){:target="_blank"} for submitting the information we will need for the project card to appear on the [100automations.org](https://100automations.org) website
 
----
-#### END
----
-To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/prep-automation-for-publication.md){:target="_blank"} the markdown file for this guide
