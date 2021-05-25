@@ -77,5 +77,3 @@ The project image is 744 x 300 pixels, but displays at half that size, so it nee
  - [Wikimedia Commons: Simple media reuse guide](https://commons.wikimedia.org/wiki/Commons:Simple_media_reuse_guide){:target="_blank"}
 
 
----
-**End**
