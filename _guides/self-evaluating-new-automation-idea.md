@@ -26,8 +26,3 @@ Look at the [guide for creating a good ReadMe](https://github.com/100Automations
 
 ## Propose your automation
 Once you're ready, fill out the [Automation Proposal](https://github.com/100Automations/futureautomations/issues/new?assignees=&labels=documentation%2C+review&template=-automation-proposal.md&title=%5BAutomation+Name%5D+Proposal){:target="_blank"} which will add your automation as a Future Automations issue.
-
----
-#### END
----
-To propose/submit changes to this guide please [edit](https://github.com/100Automations/Website/blob/master/_guides/self-evaluating-new-automation-idea.md){:target="_blank"} the markdown file for this guide
