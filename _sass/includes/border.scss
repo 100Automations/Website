@@ -47,15 +47,6 @@
                 flex-wrap: nowrap;
                 }
                 ;
-
-                a {
-                text-decoration: none;
-                color: $primary;
-                background: linear-gradient(180deg, #FFFFFF 0%, #D9E1E5 100%);
-                font-family: $poppins;
-                font-weight: 600;
-                }
-                ;
         }
         ;
         @media screen and (max-width: 480px) {
