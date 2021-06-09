@@ -48,7 +48,7 @@ h6 {
     line-height: 130%;
 }
 
-p {
+p, span {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 130%;
@@ -56,18 +56,34 @@ p {
 }
 
 
-p.body2 {
+p.body2, span.body2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 140%;
     font-weight: 400;
 }
 
-p.body3 {
+p.body3, span.body3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 135%;
     font-weight: 400; 
+}
+
+p.label, span.label {
+    font-size: 10px;
+    font-weight: 400;
+    color: $white;
+    line-height: 130%;
+    text-transform: uppercase;
+    clear: both;
+    white-space: nowrap;
+}
+
+p.card_tab, span.card_tab {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 

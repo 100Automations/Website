@@ -50,7 +50,3 @@ This goes the "readme" file at the GitHub code hosting platform. The readme prov
 
 ## Codebases project is used by
 These or projects and organizations that are currently using the automation, identified by logo
-
----
-_End of Guide_
-To propose/submit changes, please [edit](https://github.com/100Automations/Website/blob/master/_guides/project-card-anatomy.md){:target="_blank"} the markdown file for this guide

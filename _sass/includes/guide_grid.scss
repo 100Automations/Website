@@ -11,19 +11,6 @@
         flex:1
       }
       ;
-      #suggest_a_guide{
-        border: 2px solid #003750;
-        box-sizing: border-box;
-        border-radius: 28px;
-        padding: 12px 22px;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-        font-family: $poppins;
-        color: #003750;
-      }
-      ;
       #guides_title_text{
         position: inherit;
         left:120px;
@@ -48,9 +35,6 @@
           margin: 12px;
           padding: 6px;
           background: linear-gradient(130.94deg, #F36437 0.77%, #C93709 100.78%);
-          a{
-            text-decoration: none;
-          }
           ;
           .guide_card_title {
               display: block;
