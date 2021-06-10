@@ -2,7 +2,7 @@
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
     padding: 1rem 5rem 7.7rem 5rem;
     margin-bottom: 4rem;
-    border-radius: 0 0 100px 100px;
+    border-radius: 0 0 110px 110px;
     .guides_title {
       padding-left: 4rem;
     }
@@ -11,6 +11,9 @@
     justify-content: center;
     padding-bottom: 5rem;
     .guide_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-radius: 16px;
         width: 270px;
         height: 230px;
@@ -20,8 +23,8 @@
         ;
         .guide_card_title {
             text-align: center;
-            margin-top: 4rem;
             color:$white;
+            margin: auto;
         } 
     }
   }
@@ -34,6 +37,7 @@
 @media screen and (max-width: 480px) {
   .guides {
     padding: 1rem 1rem 5rem 1rem;
+    border-radius: 0 0 40px 40px;
     margin-bottom: 3rem;
     .guides_title {
       margin-block-start: .5em;
