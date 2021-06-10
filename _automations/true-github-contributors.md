@@ -54,13 +54,13 @@ languages:
     - JavaScript
 status:
 #  - in use and ready to deploy
-  -  in use and being refactored
+#  -  in use and being refactored
 #  - in use and needs further development
 #  -  ready to deploy
 #  -  in development
 #  -  ready for development
 #  - in ideation
-#  - abandoned
+  - abandoned
 seen-in:
 # - lock-icon
   -  HackforLA #this needs to be a link eventually
