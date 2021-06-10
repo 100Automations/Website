@@ -24,6 +24,8 @@ a.default_light {
     padding: 12px 30px;
     color: $primary;
     background: $whitegradient;
+    position: inherit;
+    left: 76px;
 };
 a.default_light:hover {
     border: 4px solid #CDCBBF;
