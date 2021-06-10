@@ -1,88 +1,65 @@
 .guides {
-    text-align: center;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
-    padding: 0 0 12rem 0;
+    padding: 1rem 5rem 7.7rem 5rem;
     margin-bottom: 4rem;
-    border-radius: 0 0 100px 100px;
-    .guides_title{
-      position: relative;
-      right:200px;
-      .spacer{
-        flex:1
-      }
-      ;
-      #guides_title_text{
-        position: inherit;
-        left:120px;
-      flex: 1;
-      font-family: $poppins;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 48px;
-      line-height: 140%;
-      }
-      ;
+    border-radius: 0 0 110px 110px;
+    .guides_title {
+      padding-left: 4rem;
     }
-    ;
+    
   .guide_grid {
     justify-content: center;
-    
+    padding-bottom: 5rem;
+    .guide_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 16px;
+        width: 270px;
+        height: 230px;
+        margin: 2rem;
+        padding: 6px;
+        background: linear-gradient(130.94deg, #F36437 0.77%, #C93709 100.78%);
+        ;
+        .guide_card_title {
+            text-align: center;
+            color:$white;
+            margin: auto;
+        } 
+    }
+  }
+  div.show_guides_button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .guides {
+    padding: 1rem 1rem 5rem 1rem;
+    border-radius: 0 0 40px 40px;
+    margin-bottom: 3rem;
+    .guides_title {
+      margin-block-start: .5em;
+      margin-block-end: .5em;
+      padding-left: 0rem;
+      text-align: center;
+    }
 
+    .guide_grid {
+      padding-bottom: 3rem;
       .guide_card {
           border-radius: 16px;
-          width: 270px;
-          height: 230px;
-          margin: 12px;
-          padding: 6px;
-          background: linear-gradient(130.94deg, #F36437 0.77%, #C93709 100.78%);
-          ;
+          width: 150px;
+          height: 112px;
+          padding: 4px;
+          margin: .5rem;
           .guide_card_title {
-              display: block;
-              text-align: center;
-              margin-top: 4rem;
-              color:$white;
+              font-size: 18px;
+              margin-block-start: .4em;
+              margin-block-end: .4em;
           } 
-          ;
-        }
-      ;
-      // guide_card color pattern
-      // .guide_card:nth-child(5n-4) {
-      //   background-image: linear-gradient(130deg, #1449B0 0.8%, #011C61 100%);
-      // }
-      // .guide_card:nth-child(5n-3) {
-      //   background-image: linear-gradient(130deg, #BB4513 0.8%, #5B2E05 100%);
-      // }
-      // .guide_card:nth-child(5n-2) {
-      //   background-image: linear-gradient(130deg, #7B23A4 0.8%, #2C053F 100%);
-      // }
-      // .guide_card:nth-child(5n-1) {
-      //   background-image: linear-gradient(130deg, #22852C 0.8%, #032D07 100%);
-      // }
-      // .guide_card:nth-child(5n) {
-      //   background-image: linear-gradient(130deg, #B241A7 0.8%, #5B0944 100%);
-      // }
-    }
-    ;
-    @media screen and (max-width: 480px) {
-      .guides_title{
-        justify-content: center;
-        right: 0px;
-        .spacer{
-          flex:none;
-        }
-        #suggest_a_guide{
-          position: absolute;
-          top:1200px;
-        }
-        ;
-        #guides_title_text{
-          left:0px;
-        }
-        ;
       }
-      ;
-
     }
-    ;
   }
-  ;
+}
