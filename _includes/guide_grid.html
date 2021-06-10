@@ -1,9 +1,7 @@
 <!-- This will be the grid for guides on the home page -->
 <div id="guide_grid" class="guides">
-  <div class="guides_title flexbox_row">
-    <span id="guides_title_text">Guides</span>
-    <div class="spacer"></div>
-    <a id="suggest_a_guide" href="{{site.guides[6].url | relative_url }}">Suggest a guide</a>
+  <div class="guides_title">
+    <h3>Guides</h3>
   </div>
   <div class="guide_grid flexbox_row">
     <!-- Jekyll loops through our guides collection -->
@@ -19,5 +17,9 @@
     </div>
     {% endif %}
     {% endfor %}
+  </div>
+  <div class="show_guides_button">
+    <!-- needs to lead to 'all guides page' -->
+    <a class="default_dark" href="{{site.guides[6].url | relative_url }}">Show All Guides</a>
   </div>
 </div>

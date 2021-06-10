@@ -45,6 +45,10 @@
             //class needed for droppdown JS
             span.needs_chevron {
                 transition: .4s;
+                border: 2px solid white;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
             }
             span.flipped{
                 transform: rotate(180deg);
@@ -141,9 +145,6 @@
                     width: 50px; 
                 }
                 ;
-            }
-            ;
-            @media screen and (max-width:480px) {
             }
             ;
         }

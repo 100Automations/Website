@@ -1,9 +1,17 @@
+// TODO: use template language to pull words from file
+// instead of hardcoding
+
+
 .guide{
     display: grid;
     margin: 0 120px 0 120px;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(100px, auto);
     grid-column-gap: 3.975rem;
+  }
+
+  .content-container-title{
+    margin: 0;
   }
 
   .content-container--guide  h1 {
@@ -90,10 +98,19 @@
   }
 
   .body-container{
-    grid-row: 2;
     display: grid;
     grid-column-gap: 10px;
     grid-column: 1/span 12;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .body-container ul{
+    list-style-type: disc;
+  }
+
+  .body-container a{
+    text-decoration: none;
+    color: $secondary;
   }
 
   .content-container{
@@ -101,9 +118,15 @@
   } 
 
   .sticky-nav-container--guides{
-    grid-column: 9/12;
-
+    grid-column: 9/70;
+    margin-left: 53px;
     }
+
+  .sticky-nav-container--guides nav{
+    width: 310px;
+    height: 320px;
+    }
+    
   .sticky-nav-container--guides h2{
     font-family: $poppins;
     font-size: 20px;
@@ -113,10 +136,34 @@
     letter-spacing: 0em;
     text-align: left;
     color: #003750;
-  }
+    padding: 32px 24px 12px;
+    margin: 0;
+  } 
 
   .sticky-nav-container--guides ul{
     list-style-type: none;
-    margin:0;
-    padding-left: 1.5rem;
+    padding-left: 24px;
+    margin-top: 0;
+  }
+
+  .sticky-nav-container--guides a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    color:black;
+  }
+
+  .sticky-nav-container--guides li{
+    padding-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .nav-border-links{
+    border-left: 2px solid;
+    border-color: $iconsgrey;
+    margin-left: 12px;
+  }
+
+  .nav-border{
+    background-color: #F4F6F9;
   }
