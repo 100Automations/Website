@@ -1,30 +1,31 @@
 ---
 layout: default
 ---
-<!-- This will be our layout for each guide in our collection -->
+<!-- This will be our layout for each guide in our collection  -->
 
-<div class="guide guide_layout">
+<div class="guide guide_layout body-shadow">
     <section class="hero-container hero-container--guides">
         <h1 class="title1 col1">
           {{page.title}}
         </h1>
         <img class="col3" src="/assets/images/guides/OS.svg">
-    </section>
+    </section> 
     <section class="body-container body-container--guides">
         <div class="content-container content-container--guide">
           <h5 class="title5">In This Guide</h5>
-          <p class="p1">{{page.description}}</p>
+          <p class="p1"> Learn best practice for creating a good project image </p>
           {{content}}
         </div>
 
         <div class="sticky-nav-container--guides">
 
-          <nav>
+          <nav class='nav-border'>
             <h2>Contents</h2>
-            {% include toc.html html=content h_min=2%}
+              {% include toc.html submenu_class='nav-border-links' html=content h_min=2 h_max=3 %}
           </nav>
+
         </div>
         
     </section>
-
 </div>
+<!-- <div class='body-shadow'></div> -->
