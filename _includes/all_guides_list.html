@@ -1,0 +1,8 @@
+<div class="all_guides_list">
+    <ul>
+        {% for guide in site.guides %}
+        <li ><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
