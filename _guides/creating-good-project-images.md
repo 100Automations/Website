@@ -60,18 +60,18 @@ How to credit images:
 
 
 ### Where to find images
-
-#### Photgraphs:
+<!-- h4 -->
+Photgraphs:
  - [Pixabay](https://pixabay.com){:target="_blank"}
  - [Unsplash](https://unsplash.com){:target="_blank"}
  - [Pexels](https://www.pexels.com){:target="_blank"}
  - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images){:target="_blank"}
-
+<!-- h4 -->
 #### Icons:
  - [The Noun Project](https://thenounproject.com){:target="_blank"} - attribution required for free use
  - [flaticon](https://www.flaticon.com){:target="_blank"} - attribution required
-
-**Image Attribution Guidelines:**
+<!-- double apostrophe -->
+#### Image Attribution Guidelines:
  - [Noun Project: How do I give creators credit in my work?](https://thenounproject.zendesk.com/hc/en-us/articles/200509928-How-do-I-give-creators-credit-in-my-work-){:target="_blank"}
  - [Creative Commons: How to give attribution](https://creativecommons.org/use-remix/attribution/){:target="_blank"}
  - [CC: Best practices for attribution](https://wiki.creativecommons.org/wiki/best_practices_for_attribution){:target="_blank"}

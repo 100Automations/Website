@@ -97,8 +97,13 @@ grid-column: 10/12
 // end second section element 
 
 // left side container
+#creating-a-good-project-image {
+  margin: 1rem 0 1rem 0;
+}
+
 
 .title5 {
+  color: $primary;
   margin: 0;
 }
 
@@ -112,6 +117,11 @@ grid-column: 10/12
 
 .body-container ul{
   list-style-type: disc;
+  padding-left: 30px;
+}
+
+.body-container li{
+  margin-bottom: .5rem;
 }
 
 .body-container a{
@@ -164,6 +174,10 @@ grid-column: 10/12
 .sticky-nav-container--guides li{
   padding-bottom: 8px;
   margin-top: 8px;
+}
+
+.sticky-nav-container--guides a{
+  font-weight: normal;
 }
 
 .nav-border-links{
