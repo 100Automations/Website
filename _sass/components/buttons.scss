@@ -73,4 +73,16 @@ a.read_me_button{
         margin-left: 10px;
     }
 };
-
+a#suggest_a_guide{
+    box-sizing: border-box;
+    border-radius: 28px;
+    padding: 12px 22px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: $poppins;
+    background-color: $primary;
+    color: $white;
+  }
+  ;
