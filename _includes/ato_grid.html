@@ -35,11 +35,21 @@
               <div class="ato_tech">
                 <img src="{{'/assets/images/icons/logos/javascriptIcon.png'| relative_url }}" class="tech_icon" alt="javascript">
               </div>
+               {% for item in automation.status %}
+               {% if item == 'in use and ready to deploy' or item == 'in use and being refactored' or item == 'in use and needs further development' or item == 'ready to deploy'%}
               <div class="chip ato_in_use">
-                {% for item in automation.status %}
                 <p class="label">{{item}}</p>
-                {% endfor %}
               </div>
+              {% elsif item == 'in development' or item == 'ready for development' or item == 'in ideation'%}
+              <div class="chip ato_in_progress">
+                <p class="label">{{item}}</p>
+              </div>
+              {% else %}
+              <div class="chip ato_abandoned">
+                <p class="label">{{item}}</p>
+              </div>
+              {% endif %}
+              {% endfor %}
             </div>
               <div class="ato_card_title">
                 <h6>{{ automation.title }}</h6>

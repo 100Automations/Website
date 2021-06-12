@@ -6,3 +6,6 @@
 
 - name: About
   link: about
+
+- name: Guides
+  link: all_guides
