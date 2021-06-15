@@ -86,3 +86,13 @@ a#suggest_a_guide{
     color: $white;
   }
   ;
+button.download_all{
+ background-color: $offwhite;
+ color: $titlegrey;
+ border-radius: 20px;
+ padding: 7px;
+ font-family: $poppins;
+ font-size: 18px;
+ line-height: 28px;
+}
+;

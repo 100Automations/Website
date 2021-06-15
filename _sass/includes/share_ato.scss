@@ -13,11 +13,39 @@ border-radius: 0px 0px 100px 100px;
 
     ;
     div.social_media_posts,div.memes{
-        h5{
-            color: $white;  
-        }
-    }
+        position: relative;
+        button{
+            position: absolute;
+            top: 44px;
+            margin-left: 20px;
 
+        }
+        h5{
+            color: $white; 
+            margin-left: 130px; 
+        }
+        ;
+    }
+    ;
+    div.memes>div.memes_img{
+        overflow-x: scroll;
+        ul{
+            display: flex;
+            li{
+            display: inline;
+            margin-left: 80px;
+            img{
+                height: 300px;
+                border-radius: 33px;
+                
+            }
+            ;
+        }
+        ;
+    }
+    ;
+    }
+    ;
 }
 
 ;

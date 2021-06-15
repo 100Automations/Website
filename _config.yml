@@ -16,6 +16,7 @@ sass:
   style: compressed
 
 collections:
+  memes:
   automations:
   guides:
     output: true
