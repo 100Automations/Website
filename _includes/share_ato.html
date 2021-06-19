@@ -11,9 +11,7 @@
             </h5>
         </div>
         <div class="social_media_posts_action">
-            <button>
-                Download All
-            </button>
+            <button class="download_all"><i class="fa fa-download"></i> Download All</button>
         </div>
     </div>
     <div class="memes flexbox_row">
@@ -23,9 +21,16 @@
             </h5>
         </div>
         <div class="memes_actions">
-            <button>
-                Download All
-            </button>
+            <button class="download_all"><i class="fa fa-download"></i> Download All</button>
+        </div>
+        <div class="memes_img">
+            <ul>
+            {% for meme in site.memes %}
+                <li>
+                    <img src="{{ meme.image }}" alt="{{ meme.title }}">
+                </li>
+            {% endfor %}
+            </ul>
         </div>
     </div>
 </div>
