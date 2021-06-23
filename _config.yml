@@ -16,6 +16,8 @@ sass:
   style: compressed
 
 collections:
+  bios:
+    output: true
   memes:
   automations:
   guides:
