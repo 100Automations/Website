@@ -55,9 +55,9 @@ languages:
 status:
 #  - in use and ready to deploy
 #  -  in use and being refactored
-  - in use and needs further development
+#  - in use and needs further development
 #  -  ready to deploy
-#  -  in development
+  -  in development
 #  -  ready for development
 #  - in ideation
 #  - abandoned

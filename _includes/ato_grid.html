@@ -12,7 +12,7 @@
       <div class="full_ato_card">
         <button id="button_{{ forloop.index }}" class="button_needs">
           <span class="card_tab">Needs Help</span>
-          <span class=" card_tab needs_chevron">V</span>
+          <span class=" card_tab needs_chevron flipped">^</span>
         </button>
           <!-- Each card that is created will have a unique id accessed though the forloop.index-->
           <div id="card_{{forloop.index}}" class="ato_card">
@@ -35,11 +35,21 @@
               <div class="ato_tech">
                 <img src="{{'/assets/images/icons/logos/javascriptIcon.png'| relative_url }}" class="tech_icon" alt="javascript">
               </div>
+               {% for item in automation.status %}
+               {% if item == 'in use and ready to deploy' or item == 'in use and being refactored' or item == 'in use and needs further development' or item == 'ready to deploy'%}
               <div class="chip ato_in_use">
-                {% for item in automation.status %}
                 <p class="label">{{item}}</p>
-                {% endfor %}
               </div>
+              {% elsif item == 'in development' or item == 'ready for development' or item == 'in ideation'%}
+              <div class="chip ato_in_progress">
+                <p class="label">{{item}}</p>
+              </div>
+              {% else %}
+              <div class="chip ato_abandoned">
+                <p class="label">{{item}}</p>
+              </div>
+              {% endif %}
+              {% endfor %}
             </div>
               <div class="ato_card_title">
                 <h6>{{ automation.title }}</h6>
