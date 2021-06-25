@@ -5,7 +5,7 @@
 The 100 Automations website is going to be a standard [Jekyll](https://jekyllrb.com/) site hosted right here on [GitHub pages](https://pages.github.com/).  We will be providing further instructions after we have our first initial code.
 
 ## Project context
-For more information on the project development, refer to: [100 Automations Project One Sheet](https://github.com/100Automations/Website/blob/master/100-Automations_Project_One_Sheet.pdf). You can also read more about our project on our [Wiki](https://github.com/100Automations/Website/wiki).
+For more information on the project development, refer to: [100 Automations Project One Sheet](https://github.com/100Automations/Website/blob/gh-pages/100-Automations-Project-One-Sheet.pdf). You can also read more about our project on our [Wiki](https://github.com/100Automations/Website/wiki).
 
 ## Technology used
 
