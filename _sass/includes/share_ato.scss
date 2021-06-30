@@ -14,12 +14,6 @@ border-radius: 0px 0px 100px 100px;
     ;
     div.social_media_posts,div.memes{
         position: relative;
-        button{
-            position: absolute;
-            top: 44px;
-            margin-left: 20px;
-
-        }
         h5{
             color: $white; 
             margin-left: 130px; 
@@ -27,6 +21,16 @@ border-radius: 0px 0px 100px 100px;
         ;
     }
     ;
+    div.social_media_posts>div.social_media_posts_img{
+        div.social_media_posts_img_filter{
+            position: absolute;
+            left: 100px;
+            bottom: 0px;
+            ul>li{
+                display: inline;
+            }
+        }
+    }
     div.memes>div.memes_img{
         overflow-x: scroll;
         ul{
