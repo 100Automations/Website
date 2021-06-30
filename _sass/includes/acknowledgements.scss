@@ -33,10 +33,11 @@ div.acknowledgements{
     .acknowledgements_title{
         flex-direction: row-reverse;
         position: relative;
-        h1{
-         color: $white;
-        font-size: 8vw;
-        margin:auto;
+        margin-bottom: 100px;
+        span.title1{
+            position: absolute;
+            right: 90px;
+            top: 20px;
         }
         div#acknowledments_gear_image{
             
@@ -46,6 +47,13 @@ div.acknowledgements{
         right:-68px; 
         }
         ;
+       
+    }
+    ;
+    @media screen and (max-width: 480px ){
+        span.title1{
+            font-size: 32px;
+        }
     }
     ;
     }

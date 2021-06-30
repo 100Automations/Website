@@ -107,5 +107,11 @@ button.download_all{
  font-family: $poppins;
  font-size: 18px;
  line-height: 28px;
+ position: absolute;
+ top: 44px;
+ margin-left: 20px;
 }
 ;
+button.filter_button{
+margin: auto;
+}
