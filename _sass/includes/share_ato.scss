@@ -25,11 +25,36 @@ border-radius: 0px 0px 100px 100px;
         div.social_media_posts_img_filter{
             position: absolute;
             left: 100px;
-            bottom: 0px;
-            ul>li{
-                display: inline;
+            top: 70px;
+            ul{
+                li{
+                    display: inline;
+                }
+                ;
             }
+            ;
         }
+        ;
+        ul.social_media_posts_img_list{
+            display: none;
+            li{
+                display:inline ;
+                margin-left: 80px;
+                img{
+                    width: 300px;
+                    border-radius: 26px;
+                    
+                }
+                ;
+            }
+            ;
+        }
+        ;
+        ul#Facebook{
+            display:flex; 
+        }
+        ;
+        
     }
     div.memes>div.memes_img{
         overflow-x: scroll;

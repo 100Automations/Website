@@ -16,6 +16,8 @@ sass:
   style: compressed
 
 collections:
+  social-media-posts:
+    output: true
   memes:
   automations:
   guides:
