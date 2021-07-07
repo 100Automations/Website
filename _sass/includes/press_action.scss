@@ -20,14 +20,18 @@ div.press_action {
     div.assets {
         width: 50%;
         justify-content: center;
-
+        
+        a{
+            color: $titlegrey;
+           
+        }
         div.assets_title {
             span {
                 height: 24px;
                 width: 48px;
                 left: 800px;
                 top: 424px;
-                border-radius: nullpx;
+                text-decoration: none;
 
             }
             ;
@@ -65,7 +69,7 @@ div.press_action {
                 font-size: 20px;
                 line-height: 118%;
                 /* or 24px */
-
+                justify-content: center;
                 display: flex;
                 align-items: flex-end;
                 text-align: center;

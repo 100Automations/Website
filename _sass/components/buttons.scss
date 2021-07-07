@@ -6,6 +6,10 @@ a {
     color: $secondary;
 }
 ;
+a:hover{
+cursor: pointer;
+}
+;
 
 a.default_dark {
     border-radius: 28px;
@@ -73,6 +77,15 @@ a.read_me_button{
         margin-left: 10px;
     }
 };
+a.view_bio{
+    background-color: $primary;
+    color: $white;
+    border-radius: 30px;
+    padding: 7.90487px 24px;
+    align-items: center;
+
+}
+;
 a#suggest_a_guide{
     box-sizing: border-box;
     border-radius: 28px;
@@ -86,3 +99,19 @@ a#suggest_a_guide{
     color: $white;
   }
   ;
+button.download_all{
+ background-color: $offwhite;
+ color: $titlegrey;
+ border-radius: 20px;
+ padding: 7px;
+ font-family: $poppins;
+ font-size: 18px;
+ line-height: 28px;
+ position: absolute;
+ top: 44px;
+ margin-left: 20px;
+}
+;
+button.filter_button{
+margin: auto;
+}

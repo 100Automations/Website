@@ -8,12 +8,12 @@ layout: default
         <h1 class="title1 col1">
           {{page.title}}
         </h1>
-        <img class="col3" src="/assets/images/guides/OS.svg">
+        <img class="col3" src="{{'/assets/images/guides/OS.svg' | relative_url }}" class="no_share">
     </section> 
-    <section class="body-container body-container--guides">
+    <section class="body-container">
         <div class="content-container content-container--guide">
           <h5 class="title5">In This Guide</h5>
-          <p class="p1"> Learn best practice for creating a good project image </p>
+         <p class="p1">{{page.description}}</p>
           {{content}}
         </div>
 
@@ -23,7 +23,6 @@ layout: default
             <h2>Contents</h2>
               {% include toc.html submenu_class='nav-border-links' html=content h_min=2 h_max=3 %}
           </nav>
-
         </div>
         
     </section>

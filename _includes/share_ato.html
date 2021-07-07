@@ -11,9 +11,32 @@
             </h5>
         </div>
         <div class="social_media_posts_action">
-            <button>
-                Download All
-            </button>
+           <a href="https://drive.google.com/drive/folders/1-Z0umS6uqp309DQpA4vTND-b_qyVkVIM?usp=sharing" target="_blank"><button class="download_all" id="social_media" value="Facebook"><i class="fa fa-download"></i> Download All</button></a>
+        </div>
+        <div class="social_media_posts_img">
+            <div class="social_media_posts_img_filter">
+                <ul>
+                    {% for posts in site.social-media-posts %}
+                    <li><button class="filter_button" name="{{posts.social}}" value="{{ posts.social }}" >{{ posts.social }}</button></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <ul class="social_media_posts_img_list" id="{{site.social-media-posts[0].social}}">
+                <li><img src="{{ site.social-media-posts[0].have-an-idea.src }}" alt="{{{site.social-media-posts[0].have-an-idea.alt}}"></li>
+                <li><img src="{{site.social-media-posts[0].host-automation.src}}" alt="{{{site.social-media-posts[0].host-automation.alt}}"></li>
+                <li><img src="{{site.social-media-posts[0].logo.src}}" alt="{{{site.social-media-posts[0].logo.alt}}"></li>
+            </ul>
+            <ul class="social_media_posts_img_list" id="{{site.social-media-posts[1].social}}">
+                <li><img src="{{ site.social-media-posts[1].have-an-idea.src}}" alt="{{{site.social-media-posts[1].have-an-idea.alt}}"></li>
+                <li><img src="{{site.social-media-posts[1].host-automation.src}}" alt="{{{site.social-media-posts[1].host-automation.alt}}"></li>
+                <li><img src="{{site.social-media-posts[1].logo.src}}" alt="{{{site.social-media-posts[1].logo.alt}}"></li>
+            </ul>
+            <ul class="social_media_posts_img_list" id="{{site.social-media-posts[2].social}}">
+                <li><img src="{{ site.social-media-posts[2].have-an-idea.src}}" alt="{{{site.social-media-posts[2].have-an-idea.alt}}"></li>
+                <li><img src="{{site.social-media-posts[2].host-automation.src}}" alt="{{{site.social-media-posts[2].host-automation.alt}}"></li>
+                <li><img src="{{site.social-media-posts[2].logo.src}}" alt="{{{site.social-media-posts[2].logo.alt}}"></li>
+            </ul>
+
         </div>
     </div>
     <div class="memes flexbox_row">
@@ -23,9 +46,65 @@
             </h5>
         </div>
         <div class="memes_actions">
-            <button>
-                Download All
-            </button>
+           <a href="https://drive.google.com/drive/folders/1yHPgR8FNSWIa-dfqylgRmbdhFZONR13c?usp=sharing" target="blank"><button class="download_all" value="memes"><i class="fa fa-download"></i> Download All</button></a> 
+        </div>
+        <div class="memes_img">
+            <ul>
+            {% for meme in site.memes %}
+                <li>
+                    <img src="{{ meme.image }}" alt="{{ meme.title }}">
+                </li>
+            {% endfor %}
+            </ul>
         </div>
     </div>
 </div>
+
+<script> 
+    {% assign social = site.social-media-posts %}
+    const social = [
+        {% for posts in social %}
+        {
+            "posts":{
+                'haveAnIdea': "{{posts.have-an-idea.src}}",
+                'hostAutomation': "{{posts.host-automation.src}}",
+                'logo':"{{posts.logo.src}}",
+                'social':"{{posts.social}}"
+            }
+        },
+        {% endfor %}
+    ];
+
+    const imgFilter = string =>{
+        imgList.forEach( img =>{
+            if(img.id === string){
+                img.style.display="flex"
+            }
+            else{
+                img.style.display="none"
+            }
+        }  ) 
+    }
+
+     const imgList = document.querySelectorAll(".social_media_posts_img_list");
+     const filterBtn = document.querySelectorAll("button.filter_button").forEach(btn=> btn.addEventListener("click", event => {
+        let target = event.target.value;
+        switch(target){
+            case "Facebook":
+            imgFilter("Facebook");
+            break;
+            case "Twitter" :
+            imgFilter("Twitter");
+            break;
+            case"Instagram":
+            imgFilter("Instagram");
+            break;
+            default:
+                console.log("error");
+        };
+     }));
+    //  function filterImg (){
+
+    //  }
+
+</script>

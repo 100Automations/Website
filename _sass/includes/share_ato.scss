@@ -13,11 +13,103 @@ border-radius: 0px 0px 100px 100px;
 
     ;
     div.social_media_posts,div.memes{
+        position: relative;
         h5{
-            color: $white;  
+            color: $white; 
+            margin-left: 130px; 
+        }
+        ;
+    }
+    ;
+    div.social_media_posts>div.social_media_posts_img{
+        div.social_media_posts_img_filter{
+            position: absolute;
+            left: 100px;
+            top: 70px;
+            ul{
+                li{
+                    display: inline;
+                }
+                ;
+            }
+            ;
+        }
+        ;
+        ul.social_media_posts_img_list{
+            display: none;
+            li{
+                display:inline ;
+                margin-left: 80px;
+                img{
+                    height: 300px;
+                    width: 300px;
+                    border-radius: 26px;
+                    
+                }
+                ;
+            }
+            ;
+        }
+        ;
+        ul#Facebook{
+            display:flex; 
+        }
+        ;
+        
+    }
+    div.memes>div.memes_img{
+        overflow-x: scroll;
+        ul{
+            display: flex;
+            li{
+            display: inline;
+            margin-left: 80px;
+            img{
+                height: 300px;
+                border-radius: 33px;
+                
+            }
+            ;
+        }
+        ;
+    }
+    ;
+    }
+    ;
+    @media screen and (max-width: 480px){
+        padding-bottom: 150px;
+        div.social_media_posts,div.memes{
+            justify-content: left;
+            h5{
+                flex:1;
+                margin-left: 0px;
+            }
+            ;
+            
+        }
+        ;
+        div.social_media_posts>div.social_media_posts_action{
+            position: absolute;
+            bottom:0px;
+            right: 304px;
+            button{
+                margin-left: 0px;
+                top: 20px;
+                width:208px;
+            }  
+        }
+        div.memes>div.memes_actions{
+            position: absolute;
+            bottom:0px;
+            right: 304px;
+            button{
+                margin-left: 0px;
+                top: 20px;
+                width:208px;
+            }
         }
     }
-
+    ;
 }
 
 ;

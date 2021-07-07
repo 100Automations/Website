@@ -12,12 +12,11 @@
 background-color: #003750;
 box-shadow: -20rem 0 #003750, 40rem 0 #003750;
 margin-bottom: 4rem;
-
 }
 
 .hero-container--guides .col1{
 grid-column: 1/8;
-max-width: 827px;
+max-width: max-content;
 max-height: 168px;
 margin: 4rem 0 4rem 0;    
 }
@@ -25,12 +24,15 @@ margin: 4rem 0 4rem 0;
 .hero-container--guides .col3{
 grid-column: 10/12
 }
+
+.title1 {
+  align-self: center;
+}
 // end hero container - first section element
 
 // parental div stuff 
 .guide{
-  display: grid;
-  // margin: 0 50px 0 120px;
+  // display: grid;
   padding: 0 120px 0 120px;
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: minmax(100px, auto);
@@ -62,6 +64,7 @@ grid-column: 10/12
   letter-spacing: 0em;
   text-align: left;
   color: #383843;
+  margin-top: 1.5rem;
 }
 
 .content-container--guide h3{
@@ -108,11 +111,10 @@ grid-column: 10/12
 }
 
 .body-container{
-  display: grid;
-  grid-column-gap: 11.8px;
-  grid-column: 1/span 12;
+  grid-column-gap: 22rem;
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 5rem;
+  display: flex;
 }
 
 .body-container ul{
@@ -142,7 +144,7 @@ grid-column: 10/12
 
 .sticky-nav-container--guides nav{
   width: 310px;
-  height: 320px;
+  height: max-content;
   }
   
 .sticky-nav-container--guides h2{
@@ -161,19 +163,18 @@ grid-column: 10/12
 .sticky-nav-container--guides ul{
   list-style-type: none;
   padding-left: 24px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .sticky-nav-container--guides a{
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin: 0;
+  padding: 8px .5rem 8px 0;
+  margin: 0 1rem 0 0 ;
   color:black;
 }
 
 .sticky-nav-container--guides li{
   padding-bottom: 8px;
-  margin-top: 8px;
+  margin: 8px 0 0 0;
 }
 
 .sticky-nav-container--guides a{
@@ -190,6 +191,7 @@ grid-column: 10/12
 .nav-border{
   background-color: #F4F6F9;
   padding-bottom: 16px;
+  height: max-content;
 }
 // end right nav container
 

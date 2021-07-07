@@ -16,20 +16,38 @@ sass:
   style: compressed
 
 collections:
+  social-media-posts:
+    output: true
+  memes:
   automations:
   guides:
     output: true
   pages:
     output: true
+  bios:
+    output: true
 
 defaults:
-  - scope:
+  - 
+    scope:
       path: ""
       type: "guides"
     values:
       layout: "guides"
-  - scope:
+  - 
+    scope:
       path: ""
       type: "pages"
     values:
       layout: "guides"
+  - 
+    scope:
+      path: ""
+      type: "bios"
+    values:
+      layout: "bios"
+  - 
+    scope:
+      path: ""
+    values:
+      layout: "default"
