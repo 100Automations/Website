@@ -6,13 +6,6 @@ layout: default
         <div class="bios_title">
             <span>Bios</span>
         </div>
-        <div class="bios_filter">
-            <ul>
-                <li><button>All</button></li>
-                <li><button>Website Team</button></li>
-                <li><button>Automators</button></li>
-            </ul>
-        </div>
     </div>
     <div class="bios_grid">
         {% for bio in site.bios %}
@@ -25,11 +18,7 @@ layout: default
             </div>
             <div class="bio_card_actions">
                 <div class="bio_card_link">
-                    <a href="{{bio.linkedIn-url}}"><img src="{{ 'assets/images/icons/linkedIn-icon.png' | relative_url }}" alt="Linked In Icon"></a>
-                </div>
-                <div class="bio_card_full">
-                    <a href="{{ bio.url | relative_url }}" target="_blank" class="view_bio">View Bio</a>
-                        
+                    <a href="{{bio.linkedIn-url}}"><img src="{{ 'assets/images/icons/linkedIn-icon.png' | relative_url }}" alt="Linked In Icon" target="_blank"></a>
                 </div>
             </div>
         </div>
