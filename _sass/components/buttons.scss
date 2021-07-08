@@ -1,4 +1,4 @@
-a {
+a, button {
     font-family: $poppins;
     font-weight: 600;
     text-decoration: none;
@@ -6,12 +6,13 @@ a {
     color: $secondary;
 }
 ;
-a:hover{
+a:hover, button:hover{
 cursor: pointer;
 }
 ;
 
-a.default_dark {
+a.default_dark, button.default_dark {
+    border: none;
     border-radius: 28px;
     width: 180px;
     padding: 12px 30px;
@@ -19,12 +20,13 @@ a.default_dark {
     color: white;
 }
 
-a.default_dark:hover {
+a.default_dark:hover, button.default_dark:hover {
     border: 4px solid #CDCBBF;
     padding: 8px 26px;
 };
 
-a.default_light {
+a.default_light, button.default_light {
+    border: none;
     border-radius: 28px;
     width: 180px;
     padding: 12px 30px;
@@ -33,34 +35,34 @@ a.default_light {
     position: inherit;
     left: 76px;
 };
-a.default_light:hover {
+a.default_light:hover, button.default_light:hover {
     border: 4px solid #CDCBBF;
     padding: 8px 26px;
 }
 
-a.secondary_dark {
+a.secondary_dark, button.secondary_dark {
     border-radius: 28px;
     width: 180px;
-    padding: 12px 30px;
+    padding: 10px 28px;
     border: 2px solid $primary;
     background-color: none;
     color: $primary;
 }
-a.secondary_dark:hover {
-    padding: 12px 28px;
+a.secondary_dark:hover, button.secondary_dark:hover {
+    padding: 8px 26px;
     border: 4px solid $primary;
 }
 
-a.secondary_light {
+a.secondary_light, button.secondary_light {
     border-radius: 28px;
     width: 180px;
-    padding: 12px 30px;
+    padding: 10px 28px;
     border: 2px solid $white;
     background-color: none;
     color: $white;
 }
-a.secondary_light:hover {
-    padding: 12px 28px;
+a.secondary_light:hover, button.secondary_light:hover{
+    padding: 8px 26px;
     border: 4px solid $white;
 }
 
