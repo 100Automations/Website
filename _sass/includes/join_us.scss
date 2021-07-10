@@ -30,6 +30,13 @@ div.join_us_goals_lists{
     button {
         margin: 10px;
     }
+    ;
+    #white{
+        color: $primary;
+        background: $white;
+        width: 143px;
+    }
+    ;
 };
 
 @media screen and (max-width: 440px){
