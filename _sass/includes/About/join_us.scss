@@ -27,17 +27,8 @@ div.join_us_goals_lists{
 
 .join_us_actions{
     justify-content: center;
-    button{
-        font-family: $poppins;
-        font-weight: 600;
-        color: $white;
-        background: $primary;
-        border-radius: 28px;
-        margin-right: 14px;
-        width: 193px;
-        height: 58px;
-        padding:12px, 30px, 12px, 30px;
-        
+    button {
+        margin: 10px;
     }
     ;
     #white{
