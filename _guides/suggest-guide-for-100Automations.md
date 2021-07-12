@@ -10,8 +10,8 @@ display: true
 ## General Notes
 
 ### Keep it DRY
-So that you don't duplicate work, check for guides that are already written or have been suggested at this link:
-https://github.com/100Automations/Website/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature%3A+guides%22
+So that you don't duplicate work, check for guides that are already written or have been suggested in [the 100 Automations Project Board](https://github.com/100Automations/Website/issues?q=is%3Aissue+is%3Aopen+label%3A%22feature%3A+guides%22){:target="_blank"}.
+
 
 ### Get in touch if you need to
 You can join the [Hack for LA slack](http://hackforla.org/slack){:target="_blank"} and message us in our team channel #100automations
