@@ -2,11 +2,12 @@
 @import "components/index.scss";
 @import "includes/index.scss";
 @import "guides.scss";
+@import "press-kit/all_bios.scss";
 
 html,body {
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    overflow: visible;
 }

@@ -1,0 +1,62 @@
+div.acknowledgements{
+    width: 100%;
+    background-color: $primary;
+    border-radius: 0px 0px 111.455px 111.455px;
+    box-shadow: 0px 4.4582px 22.291px rgba(0, 0, 0, 0.15);
+    overflow:hidden;
+ div.origins, div.mentions, div.view_projects{
+        padding-left: 116px;
+        padding-right: 116px;
+        color: $white;
+        h6{
+            color: $white; 
+        }
+        ;
+
+    }
+    ;
+    .origins, .mentions{
+        flex:1;
+
+    }
+    ;
+    hr{
+        width: 100%;
+        background: #FCFCFC;
+        opacity: 0.2;
+    }
+    ;
+    .view_projects_icons{
+        justify-content: center;
+    }
+    ;
+    .acknowledgements_title{
+        flex-direction: row-reverse;
+        position: relative;
+        margin-bottom: 100px;
+        span.title1{
+            position: absolute;
+            right: 90px;
+            top: 20px;
+        }
+        div#acknowledments_gear_image{
+            
+            img{
+        position: absolute;
+        height: 144px;
+        right:-68px; 
+        }
+        ;
+       
+    }
+    ;
+    @media screen and (max-width: 480px ){
+        span.title1{
+            font-size: 32px;
+        }
+    }
+    ;
+    }
+    ;
+}
+;

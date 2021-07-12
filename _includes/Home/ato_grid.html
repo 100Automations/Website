@@ -1,0 +1,91 @@
+<!-- This will be where automations are displayed on the home page -->
+<div id="ato_grid" class="automations">
+  <div class="automations_title flexbox_column">
+    <h3>Automations</h3>
+    <!-- <div class="automation_subtitle">
+      <p class="body2">Ready to use some of our automations? Learn how to implement them in your project by reading our guide on <strong>automation implementation</strong>.</p>
+    </div> -->
+  </div>
+    <div class="flexbox_row">
+      <!-- Jekyll loops through our automation collection -->
+      {% for automation in site.automations %}
+      <div class="full_ato_card">
+        <button id="button_{{ forloop.index }}" class="button_needs">
+          <span class="card_tab">Needs Help</span>
+          <span class=" card_tab needs_chevron flipped">^</span>
+        </button>
+          <!-- Each card that is created will have a unique id accessed though the forloop.index-->
+          <div id="card_{{forloop.index}}" class="ato_card">
+            <!-- A list of needs that will display when the user clicks on it -->
+            <!-- Note, we will be able to access the automation.needs and loop through them for display-->
+            
+              <ul id="needs_{{ forloop.index }}" class="needs_list d_none">
+                {% for item in automation.needs %}
+                  <li><p class="body3">{{ item | capitalize }}</p></li>
+                {% endfor %}
+              </ul>
+            
+            <!-- This is our image that we access through our own API -->
+            <!-- The image folder is located in our assets -->
+            <div class="ato_card_media">
+              <img src="{{ automation.image | relative_url }}" class="no_share" alt="{{ automation.title }}">
+            </div>
+            <div>
+            <div class="ato_bag">
+              <div class="ato_tech">
+                <img src="{{'/assets/images/icons/logos/javascriptIcon.png'| relative_url }}" class="tech_icon no_share" alt="javascript">
+              </div>
+               {% for item in automation.status %}
+               {% if item == 'in use and ready to deploy' or item == 'in use and being refactored' or item == 'in use and needs further development' or item == 'ready to deploy'%}
+              <div class="chip ato_in_use">
+                <p class="label">{{item}}</p>
+              </div>
+              {% elsif item == 'in development' or item == 'ready for development' or item == 'in ideation'%}
+              <div class="chip ato_in_progress">
+                <p class="label">{{item}}</p>
+              </div>
+              {% else %}
+              <div class="chip ato_abandoned">
+                <p class="label">{{item}}</p>
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+              <div class="ato_card_title">
+                <h6>{{ automation.title }}</h6>
+              </div>
+              <div class="ato_card_text">
+                <p class="body3">
+                  {{ automation.description }}
+                </p>
+              </div>
+            </div>
+            <div class="ato_card_actions">
+              <!-- Automation Readme url is located in links index 1 -->
+              <!-- We will need to design a README.md button -->
+              <a href="{{ automation.links[1].url }}" 
+                target="_blank"
+                class="read_me_button">
+                ReadMe <i class="fa fa-github"></i>
+              </a>
+              <div class="seen_on">
+                <span class="body3">As seen on:</span> <img src="{{'/assets/images/icons/logos/logo-hfl.png'| relative_url }}" alt="Hack for LA" class="no_share">
+                </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <script>
+    const toggleList = () => {
+      let needs_id = event.currentTarget.id.replace("button_", "needs_");
+      document.getElementById(needs_id).classList.toggle('d_none');
+      let chevron = event.currentTarget.querySelector('.needs_chevron').classList;
+      chevron.contains('flipped')? chevron.remove('flipped'):chevron.add('flipped');
+    }
+    Array.from(document.querySelectorAll('.button_needs')).forEach((button) => {
+      button.addEventListener('click', toggleList);
+    })
+  </script>

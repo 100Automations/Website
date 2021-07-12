@@ -1,0 +1,35 @@
+div.bios{
+  div.bios_grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 1;
+  div.bio_card{
+    box-shadow: 0px 0px 4px rgba(138, 138, 138, 0.6);
+    border-radius: 12px;
+    width: 270px;
+    height: 304px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    div.bio_card_image{
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 14.5px 0px;
+      img{
+        width: 108px;
+        height: 108px;
+        border-radius: 100%;
+      }
+      ;
+    }
+    ;
+  }
+  ;
+  }
+  ;
+}
+;

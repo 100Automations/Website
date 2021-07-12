@@ -1,0 +1,34 @@
+---
+title: bios
+layout: default
+---
+<div class="bio_content">
+    <div class="bio_content_image">
+        <img src="{{ page.picture }}" alt="{{ page.first-name }}" class="no_share">
+    </div>
+    <div class="bio_content_name">
+        <span> {{ page.first-name }} {{ page.last-name }}</span>
+    </div>
+    <div class="bio_content_description">
+      <span>
+           {{ page.bio-description }}
+      </span> 
+    </div>
+    <div class="bio_content_quote">
+       <span>
+        {{ page.quote }}
+       </span>
+    </div>
+    <div class="bio_content_motivations">
+        <div class="internal_motivations">
+            <span>
+                {{ page.internal-motivations }}
+            </span>
+        </div>
+        <div class="external_motivations">
+            <span>
+                {{ page.external-motivations }}
+            </span>
+        </div>
+    </div>
+</div>

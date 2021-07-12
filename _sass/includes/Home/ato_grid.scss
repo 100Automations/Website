@@ -1,0 +1,155 @@
+.automations {
+    padding-bottom: 7rem;
+    .automations_title{
+        text-align: center;
+        
+        h3 {
+            margin: 1.5rem 0 1.75rem 0;
+        }
+        ;
+        .automation_subtitle{
+            width: 50%;
+            margin-bottom: 3.5rem;
+            strong {
+                color: $secondary;
+            }
+            ;
+        }
+        ;
+    }
+    ;
+
+    .flexbox_row{
+        justify-content: center;
+    }
+    ;
+    .full_ato_card {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 12px;
+        width: 23.25rem;
+        height: fit-content;
+
+        .button_needs {
+            width: 180px;
+            background: $primary;
+            color: $white;
+            border: none;
+            border-radius: 10px 10px 0px 0px;
+            margin: 0;
+            padding: 12px;
+            align-self: flex-end;
+            display: flex;
+            justify-content: space-between;
+
+            //class needed for droppdown JS
+            span.needs_chevron {
+                transition: .4s;
+                border: 2px solid white;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+            }
+            span.flipped{
+                transform: rotate(180deg);
+            }
+        }
+        ;
+
+        .ato_card {
+            display: flex;
+            flex-flow: column nowrap;
+            border-radius: 26px 0 26px 26px;
+            margin-top: 0;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+            height: fit-content;
+            position: relative;
+            
+            .ato_card_title {
+                padding: 0 28px;
+                margin: 0;
+                h6 {
+                    margin: 0;
+                }
+                ;
+            }
+            ;
+            .ato_card_text {
+                padding: 0 28px;
+                height: 250px;
+            }
+            ;
+
+            .needs_list {
+                margin: 0;
+                padding-bottom: 12px;
+                padding-top: 12px;
+                width: 140px;
+                max-height: 182px;
+                background: $primary;
+                color: $white;
+                position: absolute;
+                right: 0;
+                top: 0;
+                border-radius: 0 0 10px 10px;
+                transition: .4s;
+                p.body3 {
+                    margin: 4px 0;
+                }
+                ;
+                }
+                ;
+            .d_none {
+                display: none;
+            }
+            ;
+            .ato_card_media{
+                 img {
+                width: 100%;
+                border-radius: 26px 0 0 0;
+                margin-bottom: 12px;
+            }
+            ;
+            }
+           
+            .ato_bag{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0px 28px 20px 28px;
+            .ato_tech>.tech_icon{
+                width: 16px;
+                height: auto;
+            }
+            ;
+            }
+            ;
+
+            .ato_card_actions {
+               margin: 28px;
+               display: flex;
+               flex-flow: column nowrap;
+               align-items: center;
+            }
+            ;
+            .seen_on{
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                align-self: flex-start;
+                span.body3{
+                    font-style: italic;
+                }
+                ;
+                img{
+                    width: 50px; 
+                }
+                ;
+            }
+            ;
+        }
+        ;
+    }
+    ;
+}
+;

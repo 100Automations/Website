@@ -1,0 +1,31 @@
+  <header class="header">
+    <button class="hamburger" onclick="openMenu()">☰</button>
+    <div class="header_row">
+      <!-- Title -->
+      <a href="{{ site.data.nav[0].link | relative_url }}"><img src="{{'/assets/images/icons/logos/100-short.png' | relative_url}}" width="110px" alt="100 Automations" width="300"></a>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="spacer"></div>
+      <!-- Navigation -->
+      <nav class="header_nav_list">
+        <a disabled="true" class="nav_item" href="{{ '#ato_grid' | relative_url }}">Automations</a>
+        <a disabled="true" class="nav_item" href="{{ site.data.nav[3].link| relative_url }}">Guides</a>
+        <a disabled="true" class="nav_item" href="{{ site.data.nav[2].link | relative_url }}">About</a>
+        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link | relative_url }}">Press</a>
+      </nav>
+    </div>
+  </header>
+<div class="header_drawer">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+      <a disabled="true" class="nav_item" href="{{ '#ato_grid' | relative_url }}}">Automations</a>
+        <a disabled="true" class="nav_item" href="{{ site.data.nav[3].link| relative_url }}">Guides</a>
+        <a disabled="true" class="nav_item" href="{{ site.data.nav[2].link | relative_url }}">About</a>
+        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link| relative_url }}">Press</a>
+    </div>
+  <script>
+    function openMenu(){
+      document.querySelector(".header_drawer").style.width="250px"
+    };
+    function closeMenu(){
+      document.querySelector(".header_drawer").style.width="0px"
+    }
+  </script>

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="bios">
+    <div class="bios_header">
+        <div class="bios_title">
+            <span>Bios</span>
+        </div>
+    </div>
+    <div class="bios_grid">
+        {% for bio in site.bios %}
+        <div class="bio_card">
+            <div class="bio_card_image">
+                <img src="{{ bio.picture }}" alt="{{ bio.first-name }}">
+            </div>
+            <div class="bio_card_name">
+                <span> {{ bio.first-name }} {{ bio.last-name }}</span>
+            </div>
+            <div class="bio_card_actions">
+                <div class="bio_card_link">
+                    <a href="{{bio.linkedIn-url}}"><img src="{{ 'assets/images/icons/linkedIn-icon.png' | relative_url }}" alt="Linked In Icon" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
