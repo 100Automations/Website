@@ -78,5 +78,3 @@ Image Attribution Guidelines:
  - [Creative Commons: How to give attribution](https://creativecommons.org/use-remix/attribution/){:target="_blank"}
  - [CC: Best practices for attribution](https://wiki.creativecommons.org/wiki/best_practices_for_attribution){:target="_blank"}
  - [Wikimedia Commons: Simple media reuse guide](https://commons.wikimedia.org/wiki/Commons:Simple_media_reuse_guide){:target="_blank"}
-
-To propose/submit changes to this guide, please [edit](#){:target="_blank"} the markdown file for this guide.
