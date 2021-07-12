@@ -1,4 +1,4 @@
 ---
 title: growing the open source community
-image: assets\images\memes\growing-the-open-source-community.png
+image: assets/images/memes/growing-the-open-source-community.png
 ---

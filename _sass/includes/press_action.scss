@@ -1,44 +1,71 @@
 div.press_action {
     justify-content: center;
-    margin: auto;
-
+    margin: 5rem 0rem;
+   height:460px;
     div.press_release {
         width: 50%;
-
-        label {
-            display: flex;
-            text-align: left;
+        position: relative;
+        justify-content: right;
+    div.press_release_title{
+        position: absolute;
+        bottom: 48px;
+        right: 232px;
+        span{
             font-family: $poppins;
-            position: relative;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 140%;
         }
-
         ;
+        }
+        ;
+    div.press_release_input{
+        display: block;
+        justify-content: right;
+        width: 403px;
+        height: 112px;
+        position: absolute;
+        
+        a span{
+           font-family: $poppins;
+        }
+        ;
+    }
+    ;
     }
 
     ;
 
     div.assets {
         width: 50%;
-        justify-content: center;
-        
+        position: relative;
         a{
             color: $titlegrey;
+            text-decoration: none;
            
         }
         div.assets_title {
+            display: block;
+            justify-content: right;
+            position: absolute;
+            bottom: 48px;
+            left: 48px;
             span {
-                height: 24px;
-                width: 48px;
-                left: 800px;
-                top: 424px;
-                text-decoration: none;
-
+                font-family: $poppins;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 140%;
             }
             ;
         }
         ;
 
-        div.assets_actions>div.asset {
+        div.assets_actions{
+            position: absolute;
+            top: 20px;
+            div.asset {
             text-align: center;
             height: max-content;
             flex:1;
@@ -81,14 +108,21 @@ div.press_action {
     }
 
     ;
-
+}
+;
     div.press_release_contact {
         font-family: $poppins;
         text-align: center;
-
+        position: relative;
+        align-items: center;
+        top: 120px;
+        width: 805px;
         p {
             font-family: $poppins;
-
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 140%;
             a {
                 text-decoration: none;
                 color: blue;
