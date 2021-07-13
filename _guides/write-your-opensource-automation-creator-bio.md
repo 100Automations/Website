@@ -6,38 +6,32 @@ display: true
 ---
 # Write your Open Source Automation Creator Bio
 
-## Instructions
-This is what we’ll need from you so that we can promote you in our marketing efforts.
+This is what we’ll need from you so that we can promote you in our marketing efforts:
+- Name
+- Bio
+- Quote
+- Motivations
+- Picture
 
-- [Name](#name)
-- [Bio](#bio)
-- [Quote](#question)
-- [Motivations](#motivations)
-- [Picture](#picture)
----
 
-<a name="name"></a>
 ## Name
 How would you like your name to appear on the website?
 
----
-<a name="bio"></a>
+
 ##  Bio
 
-### Uses:
+Uses for your bio:
 - Developers can find and collaborate with you
 - Content for your LinkedIn profile About section
 - Information for employers visiting 100 Automations
 - Speaker's bio if you land a speaking engagement
 
-### Elements:
 Your bio should have the following elements:
-
 - Summary: Highlight your contributions at 100 Automations or Hack for LA. You can also show off your achievements, put your career choices in context, or show off your personality.
 - Technical and Soft Skills: Highlight technologies used in your automations as well as your collaborative skills.
 - Socials: Where can developers or recruiters reach you?
 
-### Examples:
+
 Here are two examples:
 
 **Example 1: [Sophia Alice](https://www.linkedin.com/in/sophia-alice/)**
@@ -46,12 +40,12 @@ Here are two examples:
 >You can see my skills and connect with me on [LinkedIn](https://www.linkedin.com/in/sophia-alice/){:target="_blank"}, or check out my code on [GitHub](https://github.com/salice){:target="_blank"}.
 >For any other inquiries, please feel free to [Email](mailto:sophiaalice@protonmail.com) me.
 
-**Includes:**
+_Includes:_
 - A brief summary of background, interests, and strengths
 - Your involvement in open-source communities or 100 Automations. If you contributed to any automations, briefly mention them and your role.
 - Links to professional socials
 
-**Does not include:**
+_Does not include:_
 - An expansive life story; the Bio is a place for brief first impressions
 - Personal socials; keep your Bio professional
 - A copy-paste of your resume
@@ -72,43 +66,43 @@ Here are two examples:
 > 
 > I love collaborating with others. Let's get in touch! [GitHub](https://github.com/timmalstead){:target="_blank"} |  [LinkedIn](https://www.linkedin.com/in/timmalstead/){:target="_blank"} | [My Website](https://timmalstead.com/){:target="_blank"}
 
-**Includes:**
+_Includes:_
 - Your larger goals (personal and or professional)
 - Your working / problem-solving style
 - A list of technical and soft skills
 
-**Does not include:**
+_Does not include:_
 - An encompassing list of all your skills.
 Reason: The Bio should provide a brief view of who you are on 100 Automations. Try to keep the list no longer than 5 items.  To provide an encompassing view of your skills, provide your LinkedIn.
 
----
- <a name="quote"></a>
-###  Quote 
+
+
+## Quote 
 A quote from you about automations. Add your personal flair!
 
 **Example 1:**
 
 > "Automations allow us to focus on being productive instead of busy.”
 
----
- <a name="motivations"></a>
-### Motivations
-#### Personal/ Englightend Self-interest (Internal Motivation): 
-What personally motivates you to create automations and contribute to our platform? 
- (e.g. to grow certain skills, increase visibility, give back to the community, etc.)
 
-**Example 1:**
 
+## Motivations
+
+### Internal Motivation
+This is your Englightend Self-interest. What personally motivates you to create automations and contribute to our platform? 
+(e.g. to grow certain skills, increase visibility, give back to the community, etc.)
+
+**Example:**
 > I'm motivated by my drive to grow as a developer – I want to strengthen my skills in Python and Jekyll, and I want to learn how to write good, clean code by contributing to a platform with high standards. I also want to work with like-minded people who use and want to improve open-source code.
 
-#### Community Impact (External Motivation): 
-What around you motivates you to create automations for the open-source community? Was it out of annoyance or need? 
+### External Motivation 
+This is the Community Impact you want to have. What around you motivates you to create automations for the open-source community? Was it out of annoyance or need? 
 
-**Example 1:**
-
+**Example:**
 > In 2020, the pandemic drove us to work at home, and we spent more hours on open-source work. But how do we make our work sustainable over the long run? Automations will help us achieve efficiency in open-source collaborations.
----
-<a name="picture"></a>
+
+
+
 ###  Picture
 Can we use your LinkedIn profile picture? If yes, please provide your LinkedIn URL.
 
@@ -117,5 +111,5 @@ A good profile picture is a:
 - Professional headshot
 - Recent (it needs to look like you)
 
-Here are [10 Tips for Picking the Right LinkedIn Profile Picture](https://business.linkedin.com/talent-solutions/blog/2014/12/5-tips-for-picking-the-right-linkedin-profile-picture){:target="_blank"}v.
+Here are [10 Tips for Picking the Right LinkedIn Profile Picture](https://business.linkedin.com/talent-solutions/blog/2014/12/5-tips-for-picking-the-right-linkedin-profile-picture){:target="_blank"}
 
