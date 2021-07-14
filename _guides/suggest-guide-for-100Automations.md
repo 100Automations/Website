@@ -3,6 +3,7 @@ title: How to suggest a guide for 100 Automations
 description:  This guide will help you in the suggestion or creation of a guide for 100Automations
 status: active
 display: true
+category: 1
 ---
 
 # How to suggest a guide for 100 Automations

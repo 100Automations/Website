@@ -3,6 +3,7 @@ title: Writing an Article for Your Automation
 description: If you want to write an article about your automation, consider these tips.
 status: in progress
 display: true
+category: 3
 ---
 
 # Writing an Article for Your Automation

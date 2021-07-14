@@ -3,6 +3,7 @@ title: Preparing Your Automation for Publication
 description: Gather the items in this guide before submitting your automation for publication.
 status: active
 display: true
+category: 3
 ---
 # Preparing Your Automation for Publication
 

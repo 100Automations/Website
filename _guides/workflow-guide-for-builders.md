@@ -3,6 +3,7 @@ title:
 description:
 status: coming soon
 display: true
+category: 2
 ---
 
 ### Workflow Guide for Builders
