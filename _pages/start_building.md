@@ -1,6 +1,6 @@
 ---
 title: Start Building
-description: There are many ways to get involved in building an automation. This guide sets out how to get involved in automation building, depending on what level you are and how you'd like to get involved.
+description: PLEASE UPDATE LINK TO GUIDES DIRECTORY
 status: active
 display: true
 ---
