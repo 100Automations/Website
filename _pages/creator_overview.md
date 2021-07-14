@@ -1,6 +1,6 @@
 ---
 title: Creator Overview
-description: Example_description_text_for_blank_example_file.
+description: PLEASE UPDATE LINK TO GUIDES DIRECTORY
 status: active
 display: true
 ---
