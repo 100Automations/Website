@@ -3,6 +3,7 @@ title: Project Card Anatomy
 description: Explanation of all the elements on the project cards
 status: Active
 display: true
+category: 1
 ---
 
 # Project Card Anatomy

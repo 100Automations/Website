@@ -1,11 +1,35 @@
 <div class="all_guides_list">
+    <div>
+        <h4>All Guides (MD Files)</h4>
+        <a id="suggest_a_guide" href="{{site.guides[6].url | relative_url }}">Suggest a guide</a>
+    </div>
+
     <ul>
-        {% for guide in site.guides %}
-        <li ><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+        {%  assign sorted = site.guides | sort: 'category'  %}
+        <h6>Category 1</h6>
+        {% for guide in sorted | where:"category", "1" %}
+            {% if guide.category == 1 %}
+                <li ><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+                <hr>
+            {% endif %}
         {% endfor %}
+
+        <h6>Category 2</h6>
+        {% for guide in sorted | where:"category", "2" %}
+            {% if guide.category == 2 %}
+                <li ><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+                <hr>
+            {% endif %}
+        {% endfor %}    
+
+        <h6>Category 3</h6>
+        {% for guide in sorted | where:"category", "2" %}
+            {% if guide.category == 3%}
+                <li ><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
+                <hr>
+            {% endif %}
+        {% endfor %} 
     </ul>
 </div>
-<div class="all_guides_action flexbox_column">
-    <a id="suggest_a_guide" href="{{site.guides[6].url | relative_url }}">Suggest a guide</a>
-</div>
+
 

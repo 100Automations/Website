@@ -3,6 +3,7 @@ title: Supporting Your Automation with Community
 description: In order to save time and provide a consistent experience for creators and users we’ve created default health files for you to customize as appropriate to your project. 
 status: active
 display: true
+category: 1
 ---
 
 # Supporting Your Automation with Community

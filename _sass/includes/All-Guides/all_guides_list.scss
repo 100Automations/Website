@@ -1,0 +1,45 @@
+div.all_guides_list{
+    padding: 0 7.5rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+    overflow-y: hidden;
+    border-radius: 0 0 100px 100px;
+    margin-bottom: 4rem;
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        color: black;
+    }
+
+    a {
+        align-self: center;
+        height: 3rem;
+    }
+
+    h4 {
+    color: black;
+    margin: 4rem 0 0 0;
+    }
+
+    h6 {
+        padding: 0;
+        margin: 1.5rem 0;
+    }
+
+    ul {
+    padding: 0;
+    margin-bottom: 6rem;
+    }
+
+    li {
+    margin: .75rem 0 .75rem 1.4rem ;
+    font-size: 1.25rem;
+    }
+
+
+    hr {
+    border: 1px solid #D6D6E7;
+    margin: 8px 0px;
+    width: 1200.01px;
+    }
+}

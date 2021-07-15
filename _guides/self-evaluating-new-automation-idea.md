@@ -3,6 +3,7 @@ title: Self-Evaluating a New Automation Idea
 description: Research and questions for helping you move forward with your automation
 status: Active
 display: true
+category: 2
 ---
 
 # Self-Evaluating A New Automation Idea
