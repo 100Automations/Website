@@ -25,8 +25,10 @@ Example_description_text_for_blank_example_file
 - [Link test: ../guides/creator_overview.md](../guides/creator_overview.md)
 
 - <a href="/Website/guides/guides/creator_overview.html">link test: a href=/Website/guides/guides/creator_overview.html</a>
-- - <a href="{{ site.baseurl }}/Website/guides/guides/creator_overview.html">link test: a href= site.baseurl /Website/guides/guides/creator_overview.html</a>
+- <a href="{{ site.baseurl }}/Website/guides/guides/creator_overview.html">link test: a href= site.baseurl /Website/guides/guides/creator_overview.html</a>
 - <a href="{{ site.baseurl | relative_url }}/Website/guides/guides/creator_overview.html">link test: a href= site.baseurl relative_url</a>
+
+- [Link test: % /guides/creator_overview.md %](% /guides/creator_overview.md %)
 
 ---
 ## End of File
