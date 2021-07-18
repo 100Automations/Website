@@ -23,7 +23,7 @@ Example_description_text_for_blank_example_file
 
 ### Correct: 
 
-- Link test: /Website/guides/creator_overview.html](/Website/guides/creator_overview.html)
+- [Link test: /Website/guides/creator_overview.html](/Website/guides/creator_overview.html)
 
 - [site url]({{ site.url }})
 
