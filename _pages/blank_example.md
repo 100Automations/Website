@@ -26,7 +26,7 @@ Example_description_text_for_blank_example_file
 **[Like so: /Website/guides/creator_overview.html](/Website/guides/creator_overview.html)**
 
 - [also works: ../guides/creator_overview.html](../guides/creator_overview.html)
-- [can also use site url]({{ site.url }}guides/creator_overview.html)
+- [can also use site.url]({{ site.url }}/guides/creator_overview.html)
 
 ### wrong: 
 
