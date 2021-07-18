@@ -23,22 +23,22 @@ Example_description_text_for_blank_example_file
 
 ### Correct: 
 
-- [Link test: /Website/guides/creator_overview.html](/Website/guides/creator_overview.html)
+- [Like so: /Website/guides/creator_overview.html](/Website/guides/creator_overview.html)
+- [also works: ../guides/creator_overview.html](../guides/creator_overview.md)
 
 - [site url]({{ site.url }})
 
 ### wrong: 
 
-- [Link test: /guides/creator_overview.html](/guides/creator_overview.html)
-- [Link test: /guides/creator_overview.md](guides/creator_overview.md)
-- [Link test: /Website/guides/creator_overview.md](/Website/guides/guides/creator_overview.md)
-- [Link test: ../guides/creator_overview.md](../guides/creator_overview.md)
+- [nope: /guides/creator_overview.html](/guides/creator_overview.html)
+- [nope: /guides/creator_overview.md](guides/creator_overview.md)
+- [nope: /Website/guides/creator_overview.md](/Website/guides/guides/creator_overview.md)
+- [nope: ../guides/creator_overview.md](../guides/creator_overview.md)
 
-- <a href="/Website/guides/creator_overview.html">link test: a href=/Website/guides/guides/creator_overview.html</a>
-- <a href="{{ site.baseurl }}/Website/guides/creator_overview.html">link test: a href= site.baseurl /Website/guides/guides/creator_overview.html</a>
-- <a href="{{ site.baseurl | relative_url }}/Website/guides/creator_overview.html">link test: a href= site.baseurl relative_url</a>
+- <a href="/Website/guides/creator_overview.html">nope: a href=/Website/guides/guides/creator_overview.html</a>
+- <a href="{{ site.baseurl }}/Website/guides/creator_overview.html">nope: a href= site.baseurl /Website/guides/guides/creator_overview.html</a>
+- <a href="{{ site.baseurl | relative_url }}/Website/guides/creator_overview.html">nope: a href= site.baseurl relative_url</a>
 
-- [site url]({{ site.url }})
 
 ---
 ## End of File
