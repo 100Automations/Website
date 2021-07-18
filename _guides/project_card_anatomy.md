@@ -12,7 +12,7 @@ category: 1
 
 
 ## Project Image
-A [unique image](https://github.com/100Automations/Website/blob/gh-pages/_guides/creating-good-readmes-for-automations.md){:target="_blank"} to identify and describe the project
+A [unique image](/Website/guides/creating-good-project-images.html){:target="_blank"} to identify and describe the project
 link: good image guide
 
 ## Help Needed status
