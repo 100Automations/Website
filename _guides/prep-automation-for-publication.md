@@ -41,12 +41,12 @@ This is some text that helps people who cannot see the image understand what the
 
 <a name="description"></a>
 ### Description of Automation
- - _See our Guide to [Write a Short Narrative Description about Your Automation](Website/guides/writing-short-descriptions-for-automations.html)_
+ - _See our Guide to [Write a Short Narrative Description about Your Automation](/Website/guides/writing-short-descriptions-for-automations.html)_
 ---
 
 <a name="health-files"></a>
 ### Health Files
-- _See our Guide to [Supporting Your Automation with Community](Website/guides/community-support-for-automations.html)_ 
+- _See our Guide to [Supporting Your Automation with Community](/Website/guides/community-support-for-automations.html)_ 
 ---
 
 <a name="status"></a>
