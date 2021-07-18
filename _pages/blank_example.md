@@ -42,11 +42,8 @@ Example_description_text_for_blank_example_file
 
 ## Button Testing
 
-      <div class="action_card_actions">
-        <a href="{{ site.pages[1].url | relative_url }}" class="default_light">
-          Get Involved
-        </a>
-      </div>
+<a href="{{ site.pages[1].url | relative_url }}" class="default_light">Get Involved</a>
+
 
 ---
 ## End of File
