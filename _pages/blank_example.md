@@ -24,7 +24,7 @@ Example_description_text_for_blank_example_file
 ### Correct: 
 
 - **[with md: /Website/guides/creator_overview.html](/Website/guides/creator_overview.html)**
-- <strong><a href="/Website/guides/creator_overview.html">with html: a href=/Website/guides/guides/creator_overview.html</a></strong>
+- <strong><a href="/Website/guides/creator_overview.html">with html: a href=/Website/guides/creator_overview.html</a></strong>
 
 - [also works: ../guides/creator_overview.html](../guides/creator_overview.html)
 - [can also use site.url]({{ site.url }}/guides/creator_overview.html)
