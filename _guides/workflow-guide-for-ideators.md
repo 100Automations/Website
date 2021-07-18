@@ -9,7 +9,7 @@ category: 2
 ### Workflow Guide for Ideators
 
 ## The New Ideas Ice Box
-If you have a new idea even in the form of a passing thought, create an issue card and put it here. Don't know what makes a good automation? Don't worry, we've got [a guide to help you](Website/guides/self-evaluating-new-automation-idea.html){:target="_blank"}.
+If you have a new idea even in the form of a passing thought, create an issue card and put it here. Don't know what makes a good automation? Don't worry, we've got [a guide to help you](/Website/guides/self-evaluating-new-automation-idea.html){:target="_blank"}.
 ![Future Automations Workflow New Ideas Ice Box](https://user-images.githubusercontent.com/61798667/106541571-46478700-64d0-11eb-80a6-049c6137d0ff.jpg){:target="_blank"}
 ## The Half-baked Ideas Prioritized Backlog
 Ideas that are more fully formed beyond an initial "just a thought" go here.  If an issue card is here, it means no one is actively developing this idea further so these are up for grabs!
