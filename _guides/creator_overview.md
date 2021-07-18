@@ -3,6 +3,7 @@ title: Creator Overview
 description: Starting point to other guides
 status: active
 display: true
+category: 1
 ---
 
 # Want to know how to start creating automations?
