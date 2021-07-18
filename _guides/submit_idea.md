@@ -10,9 +10,9 @@ display: true
 You may be a developer who is annoyed with a program, or a project manager with a brilliant idea you want to see built out. No matter who you are or your technical skills, your ideas are valuable to the open-source community! As an Ideator at 100 Automations, you can make life easier for thousands of others, and be recognized for your contributions.
 
 ## Here is how it works:
-Run your idea through our [Self-Evaluating an Idea](https://github.com/100Automations/Website/blob/gh-pages/_guides/self-evaluating-new-automation-idea.md) guide. You will be able to solidify and organize your idea – such as who your automation will help and what problem it solves.
+Run your idea through our [Self-Evaluating an Idea](/Website/guides/self-evaluating-new-automation-idea.html) guide. You will be able to solidify and organize your idea – such as who your automation will help and what problem it solves.
 
-Once you have gone through the [Self-Evaluation guide](https://github.com/100Automations/Website/blob/gh-pages/_guides/self-evaluating-new-automation-idea.md), congrats! Your idea is a step closer to coming alive.
+Once you have gone through the [Self-Evaluation guide](/Website/guides/self-evaluating-new-automation-idea.html), congrats! Your idea is a step closer to coming alive.
 Follow these steps to submit your idea to 100 Automations.
 
 ### If you are a developer:
