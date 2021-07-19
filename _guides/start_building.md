@@ -6,7 +6,6 @@ display: true
 category: 1
 ---
 
-# Start Building
 
 ## Want to Build an Automation?
 You can help build automations that are at different phases and find opportunities that suit your level:
