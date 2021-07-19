@@ -1,12 +1,11 @@
 ---
-title:
-description:
+title: Workflow Guide for Ideators
+description: An overview of the idea submission process
 status: coming soon
 display: true
 category: 2
 ---
 
-### Workflow Guide for Ideators
 
 ## The New Ideas Ice Box
 If you have a new idea even in the form of a passing thought, create an issue card and put it here. Don't know what makes a good automation? Don't worry, we've got [a guide to help you](/Website/guides/self-evaluating-new-automation-idea.html){:target="_blank"}.
