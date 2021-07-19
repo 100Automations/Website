@@ -6,7 +6,6 @@ display: true
 category: 2
 ---
 
-# Self-Evaluating A New Automation Idea
 
 ## Try writing a short description that explains your automation
 In just a sentence or two, explain the repetitive thing you have to do, and the benefit of automating it. Your description should be clear enough so that developers will understand what it does, but not use too much jargon so less technical users can understand how it might help them. Coming up with this brief summary can help you clarify your idea, so it may take a few iterations to refine it. 
