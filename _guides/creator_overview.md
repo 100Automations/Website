@@ -6,7 +6,7 @@ display: true
 category: 1
 ---
 
-# Want to know how to start creating automations?
+**Want to know how to start creating automations?**
 
 There are many ways to contribute to the 100 Automations project. Whether you have an excellent idea but don't know how to build, or you have an automation that needs improvement, or you have an idea and are excited to build it here. We have something for you.
 
