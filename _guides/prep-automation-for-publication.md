@@ -5,7 +5,7 @@ status: active
 display: true
 category: 3
 ---
-# Preparing Your Automation for Publication
+
 
 ## Instructions
 This is what we’ll need from you to prepare your automation for publication on the website: 
