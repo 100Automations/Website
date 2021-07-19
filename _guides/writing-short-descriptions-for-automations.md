@@ -5,7 +5,7 @@ status: active
 display: true
 category: 1
 ---
-# Write a Short Narrative Description about Your Automation
+
 You will need to write a short description about your automation so that people will understand what it is about and why it's valuable. 
 
 ## Uses:
