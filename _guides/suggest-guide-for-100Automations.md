@@ -6,7 +6,6 @@ display: true
 category: 1
 ---
 
-# How to suggest a guide for 100 Automations
 
 ## General Notes
 
