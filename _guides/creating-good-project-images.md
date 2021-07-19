@@ -6,8 +6,6 @@ display: true
 category: 3
 ---
 
-# Creating a Good Project Image
-
 
 ## General Design Tips
 <!-- was bold \/-->
