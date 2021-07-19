@@ -6,8 +6,6 @@ display: true
 category: 1
 ---
 
-# Supporting Your Automation with Community
-
 At 100 Automations, we’re committed a building a strong community who shared value is reduction of repetitive work -- whether that is from not having to write code more than once or answer the same question more than once for a lack of documentation.
 
 Additionally, we seek to reduce the amount of time that individual authors will have to spend to properly monitor the people using and contributing to these automations by creating a shared support space, which you’ll see referenced in the contributing, support, and security files.
