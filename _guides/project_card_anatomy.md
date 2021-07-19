@@ -6,7 +6,6 @@ display: true
 category: 1
 ---
 
-# Project Card Anatomy
 
 ![project card anatomy image](https://raw.githubusercontent.com/100Automations/Website/gh-pages/assets/images/guides/project_card_anatomy-0320_1319.png){:target="_blank"}
 
