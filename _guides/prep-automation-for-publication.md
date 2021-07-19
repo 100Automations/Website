@@ -7,7 +7,6 @@ category: 3
 ---
 
 
-## Instructions
 This is what we’ll need from you to prepare your automation for publication on the website: 
 
 - Image
@@ -19,11 +18,11 @@ This is what we’ll need from you to prepare your automation for publication on
 - Help wanted
 
 
-### Image
+## Image
 A 744 x 300 image that illustrates the automation. Note that for sharper display on high-resolution screens, image will be appear at half size (372 x 150)
 
 
-### Alt image text
+## Alt image text
 This is some text that helps people who cannot see the image understand what the image portrays
 
 **Example 1:**
@@ -35,15 +34,15 @@ This is some text that helps people who cannot see the image understand what the
 
 
 
-### Description of Automation
+## Description of Automation
 See our Guide: [Write a Short Narrative Description about Your Automation](/Website/guides/writing-short-descriptions-for-automations.html)
 
 
-### Health Files
+## Health Files
 See our Guide: [Supporting Your Automation with Community](/Website/guides/community-support-for-automations.html)
 
 
-### Current Status of Automation
+## Current Status of Automation
 -  in use and ready to deploy
 -  in use and being refactored
 -  ready to deploy
@@ -57,7 +56,7 @@ See our Guide: [Supporting Your Automation with Community](/Website/guides/commu
 If status _in use_, what codebase can it be seen in?
 
 
-### Help wanted (you can list all that apply)
+## Help wanted (you can list all that apply)
 - needs maintenance
 - needs support for users
 - needs refactoring
