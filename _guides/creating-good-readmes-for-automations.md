@@ -6,7 +6,6 @@ display: true
 category: 3
 ---
 
-# Creating a Good Read.me for your Automation
 
 ## Example
 See an example of a good 100 Automations Read.me: [True GitHub Contributors](https://github.com/100Automations/true-github-contributors/blob/mixin/readme.md){:target="_blank"}
