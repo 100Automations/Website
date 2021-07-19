@@ -5,7 +5,6 @@ status: coming soon
 display: true
 category: 3
 ---
-# Write your Open Source Automation Creator Bio
 
 This is what we’ll need from you so that we can promote you in our marketing efforts:
 - Name
