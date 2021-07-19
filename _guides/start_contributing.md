@@ -6,7 +6,6 @@ display: true
 category: 1
 ---
 
-# Start Contributing
 
 ## How can you help?
 Automations on our site are in various levels of development. Some of them need help. Some of them are ready to use. 
