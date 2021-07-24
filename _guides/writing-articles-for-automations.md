@@ -3,7 +3,7 @@ title: Writing an Article for Your Automation
 description: If you want to write an article about your automation, consider these tips.
 status: in progress
 display: true
-category: 3
+category: 1
 ---
 
 A great article is self-PR; it publicizes your automation and increases your visibility as a developer.

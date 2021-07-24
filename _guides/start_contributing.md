@@ -3,7 +3,7 @@ title: Start Contributing
 description: Example_description_text_for_blank_example_file.
 status: active
 display: true
-category: 1
+category: 
 ---
 
 
