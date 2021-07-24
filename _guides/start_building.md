@@ -1,11 +1,10 @@
 ---
 title: Start Building
-description: There are many ways to get involved in building an automation. This guide sets out how to get involved in automation building, depending on what level you are and how you'd like to get involved.
+description: The many ways to get involved in automation building, depending on your experience and interests 
 status: active
 display: true
 category: 1
 ---
-
 
 ## Want to Build an Automation?
 You can help build automations that are at different phases and find opportunities that suit your level:
