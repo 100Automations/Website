@@ -30,15 +30,29 @@ div.share_ato {
     div.social_media_posts>div.social_media_posts_img {
         div.social_media_posts_img_filter {
             position: absolute;
-            left: 100px;
-            top: 70px;
+            left: 80px;
+            top: 90px;
 
             ul {
                 li {
                     display: inline;
+                    margin: 20px 12px;
+                    button.filter_button{
+                        border: 1px solid #0497C8;
+                        border-radius: 16px;
+                        background:$primary;
+                        color: $white; 
+                        padding: 8px 20px;
+                        font-family: $poppins;
+
+                    }
+                    ;
+                    button.filter_button.selected{
+                        background: $secondary;
+                    }
+                    ;
 
                 }
-
                 ;
             }
 
@@ -48,6 +62,8 @@ div.share_ato {
         ;
 
         div.posts {
+            margin-top: 2.5rem;
+            
             ul.social_media_posts_img_list {
                 display: none;
                 padding: 0;
@@ -76,6 +92,7 @@ div.share_ato {
 
             ul#Facebook {
                 display: flex;
+                
             }
 
             ;

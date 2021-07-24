@@ -186,42 +186,56 @@ div.press_action {
 
         ;
 
-        div.assets>div.assets_actions {
-            text-align: center;
-
-            div.asset {
-                padding: 16px 40px;
-                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-                border-radius: 26px;
-                flex: auto;
-                flex-grow: 0;
-                margin: 24px 0px
+        div.assets {
+            div.assets_title{
+                justify-content: center;
+                position: relative;
+                left: 0px;
             }
+            div.assets_actions {
+                text-align: center;
 
+                div.asset {
+                    padding: 16px 40px;
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+                    border-radius: 26px;
+                    flex: auto;
+                    flex-grow: 0;
+                    margin: 24px 0px
+                }
+
+                ;
+
+                // #ato{
+                //     width: 320px;
+                //     height: 96px;
+                //   }
+                //   ;
+                //   #bio{
+                //     width: 320px;
+                //     height: 96px;
+                //   }
+                //   ;
+                //   #fact{
+                //     width: 320px;
+                //     height: 96px;
+                //     }
+                //     ;
+            }
             ;
-
-            // #ato{
-            //     width: 320px;
-            //     height: 96px;
-            //   }
-            //   ;
-            //   #bio{
-            //     width: 320px;
-            //     height: 96px;
-            //   }
-            //   ;
-            //   #fact{
-            //     width: 320px;
-            //     height: 96px;
-            //     }
-            //     ;
         }
-
         ;
 
         div.press_release_contact {
             width: fit-content;
             top: 280px;
+            margin-bottom: 3rem;
+
+            p {
+                font-size: 18px;
+            }
+
+            ;
 
         }
 
