@@ -1,6 +1,6 @@
 ---
 title: Supporting Your Automation with Community
-description: To save you time and provide a consistent experience, we have default health files for you to customize
+description: To save time and provide a consistent experience, we have default health files for you to customize
 status: active
 display: true
 category: 1
