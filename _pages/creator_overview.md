@@ -1,9 +1,11 @@
 ---
-title: Creator Overview
+title: OLD - Creator Overview
 description: PLEASE UPDATE LINK TO GUIDES DIRECTORY
 status: active
 display: true
 ---
+
+# [GO TO THIS GUIDE](https://100automations.github.io/Website/guides/creator_overview.html)
 
 # Want to know how to start creating automations?
 
