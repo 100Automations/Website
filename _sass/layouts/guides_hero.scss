@@ -1,0 +1,24 @@
+section.hero-container, section.hero-container--guides{
+    grid-row: 1;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-column: 1/span 12;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #003750;
+    box-shadow: -20rem 0 #003750, 40rem 0 #003750;
+    margin-bottom: 4rem;
+
+    h1.col1, h1.title1{
+      grid-column: 1/8;
+      max-width: max-content;
+      width: 67rem;
+      max-height: 168px;
+      margin: 4rem 0 4rem 0;    
+      align-self: center;
+      }
+      
+    .col3{
+      grid-column: 10/12
+      }
+  
+  }
