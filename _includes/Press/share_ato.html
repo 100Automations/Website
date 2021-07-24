@@ -18,10 +18,11 @@
         <div class="social_media_posts_img">
             <div class="social_media_posts_img_filter">
                 <ul>
-                    {% for posts in site.social-media-posts %}
-                    <li><button class="filter_button" name="{{posts.social}}" value="{{ posts.social }}">{{ posts.social
-                            }}</button></li>
-                    {% endfor %}
+                    
+                    <li><button class="filter_button selected" name="Facebook" value="Facebook">Facebook</button></li>
+                    <li><button class="filter_button" name="Twitter" value="Twitter">Twitter</button></li>
+                    <li><button class="filter_button" name="Instagram" value="Instagram">Instagram</button></li>
+                
                 </ul>
             </div>
             <div class="posts">
@@ -102,9 +103,14 @@
     }
 
      const imgList = document.querySelectorAll(".social_media_posts_img_list");
-     const filterBtn = document.querySelectorAll("button.filter_button").forEach(btn=> btn.addEventListener("click", event => {
-        let target = event.target.value;
-        switch(target){
+     const filterBtn = document.querySelectorAll("button.filter_button").forEach(btn => {
+        btn.addEventListener("click", event => {
+        let target = event.target;
+        let selected = document.getElementsByClassName("selected");
+        console.log(selected[0])
+        selected[0].className = selected[0].className.replace(" selected","");
+        btn.classList.add("selected");
+        switch(target.value){
             case "Facebook":
             imgFilter("Facebook");
             break;
@@ -117,6 +123,6 @@
             default:
                 console.log("error");
         };
-     }));
+     })});
 
 </script>
