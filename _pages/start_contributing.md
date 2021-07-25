@@ -5,7 +5,7 @@ status: active
 display: true
 ---
 
-# [GO TO THIS GUIDE](../guides/start_building.html)
+# [GO TO THIS GUIDE](../guides/start_contributing.html)
 
 # Start Contributing
 
