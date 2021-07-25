@@ -5,7 +5,7 @@ status: active
 display: true
 ---
 
-# [GO TO THIS GUIDE](/Website/guides/creator_overview.html)
+# [GO TO THIS GUIDE](../Website/guides/creator_overview.html)
 
 # Want to know how to start creating automations?
 
