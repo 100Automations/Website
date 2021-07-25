@@ -7,15 +7,7 @@ category: 3
 ---
 
 
-This is what we’ll need from you to prepare your automation for publication on the website: 
 
-- Image
-- Alt image text
-- Description of Automation
-- Health Files
-- Current Status of Automation
-- As seen on
-- Help wanted
 
 
 ## Image
