@@ -22,7 +22,7 @@ This is what we’ll need from you to prepare your automation for publication on
 A 744 x 300 image that illustrates the automation. Note that for sharper display on high-resolution screens, image will be appear at half size (372 x 150)
 
 
-## Alt image text
+### Alt image text
 This is some text that helps people who cannot see the image understand what the image portrays
 
 **Example 1:**
