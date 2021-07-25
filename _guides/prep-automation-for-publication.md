@@ -52,11 +52,12 @@ See our Guide: [Supporting Your Automation with Community](/Website/guides/commu
 -  abandoned
 
 
-### As seen on
+## As seen on
 If status _in use_, what codebase can it be seen in?
 
 
-## Help wanted (you can list all that apply)
+## Help wanted 
+You can list all that apply:
 - needs maintenance
 - needs support for users
 - needs refactoring
