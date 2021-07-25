@@ -5,7 +5,7 @@ status: active
 display: true
 ---
 
-# [GO TO THIS GUIDE](https://100automations.github.io/Website/pages/start_building.html)
+# [GO TO THIS GUIDE](../guides/start_building.html)
 
 # Start Building
 
