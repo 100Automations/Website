@@ -29,14 +29,34 @@ div.press_action {
         div.press_release_input {
             display: block;
             justify-content: right;
-            width: 403px;
+            width: 360px;
             height: 112px;
             position: absolute;
-
-            a span {
+            span {
                 font-family: $poppins;
+
+                
             }
 
+            ;
+            a{
+                position: relative;
+                bottom: 50px;
+                left: 200px;
+                width: 100px;
+                height: 29px;
+                border: 2px solid #383843;
+                border-radius: 8px;
+                
+                i{
+                    width: 50px;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin: 0px 8px;
+                }
+                ;
+            }
             ;
         }
 
@@ -174,14 +194,29 @@ div.press_action {
         ;
 
         div.press_release>div.press_release_title {
-            right: 70px;
+            right: 40px;
+            left: 60px;
         }
 
         ;
 
         div.press_release>div.press_release_input {
-            width: 360px;
+            width: 300px;
             text-overflow: ellipsis;
+            span{
+                width: 275px;
+            }
+            ;
+            a{
+                
+                left: 80px;
+                bottom: 70px;
+                i{
+                    
+                }
+                ;
+            }
+            ;
         }
 
         ;

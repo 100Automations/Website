@@ -43,7 +43,18 @@ div.share_ato {
                         background:$primary;
                         color: $white; 
                         padding: 8px 20px;
-                        font-family: $poppins;
+                        span{
+                            font-family: $poppins;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 140%;
+                        }
+                        ;
+                        img{
+                            display:none;
+                            height: 24px;
+                        }
 
                     }
                     ;
@@ -160,6 +171,57 @@ div.share_ato {
 
     @media screen and (max-width: 480px) {
         padding-bottom: 150px;
+
+        div.share_ato_title {
+           h4{
+               margin: 0px;
+           }
+        }
+    
+        ;
+        div.social_media_posts>div.social_media_posts_img {
+            div.social_media_posts_img_filter {
+                left: 0px;
+
+    
+                ul {
+                    li {
+                        margin: 0px;
+                        button.filter_button{
+                            width: 68px;
+                            height: 47px;
+
+                          span{
+                            display: none;
+                          }
+                          ;
+                          img{
+                            display:block;
+                            filter: brightness(0) invert(1)
+                          }
+                          ;
+                          color:$white;
+                          background: $primary;
+                        }
+                        ;
+                        button.filter_button.selected{
+                           
+                           background: $white;
+                           img{
+                               filter: invert(0);
+                           }
+                           ;
+                        }
+                        ;
+    
+                    }
+                    ;
+                }
+                ;
+            }
+            ;
+        }
+        ;
         div.social_media_posts>div.social_media_posts_img>div.posts>ul.social_media_posts_img_list>li{
             margin-left: 0px;
             img{
