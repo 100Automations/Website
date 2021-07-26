@@ -3,7 +3,7 @@ title: Preparing Your Automation for Publication
 description: This is what you'll need to have before submitting your automation for publication
 status: active
 display: true
-category: 3
+category: 1
 ---
 
 

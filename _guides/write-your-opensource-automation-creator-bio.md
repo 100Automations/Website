@@ -3,7 +3,7 @@ title: Write your Open Source Automation Creator Bio
 description: What to include to help vistors learn about the authors behind the automations
 status: coming soon
 display: true
-category: 3
+category: 1
 ---
 
 This is what we’ll need from you so that we can promote you in our marketing efforts:
