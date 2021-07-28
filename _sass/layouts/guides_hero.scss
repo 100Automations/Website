@@ -22,3 +22,28 @@ section.hero-container, section.hero-container--guides{
       }
   
   }
+
+@media screen, (max-width: 480px) {
+
+  section.hero-container, section.hero-container--guides{
+  padding: 0;
+  display: flow-root;
+  h1.col1, h1.title1{
+    font-size: 1.75rem;
+    width: 22.5rem;
+    background-color: #003750;
+    box-shadow: -20rem 0 #003750, 40rem 0 #003750;
+    margin: 0 0 2.5rem 0;
+    line-height: 2.1rem;
+    }
+
+    .col3{
+      position: relative;
+      right: 0;
+      width: 14rem;
+      height: 14rem;
+      margin-bottom: 2.5rem;
+      transform: rotateY(180deg);
+    }
+  }
+}

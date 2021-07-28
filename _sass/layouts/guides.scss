@@ -145,3 +145,12 @@ div.guide{
     };
   }
 }
+
+@media screen and (max-width: 480px) {
+  div.guide{
+    padding: 0;
+    div.sticky-nav-container--guides{
+      display: none;
+    }
+  }
+}
