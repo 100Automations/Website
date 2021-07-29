@@ -1,9 +1,11 @@
 ---
-title: Start Building
+title: OLD - Start Building
 description: PLEASE UPDATE LINK TO GUIDES DIRECTORY
 status: active
 display: true
 ---
+
+# [GO TO THIS GUIDE](../guides/start_building.html)
 
 # Start Building
 

@@ -1,9 +1,9 @@
 ---
 title: Creating a Good Project Image
-description: tips and info if you want to make your own project image
+description: Guidlines, resources, and advice for making your own project image
 status: 
 display: true
-category: 3
+category: 1
 ---
 
 

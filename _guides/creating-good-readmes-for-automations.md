@@ -1,9 +1,9 @@
 ---
 title: Creating a Good Read.me for Your Automation
-description: a read.me file is usually the first place that developers will start.  It should be fairly comprehensive and should have links to the other health files.
+description: Developers will go straight to your Read.me, so it should be fairly comprehensive and reference the other health files
 status: active
 display: true
-category: 3
+category: 1
 ---
 
 

@@ -1,28 +1,20 @@
 ---
 title: Preparing Your Automation for Publication
-description: Gather the items in this guide before submitting your automation for publication.
+description: This is what you'll need to have before submitting your automation for publication
 status: active
 display: true
-category: 3
+category: 1
 ---
 
 
-This is what we’ll need from you to prepare your automation for publication on the website: 
 
-- Image
-- Alt image text
-- Description of Automation
-- Health Files
-- Current Status of Automation
-- As seen on
-- Help wanted
 
 
 ## Image
 A 744 x 300 image that illustrates the automation. Note that for sharper display on high-resolution screens, image will be appear at half size (372 x 150)
 
 
-## Alt image text
+### Alt image text
 This is some text that helps people who cannot see the image understand what the image portrays
 
 **Example 1:**
@@ -52,11 +44,12 @@ See our Guide: [Supporting Your Automation with Community](/Website/guides/commu
 -  abandoned
 
 
-### As seen on
+## As seen on
 If status _in use_, what codebase can it be seen in?
 
 
-## Help wanted (you can list all that apply)
+## Help wanted 
+You can list all that apply:
 - needs maintenance
 - needs support for users
 - needs refactoring

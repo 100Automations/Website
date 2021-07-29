@@ -5,6 +5,8 @@ status: active
 display: true
 ---
 
+# [GO TO THIS GUIDE](../guides/using_an_automation.html)
+
 # Using An Automation
 
 ## Section_Heading_H2

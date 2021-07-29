@@ -3,7 +3,7 @@ title: Submit Idea
 description: An overview of the idea submission process
 status: active
 display: true
-category: 1
+category: 
 ---
 
 
@@ -16,7 +16,7 @@ Once you have gone through the [Self-Evaluation guide](/Website/guides/self-eval
 Follow these steps to submit your idea to 100 Automations.
 
 ### If you are a developer:
-If you are a developer familiar with GitHub, you can directly submit your idea on our [Project Board](https://github.com/100Automations/futureautomations/projects/1#column-9876971), where you can see ideas that have been submitted and approved. Follow the steps on our Workflow Guide for Ideators to learn how to navigate our project board.
+If you are a developer familiar with GitHub, you can directly submit your idea on our [Project Board](https://github.com/100Automations/futureautomations/projects/1#column-9876971), where you can see ideas that have been submitted and approved. Follow the steps on our [Workflow Guide for Ideators](/Website/guides/workflow-guide-for-ideators.html) to learn how to navigate our project board.
 
 ### If you are not a developer:
 If you are not a developer, or you aren't familiar with GitHub – no worries! You can easily submit your idea through this [form](https://forms.gle/u4mRKgEZ8yDEbCMw9).
