@@ -1,14 +1,14 @@
 <div class="share_ato flexbox_column">
     <div class="share_ato_title">
-        <h4>
+        <span>
             Share 100 Automations!
-        </h4>
+        </span>
     </div>
     <div class="social_media_posts flexbox_row">
-        <div class="social_media_posts_title">
-            <h5>
+        <div class="social_media_posts_title ">
+            <span>
                 Social Media Posts
-            </h5>
+            </span>
         </div>
         <div class="social_media_posts_action">
             <a href="https://drive.google.com/drive/folders/1-Z0umS6uqp309DQpA4vTND-b_qyVkVIM?usp=sharing"
@@ -16,12 +16,12 @@
                         class="fa fa-download"></i> Download All</button></a>
         </div>
         <div class="social_media_posts_img">
-            <div class="social_media_posts_img_filter">
+            <div class="social_media_posts_img_filter flexbox_row">
                 <ul>
                     
-                    <li><button class="filter_button selected" name="Facebook" value="Facebook">Facebook</button></li>
-                    <li><button class="filter_button" name="Twitter" value="Twitter">Twitter</button></li>
-                    <li><button class="filter_button" name="Instagram" value="Instagram">Instagram</button></li>
+                    <li><button class="filter_button selected" title="Facebook" ><span title="Facebook">Facebook</span><img title="Facebook" src='{{  "/assets/images/icons/footer-icons/facebook-logo.png" | relative_url }}' class="no_share"></button></li>
+                    <li><button class="filter_button" title="Twitter" ><span  title="Twitter" >Twitter</span><img title="Twitter" src='{{  "/assets/images/icons/footer-icons/twitter-logo.png" | relative_url}}' class="no_share"></button></li>
+                    <li><button class="filter_button" title="Instagram" ><span title="Instagram" >Instagram</span><img title="Instagram"  src='{{  "/assets/images/icons/footer-icons/instagram-logo.png" | relative_url }}' class="no_share"></button></li>
                 
                 </ul>
             </div>
@@ -55,9 +55,9 @@
     </div>
     <div class="memes flexbox_row">
         <div class="memes_title">
-            <h5>
+            <span>
                 Memes
-            </h5>
+            </span>
         </div>
         <div class="memes_actions">
             <a href="https://drive.google.com/drive/folders/1yHPgR8FNSWIa-dfqylgRmbdhFZONR13c?usp=sharing"
@@ -107,10 +107,10 @@
         btn.addEventListener("click", event => {
         let target = event.target;
         let selected = document.getElementsByClassName("selected");
-        console.log(selected[0])
+        console.log(target)
         selected[0].className = selected[0].className.replace(" selected","");
         btn.classList.add("selected");
-        switch(target.value){
+        switch(target.title){
             case "Facebook":
             imgFilter("Facebook");
             break;

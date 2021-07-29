@@ -4,8 +4,14 @@ div.share_ato {
     border-radius: 0px 0px 100px 100px;
 
     div.share_ato_title {
-        h4 {
+        margin-bottom: 5rem;
+        span {
             color: $white;
+            font-family: $poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 140%;;
         }
 
         ;
@@ -16,10 +22,14 @@ div.share_ato {
     div.social_media_posts,
     div.memes {
         position: relative;
-
-        h5 {
+        margin-bottom: 5rem;
+        span {
             color: $white;
-            margin-left: 130px;
+            font-family: $poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 135%;
         }
 
         ;
@@ -27,13 +37,18 @@ div.share_ato {
 
     ;
 
-    div.social_media_posts>div.social_media_posts_img {
+    div.social_media_posts{
+        div.social_media_posts_title{
+            padding-left:5rem;
+        }
+        div.social_media_posts_img {
         div.social_media_posts_img_filter {
+            margin-top: 1.5rem;
             position: absolute;
-            left: 80px;
-            top: 90px;
+            top: 36px;
 
             ul {
+                padding-inline-start:4rem;
                 li {
                     display: inline;
                     margin: 20px 12px;
@@ -43,7 +58,18 @@ div.share_ato {
                         background:$primary;
                         color: $white; 
                         padding: 8px 20px;
-                        font-family: $poppins;
+                        span{
+                            font-family: $poppins;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 140%;
+                        }
+                        ;
+                        img{
+                            display:none;
+                            height: 24px;
+                        }
 
                     }
                     ;
@@ -62,8 +88,8 @@ div.share_ato {
         ;
 
         div.posts {
-            margin-top: 2.5rem;
-            
+            margin-top: 5.5rem;
+            padding-left: 4rem;
             ul.social_media_posts_img_list {
                 display: none;
                 padding: 0;
@@ -74,7 +100,7 @@ div.share_ato {
 
                 li {
                     display: inline;
-                    margin-left: 80px;
+                    margin-left: 10px;
 
                     img {
                         max-height: 200px;
@@ -98,7 +124,7 @@ div.share_ato {
             ;
 
             ul#Instagram>li>img {
-                max-height: 297px;
+                max-height: 315px;
             }
 
             ;
@@ -108,8 +134,15 @@ div.share_ato {
 
 
     }
+    ;
+}
+;
 
     div.memes {
+        div.memes_title{
+            padding-left: 5rem;
+        }
+        ;
         /* width */
 ::-webkit-scrollbar {
     height: 20px;
@@ -129,14 +162,15 @@ div.share_ato {
   }
         div.memes_img {
             overflow-x: scroll;
-            
+            padding-left: 4rem;
 
             ul {
                 display: flex;
+                padding-inline-start: 0px;
 
                 li {
                     display: inline;
-                    margin-left: 80px;
+                    margin-left: 10px;
 
                     img {
                         max-height: 256px;
@@ -160,6 +194,92 @@ div.share_ato {
 
     @media screen and (max-width: 480px) {
         padding-bottom: 150px;
+        padding-left: 1px;
+        div.social_media_posts,
+        div.memes {
+            margin-bottom: 0rem;
+        }
+        ;
+        div.share_ato_title {
+         text-align: center;
+         margin-bottom:0rem;
+         span{
+            font-size: 32px;
+         }
+         ;
+        }
+        ;
+    
+        ;
+        div.social_media_posts{
+            margin-bottom: 4.5rem;
+            flex-flow: column wrap;
+                display: flex;
+                align-items: center;
+                width: 100%;
+
+            div.social_media_posts_title{
+                margin-top: 1.75rem;
+                margin-bottom: 1rem;
+                padding-left: 0rem;
+                
+                span{
+                    font-size: 28px;
+                 }
+                 ;
+            }
+            ;
+            div.social_media_posts_img {
+                div.posts{
+                    margin-top: 0rem;
+                    padding-left: 0rem
+                }
+                ;
+            div.social_media_posts_img_filter {
+                position: static;
+                justify-content: center;
+    
+                ul {
+                    padding-inline-start: 0rem;
+                    li {
+                        margin: 0px;
+                        button.filter_button{
+                            width: 68px;
+                            height: 47px;
+
+                          span{
+                            display: none;
+                          }
+                          ;
+                          img{
+                            display:block;
+                            filter: brightness(0) invert(1)
+                          }
+                          ;
+                          color:$white;
+                          background: $primary;
+                        }
+                        ;
+                        button.filter_button.selected{
+                           
+                           background: $white;
+                           img{
+                               filter: invert(0);
+                           }
+                           ;
+                        }
+                        ;
+    
+                    }
+                    ;
+                }
+                ;
+            }
+            ;
+        }
+        ;
+    }
+        ;
         div.social_media_posts>div.social_media_posts_img>div.posts>ul.social_media_posts_img_list>li{
             margin-left: 0px;
             img{
@@ -167,27 +287,15 @@ div.share_ato {
             }
         }
         ;
-        div.social_media_posts,
-        div.memes {
-            justify-content: left;
-
-            h5 {
-                flex: 1;
-                margin-left: 0px;
-            }
-
-            ;
-
-
-        }
-
-        ;
+     
 
         div.social_media_posts>div.social_media_posts_action {
             position: absolute;
             bottom: 0px;
-            right: 304px;
-
+            margin: auto;
+            width: 50%;
+            display: flex;
+            align-items: center;
             button {
                 margin-left: 0px;
                 top: 20px;
@@ -196,7 +304,22 @@ div.share_ato {
         }
 
         div.memes {
+            flex-flow: column wrap;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            div.memes_title{
+                position: absolute;
+                top:-20px;
+                padding-left: 0rem;
+                span{
+                    font-size: 28px;
+                 }
+                 ;
+            }
+            ;
             div.memes_img {
+                padding-left: 0rem;
                 ul>li {
                     margin-left: 0px;
                 }
@@ -207,7 +330,8 @@ div.share_ato {
             div.memes_actions {
                 position: absolute;
                 bottom: 0px;
-                right: 304px;
+                margin: auto;
+                width: 50%;
 
                 button {
                     margin-left: 0px;
