@@ -3,7 +3,7 @@ title: Workflow Guide for Builders
 description: An overview of the automation building process
 status: coming soon
 display: true
-category: 3
+category: 1
 ---
 
 

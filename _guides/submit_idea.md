@@ -3,7 +3,7 @@ title: Submit Idea
 description: An overview of the idea submission process
 status: active
 display: true
-category: 
+category: 1
 ---
 
 
