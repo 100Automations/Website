@@ -161,6 +161,7 @@ line-height: 140%;;
     border-radius: 10px;
   }
         div.memes_img {
+           width:100%;
             overflow-x: scroll;
             padding-left: 4rem;
 
@@ -198,6 +199,7 @@ line-height: 140%;;
         div.social_media_posts,
         div.memes {
             margin-bottom: 0rem;
+            margin-top: 1rem;
         }
         ;
         div.share_ato_title {
