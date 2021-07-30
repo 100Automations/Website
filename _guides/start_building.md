@@ -3,7 +3,7 @@ title: Start Building
 description: The many ways to get involved in automation building, depending on your experience and interests 
 status: active
 display: true
-category: 
+category: 1
 ---
 
 ## Want to Build an Automation?
