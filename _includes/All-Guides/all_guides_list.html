@@ -5,7 +5,7 @@
 
     <ul>
         {%  assign sorted = site.guides | sort: 'category'  %}
-        <h6>How to improve, promote your automation guides</h6>
+        <h6>How to get started</h6>
         {% for guide in sorted | where:"category", "1" %}
             {% if guide.category == 1 %}
                 <li ><a href="{{ guide.url | relative_url }}">{{ guide.title }}</a></li>
