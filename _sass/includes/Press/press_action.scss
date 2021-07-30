@@ -34,22 +34,20 @@ div.press_action {
             position: absolute;
             span {
                 font-family: $poppins;
-
-                
             }
 
             ;
             a{
                 position: relative;
-                bottom: 50px;
-                left: 100px;
+                bottom: 55px;
+                left: 60px;
                 width: 100px;
                 height: 29px;
                 border: 2px solid #383843;
                 border-radius: 8px;
                 
                 i{
-                    width: 50px;
+                    color: black;
                     flex: none;
                     order: 0;
                     flex-grow: 0;
@@ -265,6 +263,7 @@ div.press_action {
             width: fit-content;
             top: 280px;
             margin-bottom: 3rem;
+            padding-bottom: 1rem;
 
             p {
                 font-size: 18px;
