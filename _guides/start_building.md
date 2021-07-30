@@ -14,7 +14,7 @@ Create a new repository under the 100 Automations - [quick link here](https://gi
 ### 2. Heath Files
 Ensure the repository contains, at a minimum:
 - A Readme
-- Licence: we use the GNU General Public License v2.0 at Hack for LA [**Double-check this**]
+- Licence: we use the GNU General Public License v2.0 at Hack for LA
 - A Code of Conduct.md
 - A Security.md
 - A Support.md
