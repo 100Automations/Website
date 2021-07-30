@@ -6,7 +6,7 @@ display: true
 category: 1
 ---
 
-## Steps to add an existing automation to 100 Automations:
+## Steps to add an automation to 100 Automations:
 
 ### 1. New Repository
 Create a new repository under the 100 Automations - [quick link here](https://github.com/organizations/100Automations/repositories/new)
