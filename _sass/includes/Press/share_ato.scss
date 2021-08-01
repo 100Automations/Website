@@ -40,12 +40,21 @@ line-height: 140%;;
     div.social_media_posts{
         div.social_media_posts_title{
             padding-left:5rem;
+            display: flex;
+            width: 26%;
+            flex-direction: column;
         }
+        ;
+        div.social_media_posts_action{
+            display: flex;
+            width: 13%;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        ;
         div.social_media_posts_img {
         div.social_media_posts_img_filter {
             margin-top: 1.5rem;
-            position: absolute;
-            top: 36px;
 
             ul {
                 padding-inline-start:4rem;
@@ -90,6 +99,8 @@ line-height: 140%;;
         div.posts {
             margin-top: 5.5rem;
             padding-left: 4rem;
+            display: flex;
+            width: 100%;
             ul.social_media_posts_img_list {
                 display: none;
                 padding: 0;
@@ -218,6 +229,7 @@ line-height: 140%;;
                 margin-top: 1.75rem;
                 margin-bottom: 1rem;
                 padding-left: 0rem;
+                width: 55%;
                 
                 span{
                     font-size: 28px;
@@ -287,7 +299,7 @@ line-height: 140%;;
 
         div.social_media_posts>div.social_media_posts_action {
             position: absolute;
-            bottom: 0px;
+            bottom: -5rem;
             margin: auto;
             width: 50%;
             display: flex;
@@ -328,7 +340,7 @@ line-height: 140%;;
 
             div.memes_actions {
                 position: absolute;
-                bottom: 0px;
+                bottom: -5rem;
                 margin: auto;
                 width: 50%;
 
