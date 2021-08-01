@@ -5,12 +5,10 @@
 @import "press-kit/all_bios.scss";
 
 html,body {
-    width: 100%;
+    width:100%;
     height: 100%;
     margin: 0%;
     padding: 0%;
-    @media screen and (max-width: 480px){
-        overflow-x: hidden;
-    }
+    overflow-x: hidden;
 }
 ;

@@ -5,14 +5,9 @@ div.press_action {
 
     div.press_release {
         width: 50%;
-        position: relative;
-        justify-content: right;
 
         div.press_release_title {
-            position: absolute;
-            bottom: 48px;
-            right: 232px;
-
+                
             span {
                 font-family: $poppins;
                 font-style: normal;
@@ -27,11 +22,8 @@ div.press_action {
         ;
 
         div.press_release_input {
-            display: block;
-            justify-content: right;
             width: 360px;
             height: 112px;
-            position: absolute;
             span {
                 font-family: $poppins;
             }
@@ -157,7 +149,7 @@ div.press_action {
         text-align: center;
         position: relative;
         align-items: center;
-        top: 120px;
+        top: 59px;
         width: 805px;
 
         p {
