@@ -78,6 +78,7 @@
 
 <script> 
     {% assign social = site.social-media-posts %}
+    {% assign memes = site.memes %}
     const social = [
         {% for posts in social %}
         {
@@ -86,6 +87,17 @@
                 'hostAutomation': "{{posts.host-automation.src}}",
                 'logo':"{{posts.logo.src}}",
                 'social':"{{posts.social}}"
+            }
+        },
+        {% endfor %}
+    ];
+    
+    const memes = [
+        {% for meme in memes %}
+        {
+            "meme":{
+                "img":"{{ meme.image }}",
+                "alt":"{{ meme.title }}"
             }
         },
         {% endfor %}

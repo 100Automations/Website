@@ -1,10 +1,10 @@
 div.bios{
   overflow-x:hidden ;
   width: 100%;
-  background:   #F4F6F9;
+  background: $offwhite;
   padding-bottom: 1.5rem;
   margin: 1.75rem 0rem;
-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);
+box-shadow: 0px 5px 7px $iconsgrey;
 border-radius: 0px 0px 100px 100px;
 div.bios_header{
   div.bios_title{
@@ -28,6 +28,7 @@ color: #383843;
 }
 ;
   div.bios_grid{
+
   max-width: 1200px;
   margin: auto;
   div.bio_card{
