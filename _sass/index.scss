@@ -9,5 +9,8 @@ html,body {
     height: 100%;
     margin: 0%;
     padding: 0%;
-    overflow: visible;
+    @media screen and (max-width: 480px){
+        overflow-x: hidden;
+    }
 }
+;

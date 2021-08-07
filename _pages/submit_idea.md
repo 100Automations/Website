@@ -5,6 +5,8 @@ status: active
 display: true
 ---
 
+# [GO TO THIS GUIDE](../guides/start_contributing.html)
+
 # Submit Idea
 
 You may be a developer who is annoyed with a program, or a project manager with a brilliant idea you want to see built out. No matter who you are or your technical skills, your ideas are valuable to the open-source community! As an Ideator at 100 Automations, you can make life easier for thousands of others, and be recognized for your contributions.

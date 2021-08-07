@@ -1,56 +1,18 @@
 div.press_action {
     justify-content: center;
     margin: 5rem 0rem;
-   height:460px;
+    height: 460px;
+
     div.press_release {
         width: 50%;
         position: relative;
         justify-content: right;
-    div.press_release_title{
-        position: absolute;
-        bottom: 48px;
-        right: 232px;
-        span{
-            font-family: $poppins;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 140%;
-        }
-        ;
-        }
-        ;
-    div.press_release_input{
-        display: block;
-        justify-content: right;
-        width: 403px;
-        height: 112px;
-        position: absolute;
-        
-        a span{
-           font-family: $poppins;
-        }
-        ;
-    }
-    ;
-    }
 
-    ;
-
-    div.assets {
-        width: 50%;
-        position: relative;
-        a{
-            color: $titlegrey;
-            text-decoration: none;
-           
-        }
-        div.assets_title {
-            display: block;
-            justify-content: right;
+        div.press_release_title {
             position: absolute;
             bottom: 48px;
-            left: 48px;
+            right: 232px;
+
             span {
                 font-family: $poppins;
                 font-style: normal;
@@ -58,58 +20,120 @@ div.press_action {
                 font-size: 48px;
                 line-height: 140%;
             }
+
             ;
         }
+
         ;
 
-        div.assets_actions{
+        div.press_release_input {
+            display: block;
+            justify-content: right;
+            width: 403px;
+            height: 112px;
             position: absolute;
-            top: 20px;
-            div.asset {
-            text-align: center;
-            height: max-content;
-            flex:1;
-            border-radius: 26px;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-            border-radius: 26px;
-            margin: 0px 36px;
-            padding: 36px 16px 24px;
-            img{
-                margin: 12px 0px;
-            }
-          #ato{
-            width: 130.1px;
-            height: 53.36px;
-          }
-          #bio{
-            width: 64px;
-            height: 64px;
-          }
-          #fact{
-            width:48.17px;
-            height: 56.67px;
-          }
-            span{
-                font-family: $poppins   ;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 118%;
-                /* or 24px */
-                justify-content: center;
-                display: flex;
-                align-items: flex-end;
-                text-align: center;
-                text-transform: capitalize;
 
+            a span {
+                font-family: $poppins;
             }
+
+            ;
         }
+
         ;
     }
 
     ;
-}
-;
+
+    div.assets {
+        width: 50%;
+        position: relative;
+
+        a {
+            color: $titlegrey;
+            text-decoration: none;
+
+        }
+
+        div.assets_title {
+            display: block;
+            justify-content: right;
+            position: absolute;
+            bottom: 48px;
+            left: 48px;
+
+            span {
+                font-family: $poppins;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 140%;
+            }
+
+            ;
+        }
+
+        ;
+
+        div.assets_actions {
+            position: absolute;
+            top: 20px;
+
+            div.asset {
+                text-align: center;
+                height: max-content;
+                flex: 1;
+                border-radius: 26px;
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+                margin: 0px 36px;
+                padding: 36px 16px 24px;
+
+                img {
+                    margin: 12px 0px;
+                }
+
+                #ato {
+                    width: 130.1px;
+                    height: 53.36px;
+                }
+
+                #bio {
+                    width: 64px;
+                    height: 64px;
+                }
+
+                #fact {
+                    width: 48.17px;
+                    height: 56.67px;
+                }
+
+                span {
+                    font-family: $poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 118%;
+                    /* or 24px */
+                    justify-content: center;
+                    display: flex;
+                    align-items: flex-end;
+                    text-align: center;
+                    text-transform: capitalize;
+
+                }
+
+                ;
+            }
+
+            ;
+        }
+
+        ;
+
+    }
+
+    ;
+
     div.press_release_contact {
         font-family: $poppins;
         text-align: center;
@@ -117,20 +141,107 @@ div.press_action {
         align-items: center;
         top: 120px;
         width: 805px;
+
         p {
             font-family: $poppins;
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
             line-height: 140%;
+
             a {
                 text-decoration: none;
                 color: blue;
             }
+
+            ;
+        }
+
+        ;
+    }
+
+    ;
+
+    @media screen and (max-width: 480px) {
+        height: 1090px;
+        margin-top: 3rem;
+
+        div.assets,
+        div.press_release {
+            width: 100%;
+        }
+
+        ;
+
+        div.press_release>div.press_release_title {
+            right: 70px;
+        }
+
+        ;
+
+        div.press_release>div.press_release_input {
+            width: 360px;
+            text-overflow: ellipsis;
+        }
+
+        ;
+
+        div.assets {
+            div.assets_title{
+                justify-content: center;
+                position: relative;
+                left: 0px;
+            }
+            div.assets_actions {
+                text-align: center;
+
+                div.asset {
+                    padding: 16px 40px;
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+                    border-radius: 26px;
+                    flex: auto;
+                    flex-grow: 0;
+                    margin: 24px 0px
+                }
+
+                ;
+
+                // #ato{
+                //     width: 320px;
+                //     height: 96px;
+                //   }
+                //   ;
+                //   #bio{
+                //     width: 320px;
+                //     height: 96px;
+                //   }
+                //   ;
+                //   #fact{
+                //     width: 320px;
+                //     height: 96px;
+                //     }
+                //     ;
+            }
             ;
         }
         ;
+
+        div.press_release_contact {
+            width: fit-content;
+            top: 280px;
+            margin-bottom: 3rem;
+
+            p {
+                font-size: 18px;
+            }
+
+            ;
+
+        }
+
+        ;
     }
+
     ;
 }
 

@@ -1,9 +1,11 @@
 ---
-title: Start Contributing
+title: OLD - Start Contributing
 description: PLEASE UPDATE LINK TO GUIDES DIRECTORY
 status: active
 display: true
 ---
+
+# [GO TO THIS GUIDE](../guides/start_contributing.html)
 
 # Start Contributing
 

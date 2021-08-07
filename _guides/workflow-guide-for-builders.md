@@ -1,12 +1,11 @@
 ---
-title:
-description:
+title: Workflow Guide for Builders
+description: An overview of the automation building process
 status: coming soon
 display: true
-category: 2
+category: 3
 ---
 
-### Workflow Guide for Builders
 
 ## Prioritized Backlog
 After pre-development requirements are signed off on, proposals become ready to be developed. So if you're a builder and looking for an automation that has good documentation and requirements, then this is your place to go, self-assign an issue and start building!

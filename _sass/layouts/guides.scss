@@ -90,6 +90,11 @@ div.guide{
         text-align: left;
       
       }
+
+      .content{
+        margin: 0;
+        padding: 0;
+      }
     }
 //Bottom Div Element
     div.sticky-nav-container--guides{
@@ -143,14 +148,101 @@ div.guide{
       }
       
     };
+// mobile Table of contents
+    div.mobile-nav{
+      display: none;
+    }
+    div.mobile-nav-links {
+      display: none;
+    }
   }
 }
 
 @media screen and (max-width: 480px) {
   div.guide{
     padding: 0;
-    div.sticky-nav-container--guides{
-      display: none;
+    position: relative;
+
+      div.sticky-nav-container--guides{
+        display: none;
+      }
+      div.content-container, div.content-container--guide{
+      z-index: 1;
+      position: relative;
+
+      div.overlay{
+        display: none;
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.5);;
+        width: 100%;
+        height: 100%;
+      }
+
+        div.mobile-nav{
+          z-index: 3;
+          display: block !important;
+          height: 3.563rem;
+          border-bottom: .125rem solid #003750;
+          margin-bottom: 2.5rem;
+          .mobile-title{
+            display: flex;
+            justify-content: space-between;
+            h4{
+              font-size: 1.25rem;
+              margin: 1rem 0 1rem 2rem;
+            }
+            .mobile-button{
+              background-color: white;
+              border: none;
+              width: 4.5rem;
+            }
+          }
+        }
+        div.mobile-nav-links {
+          width: 100%;
+          z-index: 4;
+          position: absolute;
+          background: #F4F6F9;
+          background-color: white;
+          padding-left: 0;
+          nav {
+            ul{
+              list-style-type: none;
+              padding-left: 0;
+              margin: 0;
+             li{
+              //  height: 2rem;
+              padding: 1rem 0 1rem 0;
+              border-bottom: 2px solid #999;
+
+               a{
+                 color: black;
+                 font-weight: lighter;
+                 margin-bottom: 1rem;
+                 padding-left: 2rem;
+                 border-bottom: none;
+               }
+             }
+            //  .nav-links{
+            //   border-bottom: 2px solid black;
+            //  }
+             .nav-border-links{
+              list-style-type: none;
+              border-bottom: none;
+              border-left: 2px solid;
+              border-color: $iconsgrey;
+              margin: 0 0 0 2rem;
+
+              .nav-links{
+                border-bottom: none;
+              }
+              }
+            }
+
+          }
+        }
     }
   }
+
 }

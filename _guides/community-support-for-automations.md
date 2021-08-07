@@ -1,12 +1,10 @@
 ---
 title: Supporting Your Automation with Community
-description: In order to save time and provide a consistent experience for creators and users we’ve created default health files for you to customize as appropriate to your project. 
+description: To save time and provide a consistent experience, we have default health files for you to customize
 status: active
 display: true
 category: 1
 ---
-
-# Supporting Your Automation with Community
 
 At 100 Automations, we’re committed a building a strong community who shared value is reduction of repetitive work -- whether that is from not having to write code more than once or answer the same question more than once for a lack of documentation.
 

@@ -3,16 +3,15 @@ title: Project Card Anatomy
 description: Explanation of all the elements on the project cards
 status: Active
 display: true
-category: 1
+category: 2
 ---
 
-# Project Card Anatomy
 
 ![project card anatomy image](https://raw.githubusercontent.com/100Automations/Website/gh-pages/assets/images/guides/project_card_anatomy-0320_1319.png){:target="_blank"}
 
 
 ## Project Image
-A [unique image](https://github.com/100Automations/Website/blob/gh-pages/_guides/creating-good-readmes-for-automations.md){:target="_blank"} to identify and describe the project
+A [unique image](/Website/guides/creating-good-project-images.html){:target="_blank"} to identify and describe the project
 link: good image guide
 
 ## Help Needed status

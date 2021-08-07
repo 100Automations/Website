@@ -16,9 +16,29 @@ layout: default
 
       <!-- Top Div Element -->
         <div class="content-container content-container--guide">
-          <h5 class="title5">In This Guide</h5>
-         <p class="p1">{{page.description}}</p>
+        <!-- mobile table of contents title -->
+        <div class="mobile-nav">
+          <div class='mobile-title'>
+            <h4>Table of Contents</h4>
+            <button class="mobile-button" onclick=openMobileMenu()>
+            <img class="mobile-triangle" src="{{ '/assets/images/icons/mobile-icons/Vector_38.png' | relative_url }}">
+            </button>
+          </div>
+        </div>
+        <!-- mobile links -->
+        <div class='mobile-nav-links'>
+          <nav>
+            {% include toc.html item_class='nav-links' submenu_class='nav-border-links' html=content h_min=2 h_max=3 %}
+        </nav>
+        </div>
+        <!-- overlay -->
+        <div onclick=closeMobileMenu() class="overlay"></div>
+        
+        <h5 class="title5">{{page.description}}</h5>
+        <div class="content">
           {{content}}
+        </div>
+
         </div>
 
         <!-- Bottom Div Element -->
@@ -27,9 +47,42 @@ layout: default
           <!-- Bottom Nav Container -->
           <nav class='nav-border'>
             <h2>Contents</h2>
-              {% include toc.html submenu_class='nav-border-links' html=content h_min=2 h_max=3 %}
+              {% include toc.html anchor_class='buttons' submenu_class='nav-border-links' html=content h_min=2 h_max=3 %}
           </nav>
         </div>
+
+
         
     </section>
 </div>
+<script>
+    let nav = document.querySelectorAll('.nav-links')
+
+    for(let i = 0; i < nav.length; i++){
+      console.log(nav[i])
+      nav[i].setAttribute('onclick', 'closeMobileMenu()')
+    }
+    console.log(nav)
+  function openMobileMenu(){
+    let button = document.getElementsByClassName('mobile-button')
+    let firstButton = button[0]
+
+    document.querySelector(".mobile-nav-links").style.display='block'
+    document.querySelector(".mobile-nav").style.marginBottom='0'
+    document.querySelector(".mobile-triangle").style.transform='rotate(270deg)'
+    document.querySelector(".overlay").style.display='block'
+
+    firstButton.setAttribute('onclick', 'closeMobileMenu()')
+  };
+  function closeMobileMenu(){
+    let button = document.getElementsByClassName('mobile-button')
+    let firstButton = button[0]
+
+    document.querySelector(".mobile-nav-links").style.display='none'
+    document.querySelector(".mobile-nav").style.marginBottom='2.5rem'
+    document.querySelector(".mobile-triangle").style.transform='rotate(360deg)'
+    document.querySelector(".overlay").style.display='none'
+
+    firstButton.setAttribute('onclick', 'openMobileMenu()')
+  }
+</script>

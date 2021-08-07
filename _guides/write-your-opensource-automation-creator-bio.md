@@ -1,11 +1,10 @@
 ---
 title: Write your Open Source Automation Creator Bio
-description: People want to know the authors behind automations on our site. Writing a good bio is easy once you know what to cover.
+description: What to include to help vistors learn about the authors behind the automations
 status: coming soon
 display: true
-category: 3
+category: 1
 ---
-# Write your Open Source Automation Creator Bio
 
 This is what we’ll need from you so that we can promote you in our marketing efforts:
 - Name
