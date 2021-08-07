@@ -1,14 +1,38 @@
 div.bios{
-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  overflow-x:hidden ;
+  width: 100%;
+  background: $offwhite;
+  padding-bottom: 1.5rem;
+  margin: 1.75rem 0rem;
+box-shadow: 0px 5px 7px $iconsgrey;
 border-radius: 0px 0px 100px 100px;
-mix-blend-mode: normal;
+div.bios_header{
+  div.bios_title{
+    align-items: flex-start;
+    padding-left: 10rem;
+    @media screen and (max-width:480px) {
+      align-items: center;
+      padding-left: 0rem;
+    }
+    span{
+      font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 135%;
+color: #383843;
+    }
+    ;
+  }
+  ;
+}
+;
   div.bios_grid{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  flex: 1;
+
+  max-width: 1200px;
+  margin: auto;
   div.bio_card{
+    background: $white;
     box-shadow: 0px 0px 4px rgba(138, 138, 138, 0.6);
     border-radius: 12px;
     width: 270px;
@@ -17,7 +41,7 @@ mix-blend-mode: normal;
     align-items: center;
     display: flex;
     flex-direction: column;
-
+    margin: .5rem;
     div.bio_card_image{
       flex: none;
       order: 0;
@@ -33,6 +57,15 @@ mix-blend-mode: normal;
     ;
   }
   ;
+  }
+  ;
+
+  @media screen and (max-width: 480px) {
+    div.bios_grid{
+      justify-content: center;
+    }
+    ;
+    
   }
   ;
 }

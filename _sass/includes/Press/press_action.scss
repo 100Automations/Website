@@ -5,14 +5,9 @@ div.press_action {
 
     div.press_release {
         width: 50%;
-        position: relative;
-        justify-content: right;
 
         div.press_release_title {
-            position: absolute;
-            bottom: 48px;
-            right: 232px;
-
+                
             span {
                 font-family: $poppins;
                 font-style: normal;
@@ -27,16 +22,31 @@ div.press_action {
         ;
 
         div.press_release_input {
-            display: block;
-            justify-content: right;
-            width: 403px;
+            width: 360px;
             height: 112px;
-            position: absolute;
-
-            a span {
+            span {
                 font-family: $poppins;
             }
 
+            ;
+            a{
+                position: relative;
+                bottom: 55px;
+                left: 60px;
+                width: 100px;
+                height: 29px;
+                border: 2px solid #383843;
+                border-radius: 8px;
+                
+                i{
+                    color: black;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin: 0px 8px;
+                }
+                ;
+            }
             ;
         }
 
@@ -139,7 +149,7 @@ div.press_action {
         text-align: center;
         position: relative;
         align-items: center;
-        top: 120px;
+        top: 59px;
         width: 805px;
 
         p {
@@ -151,7 +161,7 @@ div.press_action {
 
             a {
                 text-decoration: none;
-                color: blue;
+                color: $secondary;
             }
 
             ;
@@ -174,14 +184,29 @@ div.press_action {
         ;
 
         div.press_release>div.press_release_title {
-            right: 70px;
+            right: 40px;
+            left: 60px;
         }
 
         ;
 
         div.press_release>div.press_release_input {
-            width: 360px;
+            width: 300px;
             text-overflow: ellipsis;
+            span{
+                width: 275px;
+            }
+            ;
+            a{
+                
+                left: 60px;
+                bottom: 70px;
+                i{
+                    
+                }
+                ;
+            }
+            ;
         }
 
         ;
@@ -229,7 +254,8 @@ div.press_action {
         div.press_release_contact {
             width: fit-content;
             top: 280px;
-            margin-bottom: 3rem;
+            margin: 3rem;
+            padding-bottom: 1.75rem;
 
             p {
                 font-size: 18px;

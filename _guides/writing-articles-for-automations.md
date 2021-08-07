@@ -3,19 +3,16 @@ title: Writing an Article for Your Automation
 description: Tips and advice for promoting your automation with an article
 status: in progress
 display: true
-category: 1
+category: 2
 ---
 
 A great article is self-PR; it publicizes your automation and increases your visibility as a developer.
 Your article isn't just a tutorial on how to set up your code; a Read.Me takes care of that. 
 Tell your story of how you tackled a problem, how you approached your trials and errors.
 
-Here are some tips on writing an article for your code on Medium and other publishers.
-- [General Tips](#general)
-- [Header](#header)
-- [Structure](#structure)
+Here are some tips on writing an article for your code on Medium and other publishers:
 
-<a name="general"></a>
+
 ## General Tips
 
 ### Spelling and Grammar
@@ -42,8 +39,9 @@ HfLA (Hack for LA)
 - Provide links to your other articles when relevant.
 - When linking to outside sources, make sure the websites are trustworthy - this contributes to ranking higher on search results.
 
-<a name="header"></a>
+
 ## Header
+
 ### Title & Subtitle
 - The title is short (less than 25 words) and grabs the reader's attention (provocative). It's usually a problem statement (offers a solution to a problem) and frames your project so readers know what to anticipate as they read further.
 - The subtitle invites your audience to read further. It expands on details you couldn't put in your title. If your title is somewhat bland, you can put a little twist in your subtitle to draw your readers in.
@@ -62,7 +60,7 @@ Provide an attention-grabbing image. Some possible variants:
 2. Emotional (especially if your code solves a real-world problem)
 3. A visualization of your automation. (This saves time for readers looking for specific solutions.)
 
-<a name="structure"></a>
+
 ## Structure
 Structure your article like a story - it should have a beginning, middle, and end. 
 In this guide, we've divided the article under 3 main sections (headings): Introduction, Body, and Conclusion. 

@@ -1,12 +1,17 @@
 .wave{
     background: $primary;
-position: relative;
-padding-top: 30px;
+    position: relative;
+    padding-top: 30px;
     svg{
         position: absolute;
         bottom:0px;
       
     }
     ;
-   }
-   ;
+    @media screen and (max-width: 480px) {
+        padding-top: 0px;
+
+    }
+    ;
+}
+;
