@@ -33,6 +33,10 @@ div.guide{
     div.content-container, div.content-container--guide{
       grid-column: 1/8;
   
+      ul ul {
+        list-style-type: disc;
+      }
+
       h1 {
         font-size: 40px;
         font-style: normal;
@@ -91,10 +95,7 @@ div.guide{
       
       }
 
-      .content{
-        margin: 0;
-        padding: 0;
-      }
+// content
     }
 //Bottom Div Element
     div.sticky-nav-container--guides{
@@ -130,6 +131,7 @@ div.guide{
       li{
         padding-bottom: 8px;
         margin: 8px 0 0 0;
+        list-style-type: none;
       }
 
 // Bottom Nav Container
@@ -169,6 +171,19 @@ div.guide{
       div.content-container, div.content-container--guide{
       z-index: 1;
       position: relative;
+
+      h5 {
+        padding: 0 2rem 0 2rem;
+      }
+
+      div.content{
+        padding: 0 2rem 0 2rem;
+        list-style-type: none;
+
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
 
       div.overlay{
         display: none;
@@ -212,30 +227,26 @@ div.guide{
               padding-left: 0;
               margin: 0;
              li{
-              //  height: 2rem;
               padding: 1rem 0 1rem 0;
               border-bottom: 2px solid #999;
+              list-style-type: none;
 
                a{
                  color: black;
                  font-weight: lighter;
-                 margin-bottom: 1rem;
                  padding-left: 2rem;
                  border-bottom: none;
                }
              }
-            //  .nav-links{
-            //   border-bottom: 2px solid black;
-            //  }
              .nav-border-links{
               list-style-type: none;
-              border-bottom: none;
               border-left: 2px solid;
               border-color: $iconsgrey;
               margin: 0 0 0 2rem;
 
               .nav-links{
                 border-bottom: none;
+                padding: .4rem;
               }
               }
             }

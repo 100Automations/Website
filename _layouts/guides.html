@@ -56,16 +56,16 @@ layout: default
     </section>
 </div>
 <script>
+  function openMobileMenu(){
+    let button = document.getElementsByClassName('mobile-button')
+    let firstButton = button[0]
+
     let nav = document.querySelectorAll('.nav-links')
 
     for(let i = 0; i < nav.length; i++){
       console.log(nav[i])
       nav[i].setAttribute('onclick', 'closeMobileMenu()')
     }
-    console.log(nav)
-  function openMobileMenu(){
-    let button = document.getElementsByClassName('mobile-button')
-    let firstButton = button[0]
 
     document.querySelector(".mobile-nav-links").style.display='block'
     document.querySelector(".mobile-nav").style.marginBottom='0'
@@ -74,6 +74,7 @@ layout: default
 
     firstButton.setAttribute('onclick', 'closeMobileMenu()')
   };
+  
   function closeMobileMenu(){
     let button = document.getElementsByClassName('mobile-button')
     let firstButton = button[0]

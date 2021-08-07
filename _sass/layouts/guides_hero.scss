@@ -12,8 +12,7 @@ section.hero-container, section.hero-container--guides{
       grid-column: 1/8;
       max-width: max-content;
       width: 67rem;
-      max-height: 168px;
-      margin: 4rem 0 4rem 0;    
+      max-height: max-content;
       align-self: center;
       }
       
@@ -42,7 +41,7 @@ section.hero-container, section.hero-container--guides{
       right: 0;
       width: 14rem;
       height: 14rem;
-      margin: 0 0 2.5rem 8.5rem;
+      margin: 0 0 2.5rem 16rem;
       transform: rotateY(180deg);
     }
   }
