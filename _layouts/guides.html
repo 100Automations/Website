@@ -1,29 +1,89 @@
 ---
 layout: default
 ---
-<!-- This will be our layout for each guide in our collection  -->
-
+<!-- Parent -->
 <div class="guide guide_layout body-shadow">
+    <!-- Top Section Element -->
     <section class="hero-container hero-container--guides">
         <h1 class="title1 col1">
           {{page.title}}
         </h1>
         <img class="col3" src="{{'/assets/images/guides/OS.svg' | relative_url }}" class="no_share">
     </section> 
+
+    <!-- Bottom Section Element -->
     <section class="body-container">
+
+      <!-- Top Div Element -->
         <div class="content-container content-container--guide">
-          <h5 class="title5">{{page.description}}</h5>
-         <!-- <p class="p1"></p> -->
+        <!-- mobile table of contents title -->
+        <div class="mobile-nav">
+          <div class='mobile-title'>
+            <h4>Table of Contents</h4>
+            <button class="mobile-button" onclick=openMobileMenu()>
+            <img class="mobile-triangle" src="{{ '/assets/images/icons/mobile-icons/Vector_38.png' | relative_url }}">
+            </button>
+          </div>
+        </div>
+        <!-- mobile links -->
+        <div class='mobile-nav-links'>
+          <nav>
+            {% include toc.html item_class='nav-links' submenu_class='nav-border-links' html=content h_min=2 h_max=3 %}
+        </nav>
+        </div>
+        <!-- overlay -->
+        <div onclick=closeMobileMenu() class="overlay"></div>
+        
+        <h5 class="title5">{{page.description}}</h5>
+        <div class="content">
           {{content}}
         </div>
 
+        </div>
+
+        <!-- Bottom Div Element -->
         <div class="sticky-nav-container--guides">
 
+          <!-- Bottom Nav Container -->
           <nav class='nav-border'>
             <h2>Contents</h2>
-              {% include toc.html submenu_class='nav-border-links' html=content h_min=2 h_max=3 %}
+              {% include toc.html anchor_class='buttons' submenu_class='nav-border-links' html=content h_min=2 h_max=3 %}
           </nav>
         </div>
+
+
         
     </section>
 </div>
+<script>
+  function openMobileMenu(){
+    let button = document.getElementsByClassName('mobile-button')
+    let firstButton = button[0]
+
+    let nav = document.querySelectorAll('.nav-links')
+
+    for(let i = 0; i < nav.length; i++){
+      console.log(nav[i])
+      nav[i].setAttribute('onclick', 'closeMobileMenu()')
+    }
+
+    document.querySelector(".mobile-nav-links").style.display='block'
+    document.querySelector(".mobile-nav").style.marginBottom='0'
+    document.querySelector(".mobile-triangle").style.transform='rotate(270deg)'
+    document.querySelector(".overlay").style.display='block'
+
+    firstButton.setAttribute('onclick', 'closeMobileMenu()')
+  };
+  
+  function closeMobileMenu(){
+    let button = document.getElementsByClassName('mobile-button')
+    let firstButton = button[0]
+
+    document.querySelector(".mobile-nav-links").style.display='none'
+    document.querySelector(".mobile-nav").style.marginBottom='2.5rem'
+    document.querySelector(".mobile-triangle").style.transform='rotate(360deg)'
+    document.querySelector(".overlay").style.display='none'
+
+    firstButton.setAttribute('onclick', 'openMobileMenu()')
+  }
+</script>
