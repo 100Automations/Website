@@ -15,3 +15,22 @@ div.all_guides_hero{
     }
 }
 ;
+
+@media screen and (max-width: 480px) {
+    div.all_guides_hero {
+        display: flow-root;
+        height: 28rem;
+        div.hero_title{
+            top: 3.5rem;
+            left: 2rem;
+            .title1 {
+                font-size: 1.75rem;
+            }
+        }
+        div.hero_image {
+            top: 8.625rem;
+            left: 11.5rem;
+        }
+
+    }
+}

@@ -43,3 +43,13 @@ div.all_guides_list{
     width: 1200.01px;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+    div.all_guides_list {
+        padding: 0 2rem;
+        hr{
+            display: none;
+        }
+    }
+}
