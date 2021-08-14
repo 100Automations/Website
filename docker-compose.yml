@@ -2,7 +2,7 @@ version: "3"
 services:
   website:
     image: jekyll/jekyll:pages
-    container_name: "oneHundr"
+    container_name: "oneHundred"
     command: jekyll serve --force_polling --livereload --config _config.yml,_config.docker.yml --incremental
     environment:
       - JEKYLL_ENV=docker
