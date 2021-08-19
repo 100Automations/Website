@@ -68,7 +68,7 @@
             <ul>
                 {% for meme in site.memes %}
                 <li>
-                    <img src="{{ meme.image | relative_url }}" alt="{{ meme.title }}">
+                    <img src="{{ meme.image | relative_url }}" alt="{{ meme.alt }}">
                 </li>
                 {% endfor %}
             </ul>
