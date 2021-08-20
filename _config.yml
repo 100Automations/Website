@@ -7,8 +7,12 @@ title: 100 Automations
 email: 100Automations@hackforla.org
 description: The 100 Automations project showcases Hack for LA automations and microservices that reduce repetitive work in open source development.
 
-baseurl: "/Website"
-url: https://100automations.github.io
+# OLD SETTINGS: 
+# baseurl: "/Website"
+# url: https://100automations.github.io
+baseurl: ""
+url: https://100automations.org
+
 repository: 100Automations/Website
 
 sass:
