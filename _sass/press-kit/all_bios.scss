@@ -27,38 +27,42 @@ color: #383843;
   ;
 }
 ;
+div.bios_container{
   div.bios_grid{
-
-  max-width: 1200px;
-  margin: auto;
-  div.bio_card{
-    background: $white;
-    box-shadow: 0px 0px 4px rgba(138, 138, 138, 0.6);
-    border-radius: 12px;
-    width: 270px;
-    height: 304px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin: .5rem;
-    div.bio_card_image{
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 14.5px 0px;
-      img{
-        width: 108px;
-        height: 108px;
-        border-radius: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 2rem;
+    div.bio_card{
+      background: $white;
+      box-shadow: 0px 0px 4px rgba(138, 138, 138, 0.6);
+      border-radius: 12px;
+      width: 270px;
+      height: 304px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin: .75rem;
+      div.bio_card_image{
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 14.5px 0px;
+        img{
+          width: 108px;
+          height: 108px;
+          border-radius: 100%;
+        }
+        ;
       }
       ;
     }
     ;
-  }
-  ;
-  }
-  ;
+    }
+    ;
+}
+;
+  
 
   @media screen and (max-width: 480px) {
     div.bios_grid{
