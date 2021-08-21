@@ -7,21 +7,23 @@ layout: default
             <span>Team</span>
         </div>
     </div>
-    <div class="bios_grid flexbox_row">
-        {% for bio in site.bios %}
-        <div class="bio_card">
-            <div class="bio_card_image">
-                <img src="{{ bio.picture }}" alt="{{ bio.first-name }}">
-            </div>
-            <div class="bio_card_name">
-                <span> {{ bio.first-name }} {{ bio.last-name }}</span>
-            </div>
-            <div class="bio_card_actions">
-                <div class="bio_card_link">
-                    <a href="{{bio.linkedIn-url}}"><img src="{{ 'assets/images/icons/linkedIn-icon.png' | relative_url }}" alt="Linked In Icon" target="_blank"></a>
+    <div class="bios_container flexbox_column">
+        <div class="bios_grid flexbox_row">
+            {% for bio in site.bios %}
+            <div class="bio_card">
+                <div class="bio_card_image">
+                    <img src="{{ bio.picture }}" alt="{{ bio.first-name }}">
+                </div>
+                <div class="bio_card_name">
+                    <span> {{ bio.first-name }} {{ bio.last-name }}</span>
+                </div>
+                <div class="bio_card_actions">
+                    <div class="bio_card_link">
+                        <a href="{{bio.linkedIn-url}}"><img src="{{ 'assets/images/icons/linkedIn-icon.png' | relative_url }}" alt="Linked In Icon" target="_blank"></a>
+                    </div>
                 </div>
             </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </div>
 </div>
