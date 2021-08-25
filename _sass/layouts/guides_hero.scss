@@ -4,6 +4,8 @@ section.hero-container, section.hero-container--guides{
     box-shadow: -20rem 0 #003750, 40rem 0 #003750;
     margin-bottom: 4rem;
     min-width: 360px;
+    display: flex;
+    justify-content: space-between;
     h1.col1, h1.title1{
       max-width: max-content;
       width: 67rem;
