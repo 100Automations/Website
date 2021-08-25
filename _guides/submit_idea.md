@@ -10,13 +10,13 @@ category: 1
 You may be a developer who is annoyed with a program, or a project manager with a brilliant idea you want to see built out. No matter who you are or your technical skills, your ideas are valuable to the open-source community! As an Ideator at 100 Automations, you can make life easier for thousands of others, and be recognized for your contributions.
 
 ## Here is how it works:
-Run your idea through our [Self-Evaluating an Idea](/Website/guides/self-evaluating-new-automation-idea.html) guide. You will be able to solidify and organize your idea – such as who your automation will help and what problem it solves.
+Run your idea through our [Self-Evaluating an Idea](/guides/self-evaluating-new-automation-idea.html) guide. You will be able to solidify and organize your idea – such as who your automation will help and what problem it solves.
 
-Once you have gone through the [Self-Evaluation guide](/Website/guides/self-evaluating-new-automation-idea.html), congrats! Your idea is a step closer to coming alive.
+Once you have gone through the [Self-Evaluation guide](/guides/self-evaluating-new-automation-idea.html), congrats! Your idea is a step closer to coming alive.
 Follow these steps to submit your idea to 100 Automations.
 
 ### If you are a developer:
-If you are a developer familiar with GitHub, you can directly submit your idea on our [Project Board](https://github.com/100Automations/futureautomations/projects/1#column-9876971), where you can see ideas that have been submitted and approved. Follow the steps on our [Workflow Guide for Ideators](/Website/guides/workflow-guide-for-ideators.html) to learn how to navigate our project board.
+If you are a developer familiar with GitHub, you can directly submit your idea on our [Project Board](https://github.com/100Automations/futureautomations/projects/1#column-9876971), where you can see ideas that have been submitted and approved. Follow the steps on our [Workflow Guide for Ideators](/guides/workflow-guide-for-ideators.html) to learn how to navigate our project board.
 
 ### If you are not a developer:
 If you are not a developer, or you aren't familiar with GitHub – no worries! You can easily submit your idea through this [form](https://forms.gle/u4mRKgEZ8yDEbCMw9).
