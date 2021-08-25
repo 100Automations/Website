@@ -27,11 +27,11 @@ This is some text that helps people who cannot see the image understand what the
 
 
 ## Description of Automation
-See our Guide: [Write a Short Narrative Description about Your Automation](/Website/guides/writing-short-descriptions-for-automations.html)
+See our Guide: [Write a Short Narrative Description about Your Automation](/guides/writing-short-descriptions-for-automations.html)
 
 
 ## Health Files
-See our Guide: [Supporting Your Automation with Community](/Website/guides/community-support-for-automations.html)
+See our Guide: [Supporting Your Automation with Community](/guides/community-support-for-automations.html)
 
 
 ## Current Status of Automation
