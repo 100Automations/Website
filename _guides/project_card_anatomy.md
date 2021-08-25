@@ -11,7 +11,7 @@ category: 3
 
 
 ## Project Image
-A [unique image](/Website/guides/creating-good-project-images.html){:target="_blank"} to identify and describe the project
+A [unique image](/guides/creating-good-project-images.html){:target="_blank"} to identify and describe the project
 link: good image guide
 
 ## Help Needed status
