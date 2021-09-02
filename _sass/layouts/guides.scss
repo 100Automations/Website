@@ -13,10 +13,11 @@ div.guide{
 
 //Bottom Section Element
   section.body-container{
-    grid-column-gap: 22rem;
+    // grid-column-gap: 22rem;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 5rem;
     display: flex;
+    justify-content: space-between;
 
     .body-container ul{
       list-style-type: disc;
@@ -33,6 +34,7 @@ div.guide{
 //Top Div Element
     div.content-container, div.content-container--guide{
       grid-column: 1/8;
+      width: 51em;
   
       ul ul {
         list-style-type: disc;
