@@ -59,6 +59,7 @@ div.press_action {
         width: 50%;
         position: relative;
 
+
         a {
             color: $titlegrey;
             text-decoration: none;
@@ -88,11 +89,12 @@ div.press_action {
         div.assets_actions {
             position: absolute;
             top: 20px;
-
+            width: 60rem;
+            display: flex;
             div.asset {
                 text-align: center;
                 height: max-content;
-                flex: 1;
+                width: 10.5rem;
                 border-radius: 26px;
                 box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
                 margin: 0px 36px;
