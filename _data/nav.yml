@@ -2,13 +2,13 @@
   link: "/"
 
 - name: Press
-  link: press-kit/press-kit-index
+  link: /press-kit/press-kit-index/
 
 - name: About
-  link: about
+  link: /about/
 
 - name: Guides
-  link: all_guides
+  link: "/all_guides/"
 
 - name: Bios
-  link: press-kit/all_bios
+  link: /press-kit/all_bios/

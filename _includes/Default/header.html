@@ -7,10 +7,11 @@
       <div class="spacer"></div>
       <!-- Navigation -->
       <nav class="header_nav_list">
-        <a disabled="true" class="nav_item" href="{{ '#ato_grid' | relative_url }}">Automations</a>
-        <a disabled="true" class="nav_item" href="{{ site.data.nav[3].link| relative_url }}">Guides</a>
-        <a disabled="true" class="nav_item" href="{{ site.data.nav[2].link | relative_url }}">About</a>
-        <a disabled="false" class="nav_item" href="{{ site.data.nav[1].link | relative_url }}">Press</a>
+        <!-- {{ page.url }} -->
+        <a disabled="true" class="nav_item  {% if page.url == '/' %} active_nav {% endif %}" href="{{ '#ato_grid' | relative_url }}">Automations</a>
+        <a disabled="true" class="nav_item {% if page.url == '/all_guides.html' %} active_nav {% endif %}" href="{{ site.data.nav[3].link| relative_url }}">Guides</a>
+        <a disabled="true" class="nav_item {% if page.url == '/about.html' %} active_nav {% endif %}" href="{{ site.data.nav[2].link | relative_url }}">About</a>
+        <a disabled="false" class="nav_item {% if page.url == '/press-kit/press-kit-index.html' %} active_nav {% endif %}" href="{{ site.data.nav[1].link | relative_url }}">Press</a>
       </nav>
     </div>
   </header>
