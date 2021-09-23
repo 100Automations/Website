@@ -13,6 +13,9 @@ header.header{
             flex-flow: nowrap;
             align-items: center;
             justify-content: center;
+
+
+
             a.nav_item {
                 font-family: $poppins;
                 padding: 15px 0;
@@ -22,18 +25,25 @@ header.header{
                 text-align: center;
                 position: relative;
                 width: auto;
-                margin: 0 16px;
+                // margin: 0 16px;
+                padding: 15px 16px;
                 text-align: center;
                 order: 3;
                 text-decoration: none;
                 color: $tabgrey;
+                font-weight: 500
+            }
+
+            a.active_nav {
+                font-weight: 700;
             }
     
             ;
             a.nav_item:hover{
-                font-weight: bold;
+                font-weight: 700;
             }
         }
+
        
     }
     
