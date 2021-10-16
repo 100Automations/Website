@@ -4,32 +4,42 @@ div.about_one{
  div.about_one_title{
     flex-flow: unset;
     flex:1;
-    img, h4{
-    margin: .5em;
+    img{
+    margin: 81.89px 0 35px 47px;
     }
     ;
     h4{
+        margin: 81.89px 0 16px 20.37px;
+        height: 84px;
         color: $white;
         justify-content: left;
         text-align: left;
+        font-size: 60px;
     }
     ;
  }
  ;
  div.about_one_text{ 
-     p{
+
+     .first-p{
+        width: 694px;
         color: $white;
         text-align: left;
-        margin-left: 1em;
+        margin: 0 0 37.5px 7.5rem;
         flex:1;
         }
         ;
         .roadmap{
+            margin-bottom: 9.4rem;
             flex: 1;
             flex-direction: column;
             h3{
-                margin: 0;
+                margin: 0 0 0 215px;
                 color: $white;
+                font-size: 60px;
+            }
+            p{
+                margin: 0 0 0 175px;
             }
         }
  }
