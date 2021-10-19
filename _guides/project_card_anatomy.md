@@ -33,6 +33,7 @@ A list of the technologies used to create the project, and the skills that could
 ## Status of Project
 The stage of the project's development
  - In Use And Ready To Deploy
+ - In Use And Needs Further Development
  - In Use And Being Refactored
  - Ready To Deploy
  - In Development
