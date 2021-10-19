@@ -21,7 +21,7 @@ Ensure the repository contains, at a minimum:
 - A Contributing.md
 
 ### 3. Automation Card Template
-Once the repository is complete with documentation and the automation code, complete [this automation card template](https://github.com/100Automations/futureautomations/issues/new?assignees=&labels=documentation%2C+review&template=-automation-proposal.md&title=%5BAutomation+Name%5D+Proposal) in the Future Automations repo and move it to the [Review column](https://github.com/100Automations/futureautomations/projects/1#column-9876980)
+Once the repository is complete with documentation and the automation code, complete [this automation card template](https://github.com/100Automations/futureautomations/issues/new?assignees=&labels=documentation%2C+good+first+issue&template=create-automation-card-for--automation-name-.md&title=Create+automation+card+for+%5Bautomation+name%5D) in the Future Automations repo and move it to the [Review column](https://github.com/100Automations/futureautomations/projects/1#column-9876980)
 
 If you prefer completing the automation card template over multiple sessions, place it in the [In Progress column](https://github.com/100Automations/futureautomations/projects/1#column-9876974) on the Future Automations board
 
