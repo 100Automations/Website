@@ -2,7 +2,7 @@
 name: Suggest a guide
 about: A template for people to use in suggesting guides.
 title: 'Suggest a guide: [name of guide here]'
-labels: 'documentation, feature: guides'
+labels: documentation
 assignees: ''
 
 ---
