@@ -363,3 +363,14 @@ line-height: 140%;;
 }
 
 ;
+
+@media (min-width: 1440px) {
+    div.share_ato {
+        div.social_media_posts{
+            div.social_media_posts_title {
+                padding-left: 6.6rem;
+                width: 24rem;
+            }
+        }
+    }
+}
