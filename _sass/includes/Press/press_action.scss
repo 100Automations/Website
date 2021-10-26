@@ -262,3 +262,39 @@ div.press_action {
         };
     };
 };
+
+@media (min-width: 2160px) {
+    div.press_action{
+        margin: 0 0 8rem 0;
+        div.press_release {
+            width: 30rem;
+            margin: 0 120px 50px 42rem;
+        }
+        div.press_release_contact {
+            margin: 3rem 0 5rem 0;
+        }
+        div.assets {
+            div.assets_actions{
+                left: 15px;
+            }
+        }
+    }
+}
+
+@media (min-width: 2160px) and (max-width: 2559px) {
+    div.press_action{
+        div.press_release {
+            margin: 0 120px 50px 30rem;
+        }
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1500px) {
+    div.press_action{
+        div.assets {
+            div.assets_title{
+                left: -5rem;
+            }
+        }
+    }
+}
