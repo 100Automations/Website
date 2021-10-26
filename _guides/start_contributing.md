@@ -21,7 +21,7 @@ Depending on the stage of automation and what level you are, automations need di
 
 ## How to contribute
 
-The automation cards on our website will tell you what stage an automation is and how you can help or contribute. If you want to know more about any of the details on these cards, you can look at the [anatomy of an automation card].
+The automation cards on our website will tell you what stage an automation is and how you can help or contribute. If you want to know more about any of the details on these cards, you can look at the [anatomy of an automation card](https://100automations.org/guides/project_card_anatomy.html).
 
 All the automations to be worked on live in GitHub so if you're not set up with GitHub make sure you are before you jump into contributing.
 
