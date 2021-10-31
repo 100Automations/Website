@@ -40,15 +40,15 @@ looking:
     - Development
     - skill: Documentation
 needs: 
-#  - maintenance
-#  - support for users
-  - refactoring
+  - maintenance
+  - support for users
+#  - refactoring
 # - documentation
   - peer review
 #  - to be built
 #  - to be researched
 #  - takeover
-  - advice
+#  - advice
 languages:
     - JavaScript
 status:
