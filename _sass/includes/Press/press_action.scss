@@ -190,6 +190,7 @@ div.press_action {
         div.press_release>div.press_release_input {
             width: 300px;
             text-overflow: ellipsis;
+            margin-right: 49px;
             span{
                 width: 275px;
             };
@@ -198,8 +199,7 @@ div.press_action {
                 left: 60px;
                 bottom: 70px;
             };
-        }
-;
+        };
 
         div.assets {
             div.assets_title{
@@ -262,6 +262,101 @@ div.press_action {
         };
     };
 };
+
+
+@media (min-width: 481px) and (max-width: 900px) {
+    div.press_action{
+        height: 55rem;
+        margin-top: 3rem;
+
+        div.press_release {
+            width: 100%;
+        };
+
+        div.press_release>div.press_release_title {
+            right: 40px;
+            left: 60px;
+        };
+
+        div.press_release>div.press_release_input {
+            width: 300px;
+            text-overflow: ellipsis;
+            margin-right: 49px;
+            span{
+                width: 275px;
+            };
+            a{
+                
+                left: 60px;
+                bottom: 70px;
+            };
+        };
+
+        div.assets {
+            div.assets_title{
+                justify-content: center;
+                position: relative;
+                left: 0px;
+            }
+            div.assets_actions {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                width: 180%;
+                margin-left: 20%;
+
+                div.asset {
+                    padding: 16px 40px;
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+                    border-radius: 26px;
+                    margin: 12px 0px;
+                    width: 80%;
+
+                    .image-text {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .img-margin {
+                            margin: 0 3rem 0 2rem;
+                        }
+
+                        .img1 {
+                            margin-right: 1rem;
+                        }
+
+                        .text1 {
+                            margin: 0 0 1.5rem 4rem;
+                        }
+
+                        .text2 {
+                            margin: 0 0 1.2rem 4rem;
+                        }
+
+                        .text3 {
+                            margin: 0 0 1.3rem 1rem;
+                        }
+                    }
+                };
+
+            };
+        };
+
+        div.press_release_contact {
+            width: fit-content;
+            top: 280px;
+            margin: 0 3rem 12rem 3rem;
+            padding-bottom: 1.75rem;
+
+            p {
+                font-size: 18px;
+            };
+
+        };
+    }
+    
+};
+
+
 
 @media (min-width: 2160px) {
     div.press_action{

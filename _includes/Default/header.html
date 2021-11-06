@@ -1,5 +1,9 @@
   <header class="header">
-    <button class="hamburger" onclick="openMenu()">☰</button>
+    <button class="hamburger" onclick="openMenu()"><svg id="hamburger-nav" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M21.6297 12.2046H3.6297" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M21.6297 6.20459H3.6297" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      <path d="M21.6297 18.2046H3.6297" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg></button>
     <div class="header_row">
       <!-- Title -->
       <a href="{{ site.data.nav[0].link | relative_url }}"><img src="{{'/assets/images/icons/logos/100-short.png' | relative_url}}" width="110px" alt="One Hundred Automations Logo" width="300"></a>
