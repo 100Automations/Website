@@ -3,7 +3,7 @@ title: Workflow Guide for Ideators
 description: An overview of the idea submission process
 status: coming soon
 display: true
-category: 1
+category: 0
 ---
 
 
