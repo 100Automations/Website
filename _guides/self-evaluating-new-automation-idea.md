@@ -25,4 +25,4 @@ Try to convey a sense of how much time it might take to fully develop your idea,
 Look at the [guide for creating a good ReadMe](/guides/creating-good-readmes-for-automations.html) and based on your idea, try to fill out what you know. This should help you understand what questions you'll need to answer as you develop your automation. If you've already started working on your automation, describe how you expect it to work (what triggers it, what the result will be) and what the requirements are (language, platform, dependencies). 
 
 ## Propose your automation
-Once you're ready, fill out the [Automation Proposal](https://github.com/100Automations/futureautomations/issues/new?assignees=&labels=documentation%2C+review&template=-automation-proposal.md&title=%5BAutomation+Name%5D+Proposal){:target="_blank"} which will add your automation as a Future Automations issue.
+Once you're ready, fill out the [Automation Proposal](https://forms.gle/daURL7woEeCNans89) which will add your automation as a Future Automations issue.
