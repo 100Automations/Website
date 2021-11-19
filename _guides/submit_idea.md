@@ -12,14 +12,11 @@ You may be a developer who is annoyed with a program, or a project manager with 
 ## Here is how it works:
 Run your idea through our [Self-Evaluating an Idea](/guides/self-evaluating-new-automation-idea.html) guide. You will be able to solidify and organize your idea – such as who your automation will help and what problem it solves.
 
-Once you have gone through the [Self-Evaluation guide](/guides/self-evaluating-new-automation-idea.html), congrats! Your idea is a step closer to coming alive.
+Once you have gone through the Self-Evaluation guide, congrats! Your idea is a step closer to coming alive.
 Follow these steps to submit your idea to 100 Automations.
 
-### If you are a developer:
-If you are a developer familiar with GitHub, you can directly submit your idea on our [Project Board](https://github.com/100Automations/futureautomations/projects/1#column-9876971), where you can see ideas that have been submitted and approved. Follow the steps on our [Workflow Guide for Ideators](/guides/workflow-guide-for-ideators.html) to learn how to navigate our project board.
-
-### If you are not a developer:
-If you are not a developer, or you aren't familiar with GitHub – no worries! You can easily submit your idea through this [form](https://forms.gle/daURL7woEeCNans89).
+## Submit your idea
+Submit your idea through our [Automation Proposal Form](https://forms.gle/daURL7woEeCNans89). If you're proposing an idea, don't worry about the questions for specific technologies.
 
 Once our evaluation team approves your idea, you or builders can find it on our project board and develop it, depending on what you'd prefer. A disclaimer: Once you submit an idea and we do a peer review on it, you agree to the work that is done and will host it here on 100 Automations (Check with legal on terms and conditions needed).
 
