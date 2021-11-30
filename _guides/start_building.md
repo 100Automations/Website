@@ -8,31 +8,20 @@ category: 1
 
 ## Steps to add an automation to 100 Automations:
 
-### 1. New Repository
-Create a new repository under the 100 Automations - [quick link here](https://github.com/organizations/100Automations/repositories/new)
+## draft, based on idea guide: 
 
-### 2. Heath Files
-Ensure the repository contains, at a minimum:
-- A Readme
-- Licence: we use the GNU General Public License v2.0 at Hack for LA
-- A Code of Conduct.md
-- A Security.md
-- A Support.md
-- A Contributing.md
+If you've got a project you want help with, or if you've already made something and want it to have wider attention, 100 Automations is ready to give your code a good home!
 
-### 3. Automation Card Template
-Once the repository is complete with documentation and the automation code, complete [this automation card template](https://github.com/100Automations/futureautomations/issues/new?assignees=&labels=documentation%2C+good+first+issue&template=create-automation-card-for--automation-name-.md&title=Create+automation+card+for+%5Bautomation+name%5D) in the Future Automations repo and move it to the [Review column](https://github.com/100Automations/futureautomations/projects/1#column-9876980)
+As a first step read through our [Self-Evaluating an Idea](/guides/self-evaluating-new-automation-idea.html) guide. You will be able to solidify and organize your project – such as who your automation will help and what problem it solves.
 
-If you prefer completing the automation card template over multiple sessions, place it in the [In Progress column](https://github.com/100Automations/futureautomations/projects/1#column-9876974) on the Future Automations board
+The next step is filling out our [Automation Proposal Form](https://forms.gle/daURL7woEeCNans89), which sends your proposal to our [future automations project board](https://github.com/100Automations/futureautomations/projects/1). Once our evaluation team approves your project, we'll provide you a GitHub repository. You can then upload your code and get going, or have other builders find it on our project board and help you develop it. 
 
-### 4. Review
-Once the repo and template card are ready for review, the 100 Automations team will reach out to partner on getting the materials together to get the automation ready for the 100 Automations website. You will use [this automation materials template](https://github.com/100Automations/futureautomations/issues/new?assignees=&labels=documentation%2C+good+first+issue&template=create-automation-card-for--automation-name-.md&title=Create+automation+card+for+%5Bautomation+name%5D) for this purpose.
+A disclaimer: Once you submit a project and we do a peer review on it, you agree to the work that is done and will host it here on 100 Automations (Check with legal on terms and conditions needed).
 
+As soon as your automation has been finished and approved, it will be featured on the website.
 
-## References ##
-- Example of an [automation repo](https://github.com/100Automations/true-github-contributors)
-- [Writing a good readme](/Website/guides/creating-good-readmes-for-automations.html)
-- [Writing good health files](/Website/guides/community-support-for-automations.html) (code of conduct, contributing.md, support.md, security.md)
+If you have any questions, you can reach out to us at our Slack channel.
 
+Ready to get started?
+Share your project with the community!
 
-If you have any additional questions, please feel free to reach out to the 100 Automations team at 100automations@hackforla.org. We look forward to supporting you in your contributions!
