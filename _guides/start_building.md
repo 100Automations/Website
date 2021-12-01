@@ -8,8 +8,6 @@ category: 1
 
 ## Steps to add an automation to 100 Automations:
 
-## draft, based on idea guide: 
-
 If you've got a project you want help with, or if you've already made something and want it to have wider attention, 100 Automations is ready to give your code a good home!
 
 As a first step read through our [Self-Evaluating an Idea](/guides/self-evaluating-new-automation-idea.html) guide. You will be able to solidify and organize your project – such as who your automation will help and what problem it solves.
