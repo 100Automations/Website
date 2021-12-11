@@ -37,7 +37,7 @@ Include the type of contribution you’re looking for. For example:
 - [Default CONTRIBUTING.md](https://github.com/100Automations/.github-automations/blob/master/CONTRIBUTING.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
-- https://github.com/100Automations/true-github-contributors/blob/mixin/CONTRIBUTING.md
+- [https://github.com/100Automations/true-github-contributors/blob/mixin/CONTRIBUTING.md](https://github.com/100Automations/true-github-contributors/blob/mixin/CONTRIBUTING.md)
 
 ### Additional resources:
 - GitHub guide: [Setting guidelines for repository contributors](https://docs.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors){:target="_blank"}
@@ -53,7 +53,7 @@ Include the type of contribution you’re looking for. For example:
 - [Default SECURITY.md](https://github.com/100Automations/.github-automations/blob/master/SECURITY.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
-- https://github.com/100Automations/true-github-contributors/blob/mixin/SECURITY.md
+- [https://github.com/100Automations/true-github-contributors/blob/mixin/SECURITY.md](https://github.com/100Automations/true-github-contributors/blob/mixin/SECURITY.md)
 
 ### Additional resources:
 - GitHub guide: [Adding a security policy to your repository](https://docs.github.com/en/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository){:target="_blank"}
@@ -69,7 +69,7 @@ Include the type of contribution you’re looking for. For example:
 - [Default SUPPORT.md](https://github.com/100Automations/.github-automations/blob/master/SUPPORT.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
-- https://github.com/100Automations/true-github-contributors/blob/mixin/SUPPORT.md
+- [https://github.com/100Automations/true-github-contributors/blob/mixin/SUPPORT.md](https://github.com/100Automations/true-github-contributors/blob/mixin/SUPPORT.md)
 
 ### Additional resources:
 - see GitHub [Adding support resources to your project](https://docs.github.com/en/github/building-a-strong-community/adding-support-resources-to-your-project){:target="_blank"} tutorial 
@@ -88,10 +88,10 @@ Include the type of contribution you’re looking for. For example:
 - [Default README.md](https://github.com/100Automations/.github-automations/blob/master/README.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
-- https://github.com/100Automations/true-github-contributors/blob/mixin/readme.md
+- [https://github.com/100Automations/true-github-contributors/blob/mixin/readme.md](https://github.com/100Automations/true-github-contributors/blob/mixin/readme.md)
 
 #### Additional resources:
-- see GitHub's guide: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-readmes
+- see GitHub's guide: [https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-readmes](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/about-readmes)
 
 
 <br/>
@@ -104,7 +104,7 @@ Include the type of contribution you’re looking for. For example:
 - Default [LICENSE](https://github.com/100Automations/.github/blob/master/LICENSE){:target="_blank"} file from our template repository
 
 ### Example from a project:
-- https://github.com/100Automations/true-github-contributors/blob/mixin/LICENSE
+- [https://github.com/100Automations/true-github-contributors/blob/mixin/LICENSE](https://github.com/100Automations/true-github-contributors/blob/mixin/LICENSE)
 
 ### Additional resources:
 - see GitHub [Adding a license to a repository](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-license-to-a-repository){:target="_blank"}
@@ -124,7 +124,7 @@ If importing your automation from your own repository, add our [default Code of 
 - Default [CODE_OF_CONDUCT.md](https://github.com/100Automations/.github/blob/master/CODE_OF_CONDUCT.md){:target="_blank"} file from our template repository
 
 ### Example from a project:
-- https://github.com/100Automations/true-github-contributors/blob/mixin/CODE_OF_CONDUCT.md
+- [https://github.com/100Automations/true-github-contributors/blob/mixin/CODE_OF_CONDUCT.md](https://github.com/100Automations/true-github-contributors/blob/mixin/CODE_OF_CONDUCT.md)
 
 ### Additional resources:
 - See GitHub [Adding a code of conduct to your project](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project){:target="_blank"}
