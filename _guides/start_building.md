@@ -14,7 +14,7 @@ As a first step read through our [Self-Evaluating an Idea](/guides/self-evaluati
 
 The next step is filling out our [Automation Proposal Form](https://forms.gle/daURL7woEeCNans89), which sends your proposal to our [future automations project board](https://github.com/100Automations/futureautomations/projects/1). Once our evaluation team approves your project, we'll provide you a GitHub repository. You can then upload your code and get going, or have other builders find it on our project board and help you develop it. 
 
-A disclaimer: Once you submit a project and we do a peer review on it, you agree to the work that is done and will host it here on 100 Automations (Check with legal on terms and conditions needed).
+A disclaimer: Once you submit a project and we do a peer review on it, you agree to the work that is done and will host it here on 100 Automations.
 
 As soon as your automation has been finished and approved, it will be featured on the website.
 
