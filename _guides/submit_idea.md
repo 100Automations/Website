@@ -18,7 +18,7 @@ Follow these steps to submit your idea to 100 Automations.
 ## Submit your idea
 Submit your idea through our [Automation Proposal Form](https://forms.gle/daURL7woEeCNans89). If you're proposing an idea, don't worry about the questions for specific technologies.
 
-Once our evaluation team approves your idea, you or builders can find it on our project board and develop it, depending on what you'd prefer. A disclaimer: Once you submit an idea and we do a peer review on it, you agree to the work that is done and will host it here on 100 Automations (Check with legal on terms and conditions needed).
+Once our evaluation team approves your idea, you or builders can find it on our project board and develop it, depending on what you'd prefer. A disclaimer: Once you submit an idea and we do a peer review on it, you agree to the work that is done and will host it here on 100 Automations.
 
 When the automation's been brought to life, you will be accredited for developing the idea, and featured on the website along with your automation. Make sure to show off your project in your Author Bio!
 
