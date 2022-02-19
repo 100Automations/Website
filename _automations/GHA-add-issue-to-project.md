@@ -47,5 +47,6 @@ status:
 seen-in:
 # - lock-icon
   -  HackforLA #this needs to be a link eventually
+  -  CivicTechJobs
 visible: true
 ---
