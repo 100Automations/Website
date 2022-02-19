@@ -2,7 +2,7 @@
 identification: 436353836
 title: GHA Add Issue to Project
 description: This GitHub Action (GHA), is designed to move issues to a specific column based on criteria such as a specific label, or specific phrase in the issue's body. This will prove helpful for members of a team who manages a GitHub project board, such as project managers, by lessening errors and organizing workflow. By design, it abstracts a lot of the configuration into one file, making customization simple for team members who are not adept to coding syntax.
-image: 'assets/images/projects/GHA-add-issue-to-project-hero.png'
+image: 'assets/images/automations/GHA-add-issue-to-project-hero.png'
 alt: 'Emoji Cry before Emoji Happy After'
 Authors:
 - name: Ava Li
