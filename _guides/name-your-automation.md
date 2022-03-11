@@ -1,5 +1,5 @@
 ---
-title: Write a Memorable and Informative Title for Your Automation
+title: Name your Automation
 description: Tips for making a good title to help bring targeted traffic to your repository
 status: active
 display: true
