@@ -22,7 +22,7 @@ The title should have the following elements:
 - Be a summary of the description
 
 ## Examples:
-Here are two examples:
+Here are three examples:
 
 ### Example 1:
 
