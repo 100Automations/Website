@@ -1,0 +1,19 @@
+name: Issue Trigger
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  Sort-Opened-Issue-Into-Columns:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking out repo
+        uses: actions/checkout@v3
+      - name: Move Issue
+        uses: 100Automations/GHA-add-issue-to-project@v0.0.1-alpha
+        with:
+          # required
+          config-file: './.github/workflows/moveIssues/config.json'
+          myToken: ${{ secrets.GITHUB_TOKEN }}
+          # optional
+          default-column: 9876551
